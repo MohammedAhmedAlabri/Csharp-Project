@@ -1,0 +1,10 @@
+C:\Users\moham\Source\Repos\MohammedAhmedAlabri\Csharp-Project\C# Project\C# Project\bin\Debug\C# Project.exe.config
+C:\Users\moham\Source\Repos\MohammedAhmedAlabri\Csharp-Project\C# Project\C# Project\bin\Debug\C# Project.exe
+C:\Users\moham\Source\Repos\MohammedAhmedAlabri\Csharp-Project\C# Project\C# Project\bin\Debug\C# Project.pdb
+C:\Users\moham\Source\Repos\MohammedAhmedAlabri\Csharp-Project\C# Project\C# Project\obj\Debug\C# Project.csproj.AssemblyReference.cache
+C:\Users\moham\Source\Repos\MohammedAhmedAlabri\Csharp-Project\C# Project\C# Project\obj\Debug\C__Project.Form1.resources
+C:\Users\moham\Source\Repos\MohammedAhmedAlabri\Csharp-Project\C# Project\C# Project\obj\Debug\C__Project.Properties.Resources.resources
+C:\Users\moham\Source\Repos\MohammedAhmedAlabri\Csharp-Project\C# Project\C# Project\obj\Debug\C# Project.csproj.GenerateResource.cache
+C:\Users\moham\Source\Repos\MohammedAhmedAlabri\Csharp-Project\C# Project\C# Project\obj\Debug\C# Project.csproj.CoreCompileInputs.cache
+C:\Users\moham\Source\Repos\MohammedAhmedAlabri\Csharp-Project\C# Project\C# Project\obj\Debug\C# Project.exe
+C:\Users\moham\Source\Repos\MohammedAhmedAlabri\Csharp-Project\C# Project\C# Project\obj\Debug\C# Project.pdb
