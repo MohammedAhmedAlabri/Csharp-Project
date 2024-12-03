@@ -29,6 +29,7 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
 			this.prcBtn = new System.Windows.Forms.Button();
 			this.famBox = new System.Windows.Forms.GroupBox();
 			this.person10Label = new System.Windows.Forms.Label();
@@ -275,7 +276,7 @@
 			this.prcBtn.Name = "prcBtn";
 			this.prcBtn.Size = new System.Drawing.Size(164, 98);
 			this.prcBtn.TabIndex = 0;
-			this.prcBtn.Text = "Process 123456";
+			this.prcBtn.Text = "Process";
 			this.prcBtn.UseVisualStyleBackColor = false;
 			this.prcBtn.Click += new System.EventHandler(this.prcBtn_Click);
 			// 
@@ -781,9 +782,11 @@
 			// 
 			// pictureBox19
 			// 
+			this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
 			this.pictureBox19.Location = new System.Drawing.Point(38, 52);
 			this.pictureBox19.Name = "pictureBox19";
 			this.pictureBox19.Size = new System.Drawing.Size(212, 203);
+			this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
 			this.pictureBox19.TabIndex = 15;
 			this.pictureBox19.TabStop = false;
 			// 
