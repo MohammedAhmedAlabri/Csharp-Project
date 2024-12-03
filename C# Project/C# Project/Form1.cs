@@ -31,5 +31,10 @@ namespace C__Project
 		{
 
 		}
-	}
+
+        private void pictureBox17_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
