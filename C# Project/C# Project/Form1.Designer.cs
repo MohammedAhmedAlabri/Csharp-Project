@@ -360,9 +360,9 @@
 			this.person9Label.AutoSize = true;
 			this.person9Label.Location = new System.Drawing.Point(278, 156);
 			this.person9Label.Name = "person9Label";
-			this.person9Label.Size = new System.Drawing.Size(49, 13);
+			this.person9Label.Size = new System.Drawing.Size(55, 13);
 			this.person9Label.TabIndex = 42;
-			this.person9Label.Text = "Person 9";
+			this.person9Label.Text = "Person 91";
 			// 
 			// numericUpDown8
 			// 
