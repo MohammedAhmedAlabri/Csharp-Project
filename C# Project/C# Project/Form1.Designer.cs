@@ -274,7 +274,7 @@
 			this.prcBtn.Name = "prcBtn";
 			this.prcBtn.Size = new System.Drawing.Size(164, 98);
 			this.prcBtn.TabIndex = 0;
-			this.prcBtn.Text = "Process 123456";
+			this.prcBtn.Text = "Process 12345645678";
 			this.prcBtn.UseVisualStyleBackColor = false;
 			this.prcBtn.Click += new System.EventHandler(this.prcBtn_Click);
 			// 
