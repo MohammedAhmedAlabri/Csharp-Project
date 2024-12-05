@@ -353,7 +353,7 @@
             this.prcBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.prcBtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.prcBtn.Location = new System.Drawing.Point(1287, 70);
-            this.prcBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.prcBtn.Margin = new System.Windows.Forms.Padding(4);
             this.prcBtn.Name = "prcBtn";
             this.prcBtn.Size = new System.Drawing.Size(246, 143);
             this.prcBtn.TabIndex = 0;
@@ -398,9 +398,9 @@
             this.famBox.Controls.Add(this.numericUpDown1);
             this.famBox.Controls.Add(this.comboBox1);
             this.famBox.Location = new System.Drawing.Point(492, 54);
-            this.famBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.famBox.Margin = new System.Windows.Forms.Padding(4);
             this.famBox.Name = "famBox";
-            this.famBox.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.famBox.Padding = new System.Windows.Forms.Padding(4);
             this.famBox.Size = new System.Drawing.Size(746, 333);
             this.famBox.TabIndex = 1;
             this.famBox.TabStop = false;
@@ -419,7 +419,7 @@
             // numericUpDown7
             // 
             this.numericUpDown7.Location = new System.Drawing.Point(585, 279);
-            this.numericUpDown7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDown7.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDown7.Name = "numericUpDown7";
             this.numericUpDown7.Size = new System.Drawing.Size(78, 27);
             this.numericUpDown7.TabIndex = 44;
@@ -436,7 +436,7 @@
             "M",
             "F"});
             this.comboBox7.Location = new System.Drawing.Point(516, 278);
-            this.comboBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox7.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox7.Name = "comboBox7";
             this.comboBox7.Size = new System.Drawing.Size(58, 27);
             this.comboBox7.TabIndex = 43;
@@ -454,7 +454,7 @@
             // numericUpDown8
             // 
             this.numericUpDown8.Location = new System.Drawing.Point(585, 225);
-            this.numericUpDown8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDown8.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDown8.Name = "numericUpDown8";
             this.numericUpDown8.Size = new System.Drawing.Size(78, 27);
             this.numericUpDown8.TabIndex = 41;
@@ -471,7 +471,7 @@
             "M",
             "F"});
             this.comboBox8.Location = new System.Drawing.Point(516, 224);
-            this.comboBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox8.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox8.Name = "comboBox8";
             this.comboBox8.Size = new System.Drawing.Size(58, 27);
             this.comboBox8.TabIndex = 40;
@@ -489,7 +489,7 @@
             // numericUpDown9
             // 
             this.numericUpDown9.Location = new System.Drawing.Point(585, 172);
-            this.numericUpDown9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDown9.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDown9.Name = "numericUpDown9";
             this.numericUpDown9.Size = new System.Drawing.Size(78, 27);
             this.numericUpDown9.TabIndex = 38;
@@ -506,7 +506,7 @@
             "M",
             "F"});
             this.comboBox9.Location = new System.Drawing.Point(516, 171);
-            this.comboBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox9.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox9.Name = "comboBox9";
             this.comboBox9.Size = new System.Drawing.Size(58, 27);
             this.comboBox9.TabIndex = 37;
@@ -524,7 +524,7 @@
             // numericUpDown10
             // 
             this.numericUpDown10.Location = new System.Drawing.Point(585, 118);
-            this.numericUpDown10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDown10.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDown10.Name = "numericUpDown10";
             this.numericUpDown10.Size = new System.Drawing.Size(78, 27);
             this.numericUpDown10.TabIndex = 35;
@@ -541,7 +541,7 @@
             "M",
             "F"});
             this.comboBox10.Location = new System.Drawing.Point(516, 117);
-            this.comboBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox10.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox10.Name = "comboBox10";
             this.comboBox10.Size = new System.Drawing.Size(58, 27);
             this.comboBox10.TabIndex = 34;
@@ -559,7 +559,7 @@
             // numericUpDown11
             // 
             this.numericUpDown11.Location = new System.Drawing.Point(585, 66);
-            this.numericUpDown11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDown11.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDown11.Name = "numericUpDown11";
             this.numericUpDown11.Size = new System.Drawing.Size(78, 27);
             this.numericUpDown11.TabIndex = 32;
@@ -576,7 +576,7 @@
             "M",
             "F"});
             this.comboBox11.Location = new System.Drawing.Point(516, 64);
-            this.comboBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox11.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox11.Name = "comboBox11";
             this.comboBox11.Size = new System.Drawing.Size(58, 27);
             this.comboBox11.TabIndex = 31;
@@ -594,7 +594,7 @@
             // numericUpDown6
             // 
             this.numericUpDown6.Location = new System.Drawing.Point(246, 279);
-            this.numericUpDown6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDown6.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDown6.Name = "numericUpDown6";
             this.numericUpDown6.Size = new System.Drawing.Size(78, 27);
             this.numericUpDown6.TabIndex = 29;
@@ -611,7 +611,7 @@
             "M",
             "F"});
             this.comboBox6.Location = new System.Drawing.Point(177, 278);
-            this.comboBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox6.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox6.Name = "comboBox6";
             this.comboBox6.Size = new System.Drawing.Size(58, 27);
             this.comboBox6.TabIndex = 28;
@@ -629,7 +629,7 @@
             // numericUpDown5
             // 
             this.numericUpDown5.Location = new System.Drawing.Point(246, 225);
-            this.numericUpDown5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDown5.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDown5.Name = "numericUpDown5";
             this.numericUpDown5.Size = new System.Drawing.Size(78, 27);
             this.numericUpDown5.TabIndex = 26;
@@ -646,7 +646,7 @@
             "M",
             "F"});
             this.comboBox5.Location = new System.Drawing.Point(177, 224);
-            this.comboBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox5.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(58, 27);
             this.comboBox5.TabIndex = 25;
@@ -664,7 +664,7 @@
             // numericUpDown4
             // 
             this.numericUpDown4.Location = new System.Drawing.Point(246, 172);
-            this.numericUpDown4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDown4.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDown4.Name = "numericUpDown4";
             this.numericUpDown4.Size = new System.Drawing.Size(78, 27);
             this.numericUpDown4.TabIndex = 23;
@@ -681,7 +681,7 @@
             "M",
             "F"});
             this.comboBox4.Location = new System.Drawing.Point(177, 171);
-            this.comboBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox4.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(58, 27);
             this.comboBox4.TabIndex = 22;
@@ -699,7 +699,7 @@
             // numericUpDown3
             // 
             this.numericUpDown3.Location = new System.Drawing.Point(246, 118);
-            this.numericUpDown3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDown3.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDown3.Name = "numericUpDown3";
             this.numericUpDown3.Size = new System.Drawing.Size(78, 27);
             this.numericUpDown3.TabIndex = 20;
@@ -716,7 +716,7 @@
             "M",
             "F"});
             this.comboBox3.Location = new System.Drawing.Point(177, 117);
-            this.comboBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox3.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(58, 27);
             this.comboBox3.TabIndex = 19;
@@ -775,7 +775,7 @@
             // numericUpDown1
             // 
             this.numericUpDown1.Location = new System.Drawing.Point(246, 66);
-            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(78, 27);
             this.numericUpDown1.TabIndex = 11;
@@ -792,7 +792,7 @@
             "M",
             "F"});
             this.comboBox1.Location = new System.Drawing.Point(177, 64);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(58, 27);
             this.comboBox1.TabIndex = 10;
@@ -808,7 +808,7 @@
             this.prdTab.Controls.Add(this.meatTab);
             this.prdTab.Controls.Add(this.otherTab);
             this.prdTab.Location = new System.Drawing.Point(24, 424);
-            this.prdTab.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.prdTab.Margin = new System.Windows.Forms.Padding(4);
             this.prdTab.Name = "prdTab";
             this.prdTab.SelectedIndex = 0;
             this.prdTab.Size = new System.Drawing.Size(2094, 864);
@@ -837,9 +837,9 @@
             this.tabPage1.Controls.Add(this.pictureBox19);
             this.tabPage1.Controls.Add(this.pictureBox20);
             this.tabPage1.Location = new System.Drawing.Point(4, 28);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage1.Size = new System.Drawing.Size(2086, 832);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Fruits";
@@ -849,7 +849,7 @@
             // 
             this.checkBox6.AutoSize = true;
             this.checkBox6.Location = new System.Drawing.Point(1808, 770);
-            this.checkBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox6.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox6.Name = "checkBox6";
             this.checkBox6.Size = new System.Drawing.Size(109, 23);
             this.checkBox6.TabIndex = 33;
@@ -860,7 +860,7 @@
             // 
             this.checkBox7.AutoSize = true;
             this.checkBox7.Location = new System.Drawing.Point(1383, 770);
-            this.checkBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox7.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox7.Name = "checkBox7";
             this.checkBox7.Size = new System.Drawing.Size(109, 23);
             this.checkBox7.TabIndex = 32;
@@ -871,7 +871,7 @@
             // 
             this.checkBox8.AutoSize = true;
             this.checkBox8.Location = new System.Drawing.Point(980, 770);
-            this.checkBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox8.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox8.Name = "checkBox8";
             this.checkBox8.Size = new System.Drawing.Size(109, 23);
             this.checkBox8.TabIndex = 31;
@@ -882,7 +882,7 @@
             // 
             this.checkBox9.AutoSize = true;
             this.checkBox9.Location = new System.Drawing.Point(564, 770);
-            this.checkBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox9.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox9.Name = "checkBox9";
             this.checkBox9.Size = new System.Drawing.Size(109, 23);
             this.checkBox9.TabIndex = 30;
@@ -893,7 +893,7 @@
             // 
             this.checkBox10.AutoSize = true;
             this.checkBox10.Location = new System.Drawing.Point(147, 770);
-            this.checkBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox10.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox10.Name = "checkBox10";
             this.checkBox10.Size = new System.Drawing.Size(118, 23);
             this.checkBox10.TabIndex = 29;
@@ -904,7 +904,7 @@
             // 
             this.checkBox5.AutoSize = true;
             this.checkBox5.Location = new System.Drawing.Point(1808, 396);
-            this.checkBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox5.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox5.Name = "checkBox5";
             this.checkBox5.Size = new System.Drawing.Size(109, 23);
             this.checkBox5.TabIndex = 28;
@@ -915,7 +915,7 @@
             // 
             this.checkBox3.AutoSize = true;
             this.checkBox3.Location = new System.Drawing.Point(1383, 396);
-            this.checkBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox3.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(109, 23);
             this.checkBox3.TabIndex = 27;
@@ -926,7 +926,7 @@
             // 
             this.checkBox4.AutoSize = true;
             this.checkBox4.Location = new System.Drawing.Point(980, 396);
-            this.checkBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox4.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(109, 23);
             this.checkBox4.TabIndex = 26;
@@ -937,7 +937,7 @@
             // 
             this.checkBox2.AutoSize = true;
             this.checkBox2.Location = new System.Drawing.Point(564, 396);
-            this.checkBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(109, 23);
             this.checkBox2.TabIndex = 25;
@@ -949,7 +949,7 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(147, 396);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(109, 23);
             this.checkBox1.TabIndex = 24;
@@ -959,7 +959,7 @@
             // pictureBox11
             // 
             this.pictureBox11.Location = new System.Drawing.Point(1707, 76);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox11.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(318, 297);
             this.pictureBox11.TabIndex = 23;
@@ -968,7 +968,7 @@
             // pictureBox12
             // 
             this.pictureBox12.Location = new System.Drawing.Point(1707, 452);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox12.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(318, 297);
             this.pictureBox12.TabIndex = 22;
@@ -978,7 +978,7 @@
             // 
             this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
             this.pictureBox13.Location = new System.Drawing.Point(1287, 77);
-            this.pictureBox13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox13.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(318, 297);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -987,10 +987,12 @@
             // 
             // pictureBox14
             // 
+            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
             this.pictureBox14.Location = new System.Drawing.Point(1287, 453);
-            this.pictureBox14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox14.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(318, 297);
+            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox14.TabIndex = 20;
             this.pictureBox14.TabStop = false;
             // 
@@ -998,7 +1000,7 @@
             // 
             this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
             this.pictureBox15.Location = new System.Drawing.Point(888, 75);
-            this.pictureBox15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox15.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(318, 297);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1009,7 +1011,7 @@
             // 
             this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
             this.pictureBox16.Location = new System.Drawing.Point(888, 450);
-            this.pictureBox16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox16.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(318, 297);
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1020,7 +1022,7 @@
             // 
             this.pictureBox17.Image = global::C__Project.Properties.Resources.anton_darius_FCrgmqqvl_w_unsplash;
             this.pictureBox17.Location = new System.Drawing.Point(468, 76);
-            this.pictureBox17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox17.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(318, 297);
             this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1032,7 +1034,7 @@
             // 
             this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
             this.pictureBox18.Location = new System.Drawing.Point(468, 452);
-            this.pictureBox18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox18.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(318, 297);
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1043,7 +1045,7 @@
             // 
             this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
             this.pictureBox19.Location = new System.Drawing.Point(57, 76);
-            this.pictureBox19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox19.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(318, 297);
             this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1054,7 +1056,7 @@
             // 
             this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
             this.pictureBox20.Location = new System.Drawing.Point(57, 452);
-            this.pictureBox20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox20.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(318, 297);
             this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1084,9 +1086,9 @@
             this.tabPage2.Controls.Add(this.pictureBox29);
             this.tabPage2.Controls.Add(this.pictureBox30);
             this.tabPage2.Location = new System.Drawing.Point(4, 28);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage2.Size = new System.Drawing.Size(2086, 832);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Vegetables";
@@ -1096,7 +1098,7 @@
             // 
             this.checkBox11.AutoSize = true;
             this.checkBox11.Location = new System.Drawing.Point(1800, 767);
-            this.checkBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox11.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox11.Name = "checkBox11";
             this.checkBox11.Size = new System.Drawing.Size(118, 23);
             this.checkBox11.TabIndex = 43;
@@ -1107,7 +1109,7 @@
             // 
             this.checkBox12.AutoSize = true;
             this.checkBox12.Location = new System.Drawing.Point(1376, 767);
-            this.checkBox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox12.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox12.Name = "checkBox12";
             this.checkBox12.Size = new System.Drawing.Size(118, 23);
             this.checkBox12.TabIndex = 42;
@@ -1118,7 +1120,7 @@
             // 
             this.checkBox13.AutoSize = true;
             this.checkBox13.Location = new System.Drawing.Point(972, 767);
-            this.checkBox13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox13.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox13.Name = "checkBox13";
             this.checkBox13.Size = new System.Drawing.Size(118, 23);
             this.checkBox13.TabIndex = 41;
@@ -1129,7 +1131,7 @@
             // 
             this.checkBox14.AutoSize = true;
             this.checkBox14.Location = new System.Drawing.Point(556, 767);
-            this.checkBox14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox14.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox14.Name = "checkBox14";
             this.checkBox14.Size = new System.Drawing.Size(118, 23);
             this.checkBox14.TabIndex = 40;
@@ -1140,7 +1142,7 @@
             // 
             this.checkBox15.AutoSize = true;
             this.checkBox15.Location = new System.Drawing.Point(140, 767);
-            this.checkBox15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox15.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox15.Name = "checkBox15";
             this.checkBox15.Size = new System.Drawing.Size(118, 23);
             this.checkBox15.TabIndex = 39;
@@ -1151,7 +1153,7 @@
             // 
             this.checkBox16.AutoSize = true;
             this.checkBox16.Location = new System.Drawing.Point(1800, 393);
-            this.checkBox16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox16.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox16.Name = "checkBox16";
             this.checkBox16.Size = new System.Drawing.Size(118, 23);
             this.checkBox16.TabIndex = 38;
@@ -1162,7 +1164,7 @@
             // 
             this.checkBox17.AutoSize = true;
             this.checkBox17.Location = new System.Drawing.Point(1376, 393);
-            this.checkBox17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox17.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox17.Name = "checkBox17";
             this.checkBox17.Size = new System.Drawing.Size(118, 23);
             this.checkBox17.TabIndex = 37;
@@ -1173,7 +1175,7 @@
             // 
             this.checkBox18.AutoSize = true;
             this.checkBox18.Location = new System.Drawing.Point(972, 393);
-            this.checkBox18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox18.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox18.Name = "checkBox18";
             this.checkBox18.Size = new System.Drawing.Size(118, 23);
             this.checkBox18.TabIndex = 36;
@@ -1184,7 +1186,7 @@
             // 
             this.checkBox19.AutoSize = true;
             this.checkBox19.Location = new System.Drawing.Point(556, 393);
-            this.checkBox19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox19.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox19.Name = "checkBox19";
             this.checkBox19.Size = new System.Drawing.Size(118, 23);
             this.checkBox19.TabIndex = 35;
@@ -1195,7 +1197,7 @@
             // 
             this.checkBox20.AutoSize = true;
             this.checkBox20.Location = new System.Drawing.Point(140, 393);
-            this.checkBox20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox20.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox20.Name = "checkBox20";
             this.checkBox20.Size = new System.Drawing.Size(118, 23);
             this.checkBox20.TabIndex = 34;
@@ -1205,7 +1207,7 @@
             // pictureBox21
             // 
             this.pictureBox21.Location = new System.Drawing.Point(1707, 76);
-            this.pictureBox21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox21.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox21.Name = "pictureBox21";
             this.pictureBox21.Size = new System.Drawing.Size(318, 297);
             this.pictureBox21.TabIndex = 23;
@@ -1214,7 +1216,7 @@
             // pictureBox22
             // 
             this.pictureBox22.Location = new System.Drawing.Point(1707, 452);
-            this.pictureBox22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox22.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox22.Name = "pictureBox22";
             this.pictureBox22.Size = new System.Drawing.Size(318, 297);
             this.pictureBox22.TabIndex = 22;
@@ -1223,7 +1225,7 @@
             // pictureBox23
             // 
             this.pictureBox23.Location = new System.Drawing.Point(1287, 77);
-            this.pictureBox23.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox23.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox23.Name = "pictureBox23";
             this.pictureBox23.Size = new System.Drawing.Size(318, 297);
             this.pictureBox23.TabIndex = 21;
@@ -1232,7 +1234,7 @@
             // pictureBox24
             // 
             this.pictureBox24.Location = new System.Drawing.Point(1287, 453);
-            this.pictureBox24.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox24.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox24.Name = "pictureBox24";
             this.pictureBox24.Size = new System.Drawing.Size(318, 297);
             this.pictureBox24.TabIndex = 20;
@@ -1241,7 +1243,7 @@
             // pictureBox25
             // 
             this.pictureBox25.Location = new System.Drawing.Point(888, 75);
-            this.pictureBox25.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox25.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox25.Name = "pictureBox25";
             this.pictureBox25.Size = new System.Drawing.Size(318, 297);
             this.pictureBox25.TabIndex = 19;
@@ -1250,7 +1252,7 @@
             // pictureBox26
             // 
             this.pictureBox26.Location = new System.Drawing.Point(888, 450);
-            this.pictureBox26.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox26.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox26.Name = "pictureBox26";
             this.pictureBox26.Size = new System.Drawing.Size(318, 297);
             this.pictureBox26.TabIndex = 18;
@@ -1259,7 +1261,7 @@
             // pictureBox27
             // 
             this.pictureBox27.Location = new System.Drawing.Point(468, 76);
-            this.pictureBox27.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox27.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox27.Name = "pictureBox27";
             this.pictureBox27.Size = new System.Drawing.Size(318, 297);
             this.pictureBox27.TabIndex = 17;
@@ -1268,7 +1270,7 @@
             // pictureBox28
             // 
             this.pictureBox28.Location = new System.Drawing.Point(468, 452);
-            this.pictureBox28.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox28.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox28.Name = "pictureBox28";
             this.pictureBox28.Size = new System.Drawing.Size(318, 297);
             this.pictureBox28.TabIndex = 16;
@@ -1277,7 +1279,7 @@
             // pictureBox29
             // 
             this.pictureBox29.Location = new System.Drawing.Point(57, 76);
-            this.pictureBox29.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox29.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox29.Name = "pictureBox29";
             this.pictureBox29.Size = new System.Drawing.Size(318, 297);
             this.pictureBox29.TabIndex = 15;
@@ -1286,7 +1288,7 @@
             // pictureBox30
             // 
             this.pictureBox30.Location = new System.Drawing.Point(57, 452);
-            this.pictureBox30.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox30.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox30.Name = "pictureBox30";
             this.pictureBox30.Size = new System.Drawing.Size(318, 297);
             this.pictureBox30.TabIndex = 14;
@@ -1315,9 +1317,9 @@
             this.tabPage3.Controls.Add(this.pictureBox39);
             this.tabPage3.Controls.Add(this.pictureBox40);
             this.tabPage3.Location = new System.Drawing.Point(4, 28);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage3.Size = new System.Drawing.Size(2086, 832);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Dairy";
@@ -1327,7 +1329,7 @@
             // 
             this.checkBox21.AutoSize = true;
             this.checkBox21.Location = new System.Drawing.Point(1814, 769);
-            this.checkBox21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox21.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox21.Name = "checkBox21";
             this.checkBox21.Size = new System.Drawing.Size(118, 23);
             this.checkBox21.TabIndex = 43;
@@ -1338,7 +1340,7 @@
             // 
             this.checkBox22.AutoSize = true;
             this.checkBox22.Location = new System.Drawing.Point(1389, 769);
-            this.checkBox22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox22.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox22.Name = "checkBox22";
             this.checkBox22.Size = new System.Drawing.Size(118, 23);
             this.checkBox22.TabIndex = 42;
@@ -1349,7 +1351,7 @@
             // 
             this.checkBox23.AutoSize = true;
             this.checkBox23.Location = new System.Drawing.Point(986, 769);
-            this.checkBox23.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox23.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox23.Name = "checkBox23";
             this.checkBox23.Size = new System.Drawing.Size(118, 23);
             this.checkBox23.TabIndex = 41;
@@ -1360,7 +1362,7 @@
             // 
             this.checkBox24.AutoSize = true;
             this.checkBox24.Location = new System.Drawing.Point(570, 769);
-            this.checkBox24.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox24.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox24.Name = "checkBox24";
             this.checkBox24.Size = new System.Drawing.Size(118, 23);
             this.checkBox24.TabIndex = 40;
@@ -1371,7 +1373,7 @@
             // 
             this.checkBox25.AutoSize = true;
             this.checkBox25.Location = new System.Drawing.Point(153, 769);
-            this.checkBox25.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox25.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox25.Name = "checkBox25";
             this.checkBox25.Size = new System.Drawing.Size(118, 23);
             this.checkBox25.TabIndex = 39;
@@ -1382,7 +1384,7 @@
             // 
             this.checkBox26.AutoSize = true;
             this.checkBox26.Location = new System.Drawing.Point(1814, 395);
-            this.checkBox26.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox26.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox26.Name = "checkBox26";
             this.checkBox26.Size = new System.Drawing.Size(118, 23);
             this.checkBox26.TabIndex = 38;
@@ -1393,7 +1395,7 @@
             // 
             this.checkBox27.AutoSize = true;
             this.checkBox27.Location = new System.Drawing.Point(1389, 395);
-            this.checkBox27.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox27.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox27.Name = "checkBox27";
             this.checkBox27.Size = new System.Drawing.Size(118, 23);
             this.checkBox27.TabIndex = 37;
@@ -1404,7 +1406,7 @@
             // 
             this.checkBox28.AutoSize = true;
             this.checkBox28.Location = new System.Drawing.Point(986, 395);
-            this.checkBox28.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox28.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox28.Name = "checkBox28";
             this.checkBox28.Size = new System.Drawing.Size(118, 23);
             this.checkBox28.TabIndex = 36;
@@ -1415,7 +1417,7 @@
             // 
             this.checkBox29.AutoSize = true;
             this.checkBox29.Location = new System.Drawing.Point(570, 395);
-            this.checkBox29.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox29.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox29.Name = "checkBox29";
             this.checkBox29.Size = new System.Drawing.Size(118, 23);
             this.checkBox29.TabIndex = 35;
@@ -1426,7 +1428,7 @@
             // 
             this.checkBox30.AutoSize = true;
             this.checkBox30.Location = new System.Drawing.Point(153, 395);
-            this.checkBox30.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox30.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox30.Name = "checkBox30";
             this.checkBox30.Size = new System.Drawing.Size(118, 23);
             this.checkBox30.TabIndex = 34;
@@ -1436,7 +1438,7 @@
             // pictureBox31
             // 
             this.pictureBox31.Location = new System.Drawing.Point(1707, 76);
-            this.pictureBox31.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox31.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox31.Name = "pictureBox31";
             this.pictureBox31.Size = new System.Drawing.Size(318, 297);
             this.pictureBox31.TabIndex = 23;
@@ -1445,7 +1447,7 @@
             // pictureBox32
             // 
             this.pictureBox32.Location = new System.Drawing.Point(1707, 452);
-            this.pictureBox32.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox32.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox32.Name = "pictureBox32";
             this.pictureBox32.Size = new System.Drawing.Size(318, 297);
             this.pictureBox32.TabIndex = 22;
@@ -1454,7 +1456,7 @@
             // pictureBox33
             // 
             this.pictureBox33.Location = new System.Drawing.Point(1287, 77);
-            this.pictureBox33.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox33.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox33.Name = "pictureBox33";
             this.pictureBox33.Size = new System.Drawing.Size(318, 297);
             this.pictureBox33.TabIndex = 21;
@@ -1463,7 +1465,7 @@
             // pictureBox34
             // 
             this.pictureBox34.Location = new System.Drawing.Point(1287, 453);
-            this.pictureBox34.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox34.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox34.Name = "pictureBox34";
             this.pictureBox34.Size = new System.Drawing.Size(318, 297);
             this.pictureBox34.TabIndex = 20;
@@ -1472,7 +1474,7 @@
             // pictureBox35
             // 
             this.pictureBox35.Location = new System.Drawing.Point(888, 75);
-            this.pictureBox35.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox35.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox35.Name = "pictureBox35";
             this.pictureBox35.Size = new System.Drawing.Size(318, 297);
             this.pictureBox35.TabIndex = 19;
@@ -1481,7 +1483,7 @@
             // pictureBox36
             // 
             this.pictureBox36.Location = new System.Drawing.Point(888, 450);
-            this.pictureBox36.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox36.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox36.Name = "pictureBox36";
             this.pictureBox36.Size = new System.Drawing.Size(318, 297);
             this.pictureBox36.TabIndex = 18;
@@ -1490,7 +1492,7 @@
             // pictureBox37
             // 
             this.pictureBox37.Location = new System.Drawing.Point(468, 76);
-            this.pictureBox37.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox37.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox37.Name = "pictureBox37";
             this.pictureBox37.Size = new System.Drawing.Size(318, 297);
             this.pictureBox37.TabIndex = 17;
@@ -1499,7 +1501,7 @@
             // pictureBox38
             // 
             this.pictureBox38.Location = new System.Drawing.Point(468, 452);
-            this.pictureBox38.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox38.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox38.Name = "pictureBox38";
             this.pictureBox38.Size = new System.Drawing.Size(318, 297);
             this.pictureBox38.TabIndex = 16;
@@ -1508,7 +1510,7 @@
             // pictureBox39
             // 
             this.pictureBox39.Location = new System.Drawing.Point(57, 76);
-            this.pictureBox39.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox39.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox39.Name = "pictureBox39";
             this.pictureBox39.Size = new System.Drawing.Size(318, 297);
             this.pictureBox39.TabIndex = 15;
@@ -1517,7 +1519,7 @@
             // pictureBox40
             // 
             this.pictureBox40.Location = new System.Drawing.Point(57, 452);
-            this.pictureBox40.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox40.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox40.Name = "pictureBox40";
             this.pictureBox40.Size = new System.Drawing.Size(318, 297);
             this.pictureBox40.TabIndex = 14;
@@ -1546,9 +1548,9 @@
             this.drinksTab.Controls.Add(this.pictureBox49);
             this.drinksTab.Controls.Add(this.pictureBox50);
             this.drinksTab.Location = new System.Drawing.Point(4, 28);
-            this.drinksTab.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.drinksTab.Margin = new System.Windows.Forms.Padding(4);
             this.drinksTab.Name = "drinksTab";
-            this.drinksTab.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.drinksTab.Padding = new System.Windows.Forms.Padding(4);
             this.drinksTab.Size = new System.Drawing.Size(2086, 832);
             this.drinksTab.TabIndex = 3;
             this.drinksTab.Text = "Drinks";
@@ -1558,7 +1560,7 @@
             // 
             this.checkBox31.AutoSize = true;
             this.checkBox31.Location = new System.Drawing.Point(1814, 770);
-            this.checkBox31.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox31.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox31.Name = "checkBox31";
             this.checkBox31.Size = new System.Drawing.Size(118, 23);
             this.checkBox31.TabIndex = 43;
@@ -1569,7 +1571,7 @@
             // 
             this.checkBox32.AutoSize = true;
             this.checkBox32.Location = new System.Drawing.Point(1389, 770);
-            this.checkBox32.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox32.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox32.Name = "checkBox32";
             this.checkBox32.Size = new System.Drawing.Size(118, 23);
             this.checkBox32.TabIndex = 42;
@@ -1580,7 +1582,7 @@
             // 
             this.checkBox33.AutoSize = true;
             this.checkBox33.Location = new System.Drawing.Point(986, 770);
-            this.checkBox33.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox33.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox33.Name = "checkBox33";
             this.checkBox33.Size = new System.Drawing.Size(118, 23);
             this.checkBox33.TabIndex = 41;
@@ -1591,7 +1593,7 @@
             // 
             this.checkBox34.AutoSize = true;
             this.checkBox34.Location = new System.Drawing.Point(570, 770);
-            this.checkBox34.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox34.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox34.Name = "checkBox34";
             this.checkBox34.Size = new System.Drawing.Size(118, 23);
             this.checkBox34.TabIndex = 40;
@@ -1602,7 +1604,7 @@
             // 
             this.checkBox35.AutoSize = true;
             this.checkBox35.Location = new System.Drawing.Point(153, 770);
-            this.checkBox35.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox35.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox35.Name = "checkBox35";
             this.checkBox35.Size = new System.Drawing.Size(118, 23);
             this.checkBox35.TabIndex = 39;
@@ -1613,7 +1615,7 @@
             // 
             this.checkBox36.AutoSize = true;
             this.checkBox36.Location = new System.Drawing.Point(1814, 396);
-            this.checkBox36.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox36.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox36.Name = "checkBox36";
             this.checkBox36.Size = new System.Drawing.Size(118, 23);
             this.checkBox36.TabIndex = 38;
@@ -1624,7 +1626,7 @@
             // 
             this.checkBox37.AutoSize = true;
             this.checkBox37.Location = new System.Drawing.Point(1389, 396);
-            this.checkBox37.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox37.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox37.Name = "checkBox37";
             this.checkBox37.Size = new System.Drawing.Size(118, 23);
             this.checkBox37.TabIndex = 37;
@@ -1635,7 +1637,7 @@
             // 
             this.checkBox38.AutoSize = true;
             this.checkBox38.Location = new System.Drawing.Point(986, 396);
-            this.checkBox38.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox38.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox38.Name = "checkBox38";
             this.checkBox38.Size = new System.Drawing.Size(118, 23);
             this.checkBox38.TabIndex = 36;
@@ -1646,7 +1648,7 @@
             // 
             this.checkBox39.AutoSize = true;
             this.checkBox39.Location = new System.Drawing.Point(570, 396);
-            this.checkBox39.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox39.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox39.Name = "checkBox39";
             this.checkBox39.Size = new System.Drawing.Size(118, 23);
             this.checkBox39.TabIndex = 35;
@@ -1657,7 +1659,7 @@
             // 
             this.checkBox40.AutoSize = true;
             this.checkBox40.Location = new System.Drawing.Point(153, 396);
-            this.checkBox40.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox40.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox40.Name = "checkBox40";
             this.checkBox40.Size = new System.Drawing.Size(118, 23);
             this.checkBox40.TabIndex = 34;
@@ -1667,7 +1669,7 @@
             // pictureBox41
             // 
             this.pictureBox41.Location = new System.Drawing.Point(1707, 76);
-            this.pictureBox41.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox41.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox41.Name = "pictureBox41";
             this.pictureBox41.Size = new System.Drawing.Size(318, 297);
             this.pictureBox41.TabIndex = 23;
@@ -1676,7 +1678,7 @@
             // pictureBox42
             // 
             this.pictureBox42.Location = new System.Drawing.Point(1707, 452);
-            this.pictureBox42.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox42.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox42.Name = "pictureBox42";
             this.pictureBox42.Size = new System.Drawing.Size(318, 297);
             this.pictureBox42.TabIndex = 22;
@@ -1685,7 +1687,7 @@
             // pictureBox43
             // 
             this.pictureBox43.Location = new System.Drawing.Point(1287, 77);
-            this.pictureBox43.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox43.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox43.Name = "pictureBox43";
             this.pictureBox43.Size = new System.Drawing.Size(318, 297);
             this.pictureBox43.TabIndex = 21;
@@ -1694,7 +1696,7 @@
             // pictureBox44
             // 
             this.pictureBox44.Location = new System.Drawing.Point(1287, 453);
-            this.pictureBox44.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox44.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox44.Name = "pictureBox44";
             this.pictureBox44.Size = new System.Drawing.Size(318, 297);
             this.pictureBox44.TabIndex = 20;
@@ -1703,7 +1705,7 @@
             // pictureBox45
             // 
             this.pictureBox45.Location = new System.Drawing.Point(888, 75);
-            this.pictureBox45.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox45.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox45.Name = "pictureBox45";
             this.pictureBox45.Size = new System.Drawing.Size(318, 297);
             this.pictureBox45.TabIndex = 19;
@@ -1712,7 +1714,7 @@
             // pictureBox46
             // 
             this.pictureBox46.Location = new System.Drawing.Point(888, 450);
-            this.pictureBox46.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox46.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox46.Name = "pictureBox46";
             this.pictureBox46.Size = new System.Drawing.Size(318, 297);
             this.pictureBox46.TabIndex = 18;
@@ -1721,7 +1723,7 @@
             // pictureBox47
             // 
             this.pictureBox47.Location = new System.Drawing.Point(468, 76);
-            this.pictureBox47.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox47.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox47.Name = "pictureBox47";
             this.pictureBox47.Size = new System.Drawing.Size(318, 297);
             this.pictureBox47.TabIndex = 17;
@@ -1730,7 +1732,7 @@
             // pictureBox48
             // 
             this.pictureBox48.Location = new System.Drawing.Point(468, 452);
-            this.pictureBox48.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox48.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox48.Name = "pictureBox48";
             this.pictureBox48.Size = new System.Drawing.Size(318, 297);
             this.pictureBox48.TabIndex = 16;
@@ -1739,7 +1741,7 @@
             // pictureBox49
             // 
             this.pictureBox49.Location = new System.Drawing.Point(57, 76);
-            this.pictureBox49.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox49.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox49.Name = "pictureBox49";
             this.pictureBox49.Size = new System.Drawing.Size(318, 297);
             this.pictureBox49.TabIndex = 15;
@@ -1748,7 +1750,7 @@
             // pictureBox50
             // 
             this.pictureBox50.Location = new System.Drawing.Point(57, 452);
-            this.pictureBox50.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox50.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox50.Name = "pictureBox50";
             this.pictureBox50.Size = new System.Drawing.Size(318, 297);
             this.pictureBox50.TabIndex = 14;
@@ -1777,9 +1779,9 @@
             this.tabPage5.Controls.Add(this.pictureBox59);
             this.tabPage5.Controls.Add(this.pictureBox60);
             this.tabPage5.Location = new System.Drawing.Point(4, 28);
-            this.tabPage5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage5.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage5.Size = new System.Drawing.Size(2086, 832);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Sweets";
@@ -1789,7 +1791,7 @@
             // 
             this.checkBox41.AutoSize = true;
             this.checkBox41.Location = new System.Drawing.Point(1814, 769);
-            this.checkBox41.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox41.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox41.Name = "checkBox41";
             this.checkBox41.Size = new System.Drawing.Size(118, 23);
             this.checkBox41.TabIndex = 43;
@@ -1800,7 +1802,7 @@
             // 
             this.checkBox42.AutoSize = true;
             this.checkBox42.Location = new System.Drawing.Point(1389, 769);
-            this.checkBox42.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox42.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox42.Name = "checkBox42";
             this.checkBox42.Size = new System.Drawing.Size(118, 23);
             this.checkBox42.TabIndex = 42;
@@ -1811,7 +1813,7 @@
             // 
             this.checkBox43.AutoSize = true;
             this.checkBox43.Location = new System.Drawing.Point(986, 769);
-            this.checkBox43.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox43.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox43.Name = "checkBox43";
             this.checkBox43.Size = new System.Drawing.Size(118, 23);
             this.checkBox43.TabIndex = 41;
@@ -1822,7 +1824,7 @@
             // 
             this.checkBox44.AutoSize = true;
             this.checkBox44.Location = new System.Drawing.Point(570, 769);
-            this.checkBox44.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox44.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox44.Name = "checkBox44";
             this.checkBox44.Size = new System.Drawing.Size(118, 23);
             this.checkBox44.TabIndex = 40;
@@ -1833,7 +1835,7 @@
             // 
             this.checkBox45.AutoSize = true;
             this.checkBox45.Location = new System.Drawing.Point(153, 769);
-            this.checkBox45.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox45.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox45.Name = "checkBox45";
             this.checkBox45.Size = new System.Drawing.Size(118, 23);
             this.checkBox45.TabIndex = 39;
@@ -1844,7 +1846,7 @@
             // 
             this.checkBox46.AutoSize = true;
             this.checkBox46.Location = new System.Drawing.Point(1814, 395);
-            this.checkBox46.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox46.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox46.Name = "checkBox46";
             this.checkBox46.Size = new System.Drawing.Size(118, 23);
             this.checkBox46.TabIndex = 38;
@@ -1855,7 +1857,7 @@
             // 
             this.checkBox47.AutoSize = true;
             this.checkBox47.Location = new System.Drawing.Point(1389, 395);
-            this.checkBox47.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox47.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox47.Name = "checkBox47";
             this.checkBox47.Size = new System.Drawing.Size(118, 23);
             this.checkBox47.TabIndex = 37;
@@ -1866,7 +1868,7 @@
             // 
             this.checkBox48.AutoSize = true;
             this.checkBox48.Location = new System.Drawing.Point(986, 395);
-            this.checkBox48.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox48.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox48.Name = "checkBox48";
             this.checkBox48.Size = new System.Drawing.Size(118, 23);
             this.checkBox48.TabIndex = 36;
@@ -1877,7 +1879,7 @@
             // 
             this.checkBox49.AutoSize = true;
             this.checkBox49.Location = new System.Drawing.Point(570, 395);
-            this.checkBox49.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox49.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox49.Name = "checkBox49";
             this.checkBox49.Size = new System.Drawing.Size(118, 23);
             this.checkBox49.TabIndex = 35;
@@ -1888,7 +1890,7 @@
             // 
             this.checkBox50.AutoSize = true;
             this.checkBox50.Location = new System.Drawing.Point(153, 395);
-            this.checkBox50.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox50.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox50.Name = "checkBox50";
             this.checkBox50.Size = new System.Drawing.Size(118, 23);
             this.checkBox50.TabIndex = 34;
@@ -1898,7 +1900,7 @@
             // pictureBox51
             // 
             this.pictureBox51.Location = new System.Drawing.Point(1707, 76);
-            this.pictureBox51.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox51.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox51.Name = "pictureBox51";
             this.pictureBox51.Size = new System.Drawing.Size(318, 297);
             this.pictureBox51.TabIndex = 23;
@@ -1907,7 +1909,7 @@
             // pictureBox52
             // 
             this.pictureBox52.Location = new System.Drawing.Point(1707, 452);
-            this.pictureBox52.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox52.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox52.Name = "pictureBox52";
             this.pictureBox52.Size = new System.Drawing.Size(318, 297);
             this.pictureBox52.TabIndex = 22;
@@ -1916,7 +1918,7 @@
             // pictureBox53
             // 
             this.pictureBox53.Location = new System.Drawing.Point(1287, 77);
-            this.pictureBox53.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox53.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox53.Name = "pictureBox53";
             this.pictureBox53.Size = new System.Drawing.Size(318, 297);
             this.pictureBox53.TabIndex = 21;
@@ -1925,7 +1927,7 @@
             // pictureBox54
             // 
             this.pictureBox54.Location = new System.Drawing.Point(1287, 453);
-            this.pictureBox54.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox54.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox54.Name = "pictureBox54";
             this.pictureBox54.Size = new System.Drawing.Size(318, 297);
             this.pictureBox54.TabIndex = 20;
@@ -1934,7 +1936,7 @@
             // pictureBox55
             // 
             this.pictureBox55.Location = new System.Drawing.Point(888, 75);
-            this.pictureBox55.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox55.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox55.Name = "pictureBox55";
             this.pictureBox55.Size = new System.Drawing.Size(318, 297);
             this.pictureBox55.TabIndex = 19;
@@ -1943,7 +1945,7 @@
             // pictureBox56
             // 
             this.pictureBox56.Location = new System.Drawing.Point(888, 450);
-            this.pictureBox56.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox56.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox56.Name = "pictureBox56";
             this.pictureBox56.Size = new System.Drawing.Size(318, 297);
             this.pictureBox56.TabIndex = 18;
@@ -1952,7 +1954,7 @@
             // pictureBox57
             // 
             this.pictureBox57.Location = new System.Drawing.Point(468, 76);
-            this.pictureBox57.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox57.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox57.Name = "pictureBox57";
             this.pictureBox57.Size = new System.Drawing.Size(318, 297);
             this.pictureBox57.TabIndex = 17;
@@ -1961,7 +1963,7 @@
             // pictureBox58
             // 
             this.pictureBox58.Location = new System.Drawing.Point(468, 452);
-            this.pictureBox58.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox58.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox58.Name = "pictureBox58";
             this.pictureBox58.Size = new System.Drawing.Size(318, 297);
             this.pictureBox58.TabIndex = 16;
@@ -1970,7 +1972,7 @@
             // pictureBox59
             // 
             this.pictureBox59.Location = new System.Drawing.Point(57, 76);
-            this.pictureBox59.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox59.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox59.Name = "pictureBox59";
             this.pictureBox59.Size = new System.Drawing.Size(318, 297);
             this.pictureBox59.TabIndex = 15;
@@ -1979,7 +1981,7 @@
             // pictureBox60
             // 
             this.pictureBox60.Location = new System.Drawing.Point(57, 452);
-            this.pictureBox60.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox60.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox60.Name = "pictureBox60";
             this.pictureBox60.Size = new System.Drawing.Size(318, 297);
             this.pictureBox60.TabIndex = 14;
@@ -2008,9 +2010,9 @@
             this.spiceTab.Controls.Add(this.pictureBox69);
             this.spiceTab.Controls.Add(this.pictureBox70);
             this.spiceTab.Location = new System.Drawing.Point(4, 28);
-            this.spiceTab.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.spiceTab.Margin = new System.Windows.Forms.Padding(4);
             this.spiceTab.Name = "spiceTab";
-            this.spiceTab.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.spiceTab.Padding = new System.Windows.Forms.Padding(4);
             this.spiceTab.Size = new System.Drawing.Size(2086, 832);
             this.spiceTab.TabIndex = 5;
             this.spiceTab.Text = "Spice";
@@ -2020,7 +2022,7 @@
             // 
             this.checkBox51.AutoSize = true;
             this.checkBox51.Location = new System.Drawing.Point(1798, 769);
-            this.checkBox51.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox51.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox51.Name = "checkBox51";
             this.checkBox51.Size = new System.Drawing.Size(118, 23);
             this.checkBox51.TabIndex = 43;
@@ -2031,7 +2033,7 @@
             // 
             this.checkBox52.AutoSize = true;
             this.checkBox52.Location = new System.Drawing.Point(1374, 769);
-            this.checkBox52.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox52.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox52.Name = "checkBox52";
             this.checkBox52.Size = new System.Drawing.Size(118, 23);
             this.checkBox52.TabIndex = 42;
@@ -2042,7 +2044,7 @@
             // 
             this.checkBox53.AutoSize = true;
             this.checkBox53.Location = new System.Drawing.Point(970, 769);
-            this.checkBox53.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox53.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox53.Name = "checkBox53";
             this.checkBox53.Size = new System.Drawing.Size(118, 23);
             this.checkBox53.TabIndex = 41;
@@ -2053,7 +2055,7 @@
             // 
             this.checkBox54.AutoSize = true;
             this.checkBox54.Location = new System.Drawing.Point(555, 769);
-            this.checkBox54.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox54.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox54.Name = "checkBox54";
             this.checkBox54.Size = new System.Drawing.Size(118, 23);
             this.checkBox54.TabIndex = 40;
@@ -2064,7 +2066,7 @@
             // 
             this.checkBox55.AutoSize = true;
             this.checkBox55.Location = new System.Drawing.Point(138, 769);
-            this.checkBox55.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox55.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox55.Name = "checkBox55";
             this.checkBox55.Size = new System.Drawing.Size(118, 23);
             this.checkBox55.TabIndex = 39;
@@ -2075,7 +2077,7 @@
             // 
             this.checkBox56.AutoSize = true;
             this.checkBox56.Location = new System.Drawing.Point(1798, 395);
-            this.checkBox56.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox56.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox56.Name = "checkBox56";
             this.checkBox56.Size = new System.Drawing.Size(118, 23);
             this.checkBox56.TabIndex = 38;
@@ -2086,7 +2088,7 @@
             // 
             this.checkBox57.AutoSize = true;
             this.checkBox57.Location = new System.Drawing.Point(1374, 395);
-            this.checkBox57.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox57.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox57.Name = "checkBox57";
             this.checkBox57.Size = new System.Drawing.Size(118, 23);
             this.checkBox57.TabIndex = 37;
@@ -2097,7 +2099,7 @@
             // 
             this.checkBox58.AutoSize = true;
             this.checkBox58.Location = new System.Drawing.Point(970, 395);
-            this.checkBox58.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox58.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox58.Name = "checkBox58";
             this.checkBox58.Size = new System.Drawing.Size(118, 23);
             this.checkBox58.TabIndex = 36;
@@ -2108,7 +2110,7 @@
             // 
             this.checkBox59.AutoSize = true;
             this.checkBox59.Location = new System.Drawing.Point(555, 395);
-            this.checkBox59.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox59.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox59.Name = "checkBox59";
             this.checkBox59.Size = new System.Drawing.Size(118, 23);
             this.checkBox59.TabIndex = 35;
@@ -2119,7 +2121,7 @@
             // 
             this.checkBox60.AutoSize = true;
             this.checkBox60.Location = new System.Drawing.Point(138, 395);
-            this.checkBox60.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox60.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox60.Name = "checkBox60";
             this.checkBox60.Size = new System.Drawing.Size(118, 23);
             this.checkBox60.TabIndex = 34;
@@ -2129,7 +2131,7 @@
             // pictureBox61
             // 
             this.pictureBox61.Location = new System.Drawing.Point(1707, 76);
-            this.pictureBox61.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox61.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox61.Name = "pictureBox61";
             this.pictureBox61.Size = new System.Drawing.Size(318, 297);
             this.pictureBox61.TabIndex = 23;
@@ -2138,7 +2140,7 @@
             // pictureBox62
             // 
             this.pictureBox62.Location = new System.Drawing.Point(1707, 452);
-            this.pictureBox62.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox62.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox62.Name = "pictureBox62";
             this.pictureBox62.Size = new System.Drawing.Size(318, 297);
             this.pictureBox62.TabIndex = 22;
@@ -2147,7 +2149,7 @@
             // pictureBox63
             // 
             this.pictureBox63.Location = new System.Drawing.Point(1287, 77);
-            this.pictureBox63.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox63.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox63.Name = "pictureBox63";
             this.pictureBox63.Size = new System.Drawing.Size(318, 297);
             this.pictureBox63.TabIndex = 21;
@@ -2156,7 +2158,7 @@
             // pictureBox64
             // 
             this.pictureBox64.Location = new System.Drawing.Point(1287, 453);
-            this.pictureBox64.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox64.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox64.Name = "pictureBox64";
             this.pictureBox64.Size = new System.Drawing.Size(318, 297);
             this.pictureBox64.TabIndex = 20;
@@ -2165,7 +2167,7 @@
             // pictureBox65
             // 
             this.pictureBox65.Location = new System.Drawing.Point(888, 75);
-            this.pictureBox65.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox65.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox65.Name = "pictureBox65";
             this.pictureBox65.Size = new System.Drawing.Size(318, 297);
             this.pictureBox65.TabIndex = 19;
@@ -2174,7 +2176,7 @@
             // pictureBox66
             // 
             this.pictureBox66.Location = new System.Drawing.Point(888, 450);
-            this.pictureBox66.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox66.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox66.Name = "pictureBox66";
             this.pictureBox66.Size = new System.Drawing.Size(318, 297);
             this.pictureBox66.TabIndex = 18;
@@ -2183,7 +2185,7 @@
             // pictureBox67
             // 
             this.pictureBox67.Location = new System.Drawing.Point(468, 76);
-            this.pictureBox67.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox67.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox67.Name = "pictureBox67";
             this.pictureBox67.Size = new System.Drawing.Size(318, 297);
             this.pictureBox67.TabIndex = 17;
@@ -2192,7 +2194,7 @@
             // pictureBox68
             // 
             this.pictureBox68.Location = new System.Drawing.Point(468, 452);
-            this.pictureBox68.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox68.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox68.Name = "pictureBox68";
             this.pictureBox68.Size = new System.Drawing.Size(318, 297);
             this.pictureBox68.TabIndex = 16;
@@ -2201,7 +2203,7 @@
             // pictureBox69
             // 
             this.pictureBox69.Location = new System.Drawing.Point(57, 76);
-            this.pictureBox69.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox69.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox69.Name = "pictureBox69";
             this.pictureBox69.Size = new System.Drawing.Size(318, 297);
             this.pictureBox69.TabIndex = 15;
@@ -2210,7 +2212,7 @@
             // pictureBox70
             // 
             this.pictureBox70.Location = new System.Drawing.Point(57, 452);
-            this.pictureBox70.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox70.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox70.Name = "pictureBox70";
             this.pictureBox70.Size = new System.Drawing.Size(318, 297);
             this.pictureBox70.TabIndex = 14;
@@ -2239,9 +2241,9 @@
             this.meatTab.Controls.Add(this.pictureBox79);
             this.meatTab.Controls.Add(this.pictureBox80);
             this.meatTab.Location = new System.Drawing.Point(4, 28);
-            this.meatTab.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.meatTab.Margin = new System.Windows.Forms.Padding(4);
             this.meatTab.Name = "meatTab";
-            this.meatTab.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.meatTab.Padding = new System.Windows.Forms.Padding(4);
             this.meatTab.Size = new System.Drawing.Size(2086, 832);
             this.meatTab.TabIndex = 6;
             this.meatTab.Text = "Meat";
@@ -2251,7 +2253,7 @@
             // 
             this.checkBox61.AutoSize = true;
             this.checkBox61.Location = new System.Drawing.Point(1798, 769);
-            this.checkBox61.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox61.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox61.Name = "checkBox61";
             this.checkBox61.Size = new System.Drawing.Size(118, 23);
             this.checkBox61.TabIndex = 43;
@@ -2262,7 +2264,7 @@
             // 
             this.checkBox62.AutoSize = true;
             this.checkBox62.Location = new System.Drawing.Point(1374, 769);
-            this.checkBox62.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox62.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox62.Name = "checkBox62";
             this.checkBox62.Size = new System.Drawing.Size(118, 23);
             this.checkBox62.TabIndex = 42;
@@ -2273,7 +2275,7 @@
             // 
             this.checkBox63.AutoSize = true;
             this.checkBox63.Location = new System.Drawing.Point(970, 769);
-            this.checkBox63.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox63.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox63.Name = "checkBox63";
             this.checkBox63.Size = new System.Drawing.Size(118, 23);
             this.checkBox63.TabIndex = 41;
@@ -2284,7 +2286,7 @@
             // 
             this.checkBox64.AutoSize = true;
             this.checkBox64.Location = new System.Drawing.Point(555, 769);
-            this.checkBox64.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox64.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox64.Name = "checkBox64";
             this.checkBox64.Size = new System.Drawing.Size(118, 23);
             this.checkBox64.TabIndex = 40;
@@ -2295,7 +2297,7 @@
             // 
             this.checkBox65.AutoSize = true;
             this.checkBox65.Location = new System.Drawing.Point(138, 769);
-            this.checkBox65.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox65.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox65.Name = "checkBox65";
             this.checkBox65.Size = new System.Drawing.Size(118, 23);
             this.checkBox65.TabIndex = 39;
@@ -2306,7 +2308,7 @@
             // 
             this.checkBox66.AutoSize = true;
             this.checkBox66.Location = new System.Drawing.Point(1798, 395);
-            this.checkBox66.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox66.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox66.Name = "checkBox66";
             this.checkBox66.Size = new System.Drawing.Size(118, 23);
             this.checkBox66.TabIndex = 38;
@@ -2317,7 +2319,7 @@
             // 
             this.checkBox67.AutoSize = true;
             this.checkBox67.Location = new System.Drawing.Point(1374, 395);
-            this.checkBox67.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox67.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox67.Name = "checkBox67";
             this.checkBox67.Size = new System.Drawing.Size(118, 23);
             this.checkBox67.TabIndex = 37;
@@ -2328,7 +2330,7 @@
             // 
             this.checkBox68.AutoSize = true;
             this.checkBox68.Location = new System.Drawing.Point(970, 395);
-            this.checkBox68.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox68.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox68.Name = "checkBox68";
             this.checkBox68.Size = new System.Drawing.Size(118, 23);
             this.checkBox68.TabIndex = 36;
@@ -2339,7 +2341,7 @@
             // 
             this.checkBox69.AutoSize = true;
             this.checkBox69.Location = new System.Drawing.Point(555, 395);
-            this.checkBox69.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox69.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox69.Name = "checkBox69";
             this.checkBox69.Size = new System.Drawing.Size(118, 23);
             this.checkBox69.TabIndex = 35;
@@ -2350,7 +2352,7 @@
             // 
             this.checkBox70.AutoSize = true;
             this.checkBox70.Location = new System.Drawing.Point(138, 395);
-            this.checkBox70.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox70.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox70.Name = "checkBox70";
             this.checkBox70.Size = new System.Drawing.Size(118, 23);
             this.checkBox70.TabIndex = 34;
@@ -2360,7 +2362,7 @@
             // pictureBox71
             // 
             this.pictureBox71.Location = new System.Drawing.Point(1707, 76);
-            this.pictureBox71.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox71.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox71.Name = "pictureBox71";
             this.pictureBox71.Size = new System.Drawing.Size(318, 297);
             this.pictureBox71.TabIndex = 23;
@@ -2369,7 +2371,7 @@
             // pictureBox72
             // 
             this.pictureBox72.Location = new System.Drawing.Point(1707, 452);
-            this.pictureBox72.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox72.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox72.Name = "pictureBox72";
             this.pictureBox72.Size = new System.Drawing.Size(318, 297);
             this.pictureBox72.TabIndex = 22;
@@ -2378,7 +2380,7 @@
             // pictureBox73
             // 
             this.pictureBox73.Location = new System.Drawing.Point(1287, 77);
-            this.pictureBox73.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox73.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox73.Name = "pictureBox73";
             this.pictureBox73.Size = new System.Drawing.Size(318, 297);
             this.pictureBox73.TabIndex = 21;
@@ -2387,7 +2389,7 @@
             // pictureBox74
             // 
             this.pictureBox74.Location = new System.Drawing.Point(1287, 453);
-            this.pictureBox74.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox74.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox74.Name = "pictureBox74";
             this.pictureBox74.Size = new System.Drawing.Size(318, 297);
             this.pictureBox74.TabIndex = 20;
@@ -2396,7 +2398,7 @@
             // pictureBox75
             // 
             this.pictureBox75.Location = new System.Drawing.Point(888, 75);
-            this.pictureBox75.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox75.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox75.Name = "pictureBox75";
             this.pictureBox75.Size = new System.Drawing.Size(318, 297);
             this.pictureBox75.TabIndex = 19;
@@ -2405,7 +2407,7 @@
             // pictureBox76
             // 
             this.pictureBox76.Location = new System.Drawing.Point(888, 450);
-            this.pictureBox76.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox76.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox76.Name = "pictureBox76";
             this.pictureBox76.Size = new System.Drawing.Size(318, 297);
             this.pictureBox76.TabIndex = 18;
@@ -2414,7 +2416,7 @@
             // pictureBox77
             // 
             this.pictureBox77.Location = new System.Drawing.Point(468, 76);
-            this.pictureBox77.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox77.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox77.Name = "pictureBox77";
             this.pictureBox77.Size = new System.Drawing.Size(318, 297);
             this.pictureBox77.TabIndex = 17;
@@ -2423,7 +2425,7 @@
             // pictureBox78
             // 
             this.pictureBox78.Location = new System.Drawing.Point(468, 452);
-            this.pictureBox78.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox78.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox78.Name = "pictureBox78";
             this.pictureBox78.Size = new System.Drawing.Size(318, 297);
             this.pictureBox78.TabIndex = 16;
@@ -2432,7 +2434,7 @@
             // pictureBox79
             // 
             this.pictureBox79.Location = new System.Drawing.Point(57, 76);
-            this.pictureBox79.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox79.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox79.Name = "pictureBox79";
             this.pictureBox79.Size = new System.Drawing.Size(318, 297);
             this.pictureBox79.TabIndex = 15;
@@ -2441,7 +2443,7 @@
             // pictureBox80
             // 
             this.pictureBox80.Location = new System.Drawing.Point(57, 452);
-            this.pictureBox80.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox80.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox80.Name = "pictureBox80";
             this.pictureBox80.Size = new System.Drawing.Size(318, 297);
             this.pictureBox80.TabIndex = 14;
@@ -2470,9 +2472,9 @@
             this.otherTab.Controls.Add(this.pictureBox1);
             this.otherTab.Controls.Add(this.pictureBox2);
             this.otherTab.Location = new System.Drawing.Point(4, 28);
-            this.otherTab.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.otherTab.Margin = new System.Windows.Forms.Padding(4);
             this.otherTab.Name = "otherTab";
-            this.otherTab.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.otherTab.Padding = new System.Windows.Forms.Padding(4);
             this.otherTab.Size = new System.Drawing.Size(2086, 832);
             this.otherTab.TabIndex = 7;
             this.otherTab.Text = "Others";
@@ -2482,7 +2484,7 @@
             // 
             this.checkBox71.AutoSize = true;
             this.checkBox71.Location = new System.Drawing.Point(1798, 770);
-            this.checkBox71.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox71.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox71.Name = "checkBox71";
             this.checkBox71.Size = new System.Drawing.Size(118, 23);
             this.checkBox71.TabIndex = 43;
@@ -2493,7 +2495,7 @@
             // 
             this.checkBox72.AutoSize = true;
             this.checkBox72.Location = new System.Drawing.Point(1374, 770);
-            this.checkBox72.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox72.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox72.Name = "checkBox72";
             this.checkBox72.Size = new System.Drawing.Size(118, 23);
             this.checkBox72.TabIndex = 42;
@@ -2504,7 +2506,7 @@
             // 
             this.checkBox73.AutoSize = true;
             this.checkBox73.Location = new System.Drawing.Point(970, 770);
-            this.checkBox73.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox73.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox73.Name = "checkBox73";
             this.checkBox73.Size = new System.Drawing.Size(118, 23);
             this.checkBox73.TabIndex = 41;
@@ -2515,7 +2517,7 @@
             // 
             this.checkBox74.AutoSize = true;
             this.checkBox74.Location = new System.Drawing.Point(555, 770);
-            this.checkBox74.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox74.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox74.Name = "checkBox74";
             this.checkBox74.Size = new System.Drawing.Size(118, 23);
             this.checkBox74.TabIndex = 40;
@@ -2526,7 +2528,7 @@
             // 
             this.checkBox75.AutoSize = true;
             this.checkBox75.Location = new System.Drawing.Point(138, 770);
-            this.checkBox75.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox75.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox75.Name = "checkBox75";
             this.checkBox75.Size = new System.Drawing.Size(118, 23);
             this.checkBox75.TabIndex = 39;
@@ -2537,7 +2539,7 @@
             // 
             this.checkBox76.AutoSize = true;
             this.checkBox76.Location = new System.Drawing.Point(1798, 396);
-            this.checkBox76.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox76.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox76.Name = "checkBox76";
             this.checkBox76.Size = new System.Drawing.Size(118, 23);
             this.checkBox76.TabIndex = 38;
@@ -2548,7 +2550,7 @@
             // 
             this.checkBox77.AutoSize = true;
             this.checkBox77.Location = new System.Drawing.Point(1374, 396);
-            this.checkBox77.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox77.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox77.Name = "checkBox77";
             this.checkBox77.Size = new System.Drawing.Size(118, 23);
             this.checkBox77.TabIndex = 37;
@@ -2559,7 +2561,7 @@
             // 
             this.checkBox78.AutoSize = true;
             this.checkBox78.Location = new System.Drawing.Point(970, 396);
-            this.checkBox78.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox78.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox78.Name = "checkBox78";
             this.checkBox78.Size = new System.Drawing.Size(118, 23);
             this.checkBox78.TabIndex = 36;
@@ -2570,7 +2572,7 @@
             // 
             this.checkBox79.AutoSize = true;
             this.checkBox79.Location = new System.Drawing.Point(555, 396);
-            this.checkBox79.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox79.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox79.Name = "checkBox79";
             this.checkBox79.Size = new System.Drawing.Size(118, 23);
             this.checkBox79.TabIndex = 35;
@@ -2581,7 +2583,7 @@
             // 
             this.checkBox80.AutoSize = true;
             this.checkBox80.Location = new System.Drawing.Point(138, 396);
-            this.checkBox80.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox80.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox80.Name = "checkBox80";
             this.checkBox80.Size = new System.Drawing.Size(118, 23);
             this.checkBox80.TabIndex = 34;
@@ -2591,7 +2593,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Location = new System.Drawing.Point(1707, 76);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(318, 297);
             this.pictureBox7.TabIndex = 23;
@@ -2600,7 +2602,7 @@
             // pictureBox8
             // 
             this.pictureBox8.Location = new System.Drawing.Point(1707, 452);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(318, 297);
             this.pictureBox8.TabIndex = 22;
@@ -2609,7 +2611,7 @@
             // pictureBox9
             // 
             this.pictureBox9.Location = new System.Drawing.Point(1287, 77);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(318, 297);
             this.pictureBox9.TabIndex = 21;
@@ -2618,7 +2620,7 @@
             // pictureBox10
             // 
             this.pictureBox10.Location = new System.Drawing.Point(1287, 453);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(318, 297);
             this.pictureBox10.TabIndex = 20;
@@ -2627,7 +2629,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Location = new System.Drawing.Point(888, 75);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(318, 297);
             this.pictureBox5.TabIndex = 19;
@@ -2636,7 +2638,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Location = new System.Drawing.Point(888, 450);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(318, 297);
             this.pictureBox6.TabIndex = 18;
@@ -2645,7 +2647,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Location = new System.Drawing.Point(468, 76);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(318, 297);
             this.pictureBox3.TabIndex = 17;
@@ -2654,7 +2656,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Location = new System.Drawing.Point(468, 452);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(318, 297);
             this.pictureBox4.TabIndex = 16;
@@ -2663,7 +2665,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(57, 76);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(318, 297);
             this.pictureBox1.TabIndex = 15;
@@ -2672,7 +2674,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Location = new System.Drawing.Point(57, 452);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(318, 297);
             this.pictureBox2.TabIndex = 14;
@@ -2687,9 +2689,9 @@
             this.genBox.Controls.Add(this.ageNum);
             this.genBox.Controls.Add(this.typeList);
             this.genBox.Location = new System.Drawing.Point(24, 54);
-            this.genBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.genBox.Margin = new System.Windows.Forms.Padding(4);
             this.genBox.Name = "genBox";
-            this.genBox.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.genBox.Padding = new System.Windows.Forms.Padding(4);
             this.genBox.Size = new System.Drawing.Size(434, 333);
             this.genBox.TabIndex = 2;
             this.genBox.TabStop = false;
@@ -2732,7 +2734,7 @@
             // 
             this.budgetNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.budgetNum.Location = new System.Drawing.Point(220, 208);
-            this.budgetNum.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.budgetNum.Margin = new System.Windows.Forms.Padding(4);
             this.budgetNum.Name = "budgetNum";
             this.budgetNum.Size = new System.Drawing.Size(135, 35);
             this.budgetNum.TabIndex = 6;
@@ -2741,7 +2743,7 @@
             // 
             this.ageNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ageNum.Location = new System.Drawing.Point(220, 77);
-            this.ageNum.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ageNum.Margin = new System.Windows.Forms.Padding(4);
             this.ageNum.Name = "ageNum";
             this.ageNum.Size = new System.Drawing.Size(135, 35);
             this.ageNum.TabIndex = 5;
@@ -2754,7 +2756,7 @@
             "Week",
             "Month"});
             this.typeList.Location = new System.Drawing.Point(220, 140);
-            this.typeList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.typeList.Margin = new System.Windows.Forms.Padding(4);
             this.typeList.Name = "typeList";
             this.typeList.Size = new System.Drawing.Size(133, 37);
             this.typeList.TabIndex = 3;
@@ -2763,12 +2765,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1924, 1050);
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.ClientSize = new System.Drawing.Size(1100, 743);
             this.Controls.Add(this.genBox);
             this.Controls.Add(this.prdTab);
             this.Controls.Add(this.famBox);
             this.Controls.Add(this.prcBtn);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Stay fit and Healthy";
             this.famBox.ResumeLayout(false);
