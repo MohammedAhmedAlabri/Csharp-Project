@@ -8,3 +8,23 @@ C:\Users\moham\Source\Repos\MohammedAhmedAlabri\Csharp-Project\C# Project\C# Pro
 C:\Users\moham\Source\Repos\MohammedAhmedAlabri\Csharp-Project\C# Project\C# Project\obj\Debug\C# Project.csproj.CoreCompileInputs.cache
 C:\Users\moham\Source\Repos\MohammedAhmedAlabri\Csharp-Project\C# Project\C# Project\obj\Debug\C# Project.exe
 C:\Users\moham\Source\Repos\MohammedAhmedAlabri\Csharp-Project\C# Project\C# Project\obj\Debug\C# Project.pdb
+C:\Users\hamad\Source\Repos\Csharp-Project\C# Project\C# Project\bin\Debug\C# Project.exe.config
+C:\Users\hamad\Source\Repos\Csharp-Project\C# Project\C# Project\bin\Debug\C# Project.exe
+C:\Users\hamad\Source\Repos\Csharp-Project\C# Project\C# Project\bin\Debug\C# Project.pdb
+C:\Users\hamad\Source\Repos\Csharp-Project\C# Project\C# Project\obj\Debug\C# Project.csproj.AssemblyReference.cache
+C:\Users\hamad\Source\Repos\Csharp-Project\C# Project\C# Project\obj\Debug\C__Project.Form1.resources
+C:\Users\hamad\Source\Repos\Csharp-Project\C# Project\C# Project\obj\Debug\C__Project.Properties.Resources.resources
+C:\Users\hamad\Source\Repos\Csharp-Project\C# Project\C# Project\obj\Debug\C# Project.csproj.GenerateResource.cache
+C:\Users\hamad\Source\Repos\Csharp-Project\C# Project\C# Project\obj\Debug\C# Project.csproj.CoreCompileInputs.cache
+C:\Users\hamad\Source\Repos\Csharp-Project\C# Project\C# Project\obj\Debug\C# Project.exe
+C:\Users\hamad\Source\Repos\Csharp-Project\C# Project\C# Project\obj\Debug\C# Project.pdb
+C:\Users\s132928\Source\Repos\MohammedAhmedAlabri\Csharp-Project\C# Project\C# Project\obj\Debug\C# Project.csproj.AssemblyReference.cache
+C:\Users\s132928\Source\Repos\MohammedAhmedAlabri\Csharp-Project\C# Project\C# Project\obj\Debug\C__Project.Form1.resources
+C:\Users\s132928\Source\Repos\MohammedAhmedAlabri\Csharp-Project\C# Project\C# Project\obj\Debug\C__Project.Properties.Resources.resources
+C:\Users\s132928\Source\Repos\MohammedAhmedAlabri\Csharp-Project\C# Project\C# Project\obj\Debug\C# Project.csproj.GenerateResource.cache
+C:\Users\s132928\Source\Repos\MohammedAhmedAlabri\Csharp-Project\C# Project\C# Project\obj\Debug\C# Project.csproj.CoreCompileInputs.cache
+C:\Users\s132928\Source\Repos\MohammedAhmedAlabri\Csharp-Project\C# Project\C# Project\obj\Debug\C# Project.exe
+C:\Users\s132928\Source\Repos\MohammedAhmedAlabri\Csharp-Project\C# Project\C# Project\obj\Debug\C# Project.pdb
+C:\Users\s132928\Source\Repos\MohammedAhmedAlabri\Csharp-Project\C# Project\C# Project\bin\Debug\C# Project.exe.config
+C:\Users\s132928\Source\Repos\MohammedAhmedAlabri\Csharp-Project\C# Project\C# Project\bin\Debug\C# Project.exe
+C:\Users\s132928\Source\Repos\MohammedAhmedAlabri\Csharp-Project\C# Project\C# Project\bin\Debug\C# Project.pdb

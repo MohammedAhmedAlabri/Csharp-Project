@@ -31,5 +31,20 @@ namespace C__Project
 		{
 
 		}
+
+        private void pictureBox17_Click(object sender, EventArgs e)
+        {
+
+        }
+
+		private void checkBox2_CheckedChanged(object sender, EventArgs e)
+		{
+
+		}
+
+		private void Form1_Load(object sender, EventArgs e)
+		{
+
+		}
 	}
 }
