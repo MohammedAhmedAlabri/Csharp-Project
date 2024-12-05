@@ -241,6 +241,7 @@
 			this.budgetNum = new System.Windows.Forms.NumericUpDown();
 			this.ageNum = new System.Windows.Forms.NumericUpDown();
 			this.typeList = new System.Windows.Forms.ComboBox();
+			this.textBox1 = new System.Windows.Forms.TextBox();
 			this.famBox.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).BeginInit();
@@ -348,10 +349,12 @@
 			// 
 			// prcBtn
 			// 
+			this.prcBtn.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+			this.prcBtn.AutoSize = true;
 			this.prcBtn.BackColor = System.Drawing.SystemColors.ButtonFace;
 			this.prcBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.prcBtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-			this.prcBtn.Location = new System.Drawing.Point(858, 48);
+			this.prcBtn.Location = new System.Drawing.Point(950, 164);
 			this.prcBtn.Name = "prcBtn";
 			this.prcBtn.Size = new System.Drawing.Size(164, 98);
 			this.prcBtn.TabIndex = 0;
@@ -361,6 +364,7 @@
 			// 
 			// famBox
 			// 
+			this.famBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.famBox.Controls.Add(this.person10Label);
 			this.famBox.Controls.Add(this.numericUpDown7);
 			this.famBox.Controls.Add(this.comboBox7);
@@ -395,17 +399,18 @@
 			this.famBox.Controls.Add(this.AgeLabel);
 			this.famBox.Controls.Add(this.numericUpDown1);
 			this.famBox.Controls.Add(this.comboBox1);
-			this.famBox.Location = new System.Drawing.Point(328, 37);
+			this.famBox.Location = new System.Drawing.Point(303, 17);
 			this.famBox.Name = "famBox";
-			this.famBox.Size = new System.Drawing.Size(497, 228);
+			this.famBox.Size = new System.Drawing.Size(499, 227);
 			this.famBox.TabIndex = 1;
 			this.famBox.TabStop = false;
 			this.famBox.Text = "أفراد العائلة";
 			// 
 			// person10Label
 			// 
+			this.person10Label.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.person10Label.AutoSize = true;
-			this.person10Label.Location = new System.Drawing.Point(278, 193);
+			this.person10Label.Location = new System.Drawing.Point(277, 181);
 			this.person10Label.Name = "person10Label";
 			this.person10Label.Size = new System.Drawing.Size(55, 13);
 			this.person10Label.TabIndex = 45;
@@ -413,9 +418,10 @@
 			// 
 			// numericUpDown7
 			// 
-			this.numericUpDown7.Location = new System.Drawing.Point(390, 191);
+			this.numericUpDown7.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.numericUpDown7.Location = new System.Drawing.Point(392, 179);
 			this.numericUpDown7.Name = "numericUpDown7";
-			this.numericUpDown7.Size = new System.Drawing.Size(52, 20);
+			this.numericUpDown7.Size = new System.Drawing.Size(49, 20);
 			this.numericUpDown7.TabIndex = 44;
 			this.numericUpDown7.Value = new decimal(new int[] {
             25,
@@ -425,19 +431,21 @@
 			// 
 			// comboBox7
 			// 
+			this.comboBox7.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.comboBox7.FormattingEnabled = true;
 			this.comboBox7.Items.AddRange(new object[] {
             "M",
             "F"});
-			this.comboBox7.Location = new System.Drawing.Point(344, 190);
+			this.comboBox7.Location = new System.Drawing.Point(346, 178);
 			this.comboBox7.Name = "comboBox7";
-			this.comboBox7.Size = new System.Drawing.Size(40, 21);
+			this.comboBox7.Size = new System.Drawing.Size(37, 21);
 			this.comboBox7.TabIndex = 43;
 			// 
 			// person9Label
 			// 
+			this.person9Label.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.person9Label.AutoSize = true;
-			this.person9Label.Location = new System.Drawing.Point(278, 156);
+			this.person9Label.Location = new System.Drawing.Point(277, 144);
 			this.person9Label.Name = "person9Label";
 			this.person9Label.Size = new System.Drawing.Size(49, 13);
 			this.person9Label.TabIndex = 42;
@@ -445,9 +453,10 @@
 			// 
 			// numericUpDown8
 			// 
-			this.numericUpDown8.Location = new System.Drawing.Point(390, 154);
+			this.numericUpDown8.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.numericUpDown8.Location = new System.Drawing.Point(392, 142);
 			this.numericUpDown8.Name = "numericUpDown8";
-			this.numericUpDown8.Size = new System.Drawing.Size(52, 20);
+			this.numericUpDown8.Size = new System.Drawing.Size(49, 20);
 			this.numericUpDown8.TabIndex = 41;
 			this.numericUpDown8.Value = new decimal(new int[] {
             25,
@@ -457,19 +466,21 @@
 			// 
 			// comboBox8
 			// 
+			this.comboBox8.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.comboBox8.FormattingEnabled = true;
 			this.comboBox8.Items.AddRange(new object[] {
             "M",
             "F"});
-			this.comboBox8.Location = new System.Drawing.Point(344, 153);
+			this.comboBox8.Location = new System.Drawing.Point(346, 141);
 			this.comboBox8.Name = "comboBox8";
-			this.comboBox8.Size = new System.Drawing.Size(40, 21);
+			this.comboBox8.Size = new System.Drawing.Size(37, 21);
 			this.comboBox8.TabIndex = 40;
 			// 
 			// person8Label
 			// 
+			this.person8Label.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.person8Label.AutoSize = true;
-			this.person8Label.Location = new System.Drawing.Point(278, 120);
+			this.person8Label.Location = new System.Drawing.Point(277, 108);
 			this.person8Label.Name = "person8Label";
 			this.person8Label.Size = new System.Drawing.Size(49, 13);
 			this.person8Label.TabIndex = 39;
@@ -477,9 +488,10 @@
 			// 
 			// numericUpDown9
 			// 
-			this.numericUpDown9.Location = new System.Drawing.Point(390, 118);
+			this.numericUpDown9.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.numericUpDown9.Location = new System.Drawing.Point(392, 106);
 			this.numericUpDown9.Name = "numericUpDown9";
-			this.numericUpDown9.Size = new System.Drawing.Size(52, 20);
+			this.numericUpDown9.Size = new System.Drawing.Size(49, 20);
 			this.numericUpDown9.TabIndex = 38;
 			this.numericUpDown9.Value = new decimal(new int[] {
             25,
@@ -489,19 +501,21 @@
 			// 
 			// comboBox9
 			// 
+			this.comboBox9.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.comboBox9.FormattingEnabled = true;
 			this.comboBox9.Items.AddRange(new object[] {
             "M",
             "F"});
-			this.comboBox9.Location = new System.Drawing.Point(344, 117);
+			this.comboBox9.Location = new System.Drawing.Point(346, 105);
 			this.comboBox9.Name = "comboBox9";
-			this.comboBox9.Size = new System.Drawing.Size(40, 21);
+			this.comboBox9.Size = new System.Drawing.Size(37, 21);
 			this.comboBox9.TabIndex = 37;
 			// 
 			// person7Label
 			// 
+			this.person7Label.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.person7Label.AutoSize = true;
-			this.person7Label.Location = new System.Drawing.Point(278, 83);
+			this.person7Label.Location = new System.Drawing.Point(277, 71);
 			this.person7Label.Name = "person7Label";
 			this.person7Label.Size = new System.Drawing.Size(49, 13);
 			this.person7Label.TabIndex = 36;
@@ -509,9 +523,10 @@
 			// 
 			// numericUpDown10
 			// 
-			this.numericUpDown10.Location = new System.Drawing.Point(390, 81);
+			this.numericUpDown10.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.numericUpDown10.Location = new System.Drawing.Point(392, 69);
 			this.numericUpDown10.Name = "numericUpDown10";
-			this.numericUpDown10.Size = new System.Drawing.Size(52, 20);
+			this.numericUpDown10.Size = new System.Drawing.Size(49, 20);
 			this.numericUpDown10.TabIndex = 35;
 			this.numericUpDown10.Value = new decimal(new int[] {
             25,
@@ -521,19 +536,21 @@
 			// 
 			// comboBox10
 			// 
+			this.comboBox10.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.comboBox10.FormattingEnabled = true;
 			this.comboBox10.Items.AddRange(new object[] {
             "M",
             "F"});
-			this.comboBox10.Location = new System.Drawing.Point(344, 80);
+			this.comboBox10.Location = new System.Drawing.Point(346, 68);
 			this.comboBox10.Name = "comboBox10";
-			this.comboBox10.Size = new System.Drawing.Size(40, 21);
+			this.comboBox10.Size = new System.Drawing.Size(37, 21);
 			this.comboBox10.TabIndex = 34;
 			// 
 			// person6Label
 			// 
+			this.person6Label.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.person6Label.AutoSize = true;
-			this.person6Label.Location = new System.Drawing.Point(278, 47);
+			this.person6Label.Location = new System.Drawing.Point(277, 35);
 			this.person6Label.Name = "person6Label";
 			this.person6Label.Size = new System.Drawing.Size(49, 13);
 			this.person6Label.TabIndex = 33;
@@ -541,9 +558,10 @@
 			// 
 			// numericUpDown11
 			// 
-			this.numericUpDown11.Location = new System.Drawing.Point(390, 45);
+			this.numericUpDown11.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.numericUpDown11.Location = new System.Drawing.Point(392, 33);
 			this.numericUpDown11.Name = "numericUpDown11";
-			this.numericUpDown11.Size = new System.Drawing.Size(52, 20);
+			this.numericUpDown11.Size = new System.Drawing.Size(49, 20);
 			this.numericUpDown11.TabIndex = 32;
 			this.numericUpDown11.Value = new decimal(new int[] {
             25,
@@ -553,19 +571,21 @@
 			// 
 			// comboBox11
 			// 
+			this.comboBox11.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.comboBox11.FormattingEnabled = true;
 			this.comboBox11.Items.AddRange(new object[] {
             "M",
             "F"});
-			this.comboBox11.Location = new System.Drawing.Point(344, 44);
+			this.comboBox11.Location = new System.Drawing.Point(346, 32);
 			this.comboBox11.Name = "comboBox11";
-			this.comboBox11.Size = new System.Drawing.Size(40, 21);
+			this.comboBox11.Size = new System.Drawing.Size(37, 21);
 			this.comboBox11.TabIndex = 31;
 			// 
 			// person5Label
 			// 
+			this.person5Label.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.person5Label.AutoSize = true;
-			this.person5Label.Location = new System.Drawing.Point(52, 193);
+			this.person5Label.Location = new System.Drawing.Point(51, 181);
 			this.person5Label.Name = "person5Label";
 			this.person5Label.Size = new System.Drawing.Size(49, 13);
 			this.person5Label.TabIndex = 30;
@@ -573,9 +593,10 @@
 			// 
 			// numericUpDown6
 			// 
-			this.numericUpDown6.Location = new System.Drawing.Point(164, 191);
+			this.numericUpDown6.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.numericUpDown6.Location = new System.Drawing.Point(166, 179);
 			this.numericUpDown6.Name = "numericUpDown6";
-			this.numericUpDown6.Size = new System.Drawing.Size(52, 20);
+			this.numericUpDown6.Size = new System.Drawing.Size(49, 20);
 			this.numericUpDown6.TabIndex = 29;
 			this.numericUpDown6.Value = new decimal(new int[] {
             25,
@@ -585,19 +606,20 @@
 			// 
 			// comboBox6
 			// 
+			this.comboBox6.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.comboBox6.FormattingEnabled = true;
 			this.comboBox6.Items.AddRange(new object[] {
             "M",
             "F"});
-			this.comboBox6.Location = new System.Drawing.Point(118, 190);
+			this.comboBox6.Location = new System.Drawing.Point(120, 178);
 			this.comboBox6.Name = "comboBox6";
-			this.comboBox6.Size = new System.Drawing.Size(40, 21);
+			this.comboBox6.Size = new System.Drawing.Size(37, 21);
 			this.comboBox6.TabIndex = 28;
 			// 
 			// person4Label
 			// 
-			this.person4Label.AutoSize = true;
-			this.person4Label.Location = new System.Drawing.Point(52, 156);
+			this.person4Label.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.person4Label.Location = new System.Drawing.Point(52, 144);
 			this.person4Label.Name = "person4Label";
 			this.person4Label.Size = new System.Drawing.Size(49, 13);
 			this.person4Label.TabIndex = 27;
@@ -605,9 +627,10 @@
 			// 
 			// numericUpDown5
 			// 
-			this.numericUpDown5.Location = new System.Drawing.Point(164, 154);
+			this.numericUpDown5.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.numericUpDown5.Location = new System.Drawing.Point(166, 142);
 			this.numericUpDown5.Name = "numericUpDown5";
-			this.numericUpDown5.Size = new System.Drawing.Size(52, 20);
+			this.numericUpDown5.Size = new System.Drawing.Size(49, 20);
 			this.numericUpDown5.TabIndex = 26;
 			this.numericUpDown5.Value = new decimal(new int[] {
             25,
@@ -617,19 +640,21 @@
 			// 
 			// comboBox5
 			// 
+			this.comboBox5.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.comboBox5.FormattingEnabled = true;
 			this.comboBox5.Items.AddRange(new object[] {
             "M",
             "F"});
-			this.comboBox5.Location = new System.Drawing.Point(118, 153);
+			this.comboBox5.Location = new System.Drawing.Point(120, 141);
 			this.comboBox5.Name = "comboBox5";
-			this.comboBox5.Size = new System.Drawing.Size(40, 21);
+			this.comboBox5.Size = new System.Drawing.Size(37, 21);
 			this.comboBox5.TabIndex = 25;
 			// 
 			// person3Label
 			// 
+			this.person3Label.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.person3Label.AutoSize = true;
-			this.person3Label.Location = new System.Drawing.Point(52, 120);
+			this.person3Label.Location = new System.Drawing.Point(51, 108);
 			this.person3Label.Name = "person3Label";
 			this.person3Label.Size = new System.Drawing.Size(49, 13);
 			this.person3Label.TabIndex = 24;
@@ -637,9 +662,10 @@
 			// 
 			// numericUpDown4
 			// 
-			this.numericUpDown4.Location = new System.Drawing.Point(164, 118);
+			this.numericUpDown4.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.numericUpDown4.Location = new System.Drawing.Point(166, 106);
 			this.numericUpDown4.Name = "numericUpDown4";
-			this.numericUpDown4.Size = new System.Drawing.Size(52, 20);
+			this.numericUpDown4.Size = new System.Drawing.Size(49, 20);
 			this.numericUpDown4.TabIndex = 23;
 			this.numericUpDown4.Value = new decimal(new int[] {
             25,
@@ -649,19 +675,21 @@
 			// 
 			// comboBox4
 			// 
+			this.comboBox4.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.comboBox4.FormattingEnabled = true;
 			this.comboBox4.Items.AddRange(new object[] {
             "M",
             "F"});
-			this.comboBox4.Location = new System.Drawing.Point(118, 117);
+			this.comboBox4.Location = new System.Drawing.Point(120, 105);
 			this.comboBox4.Name = "comboBox4";
-			this.comboBox4.Size = new System.Drawing.Size(40, 21);
+			this.comboBox4.Size = new System.Drawing.Size(37, 21);
 			this.comboBox4.TabIndex = 22;
 			// 
 			// person2Label
 			// 
+			this.person2Label.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.person2Label.AutoSize = true;
-			this.person2Label.Location = new System.Drawing.Point(52, 83);
+			this.person2Label.Location = new System.Drawing.Point(51, 71);
 			this.person2Label.Name = "person2Label";
 			this.person2Label.Size = new System.Drawing.Size(49, 13);
 			this.person2Label.TabIndex = 21;
@@ -669,9 +697,10 @@
 			// 
 			// numericUpDown3
 			// 
-			this.numericUpDown3.Location = new System.Drawing.Point(164, 81);
+			this.numericUpDown3.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.numericUpDown3.Location = new System.Drawing.Point(166, 69);
 			this.numericUpDown3.Name = "numericUpDown3";
-			this.numericUpDown3.Size = new System.Drawing.Size(52, 20);
+			this.numericUpDown3.Size = new System.Drawing.Size(49, 20);
 			this.numericUpDown3.TabIndex = 20;
 			this.numericUpDown3.Value = new decimal(new int[] {
             25,
@@ -681,19 +710,21 @@
 			// 
 			// comboBox3
 			// 
+			this.comboBox3.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.comboBox3.FormattingEnabled = true;
 			this.comboBox3.Items.AddRange(new object[] {
             "M",
             "F"});
-			this.comboBox3.Location = new System.Drawing.Point(118, 80);
+			this.comboBox3.Location = new System.Drawing.Point(120, 68);
 			this.comboBox3.Name = "comboBox3";
-			this.comboBox3.Size = new System.Drawing.Size(40, 21);
+			this.comboBox3.Size = new System.Drawing.Size(37, 21);
 			this.comboBox3.TabIndex = 19;
 			// 
 			// person1Label
 			// 
+			this.person1Label.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.person1Label.AutoSize = true;
-			this.person1Label.Location = new System.Drawing.Point(52, 47);
+			this.person1Label.Location = new System.Drawing.Point(51, 35);
 			this.person1Label.Name = "person1Label";
 			this.person1Label.Size = new System.Drawing.Size(49, 13);
 			this.person1Label.TabIndex = 18;
@@ -703,7 +734,7 @@
 			// label1
 			// 
 			this.label1.AutoSize = true;
-			this.label1.Location = new System.Drawing.Point(342, 18);
+			this.label1.Location = new System.Drawing.Point(342, 12);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(42, 13);
 			this.label1.TabIndex = 17;
@@ -712,7 +743,7 @@
 			// label2
 			// 
 			this.label2.AutoSize = true;
-			this.label2.Location = new System.Drawing.Point(399, 18);
+			this.label2.Location = new System.Drawing.Point(399, 12);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(26, 13);
 			this.label2.TabIndex = 16;
@@ -721,7 +752,7 @@
 			// GenderLabel1
 			// 
 			this.GenderLabel1.AutoSize = true;
-			this.GenderLabel1.Location = new System.Drawing.Point(118, 17);
+			this.GenderLabel1.Location = new System.Drawing.Point(118, 11);
 			this.GenderLabel1.Name = "GenderLabel1";
 			this.GenderLabel1.Size = new System.Drawing.Size(42, 13);
 			this.GenderLabel1.TabIndex = 13;
@@ -730,7 +761,7 @@
 			// AgeLabel
 			// 
 			this.AgeLabel.AutoSize = true;
-			this.AgeLabel.Location = new System.Drawing.Point(175, 17);
+			this.AgeLabel.Location = new System.Drawing.Point(175, 11);
 			this.AgeLabel.Name = "AgeLabel";
 			this.AgeLabel.Size = new System.Drawing.Size(26, 13);
 			this.AgeLabel.TabIndex = 12;
@@ -738,9 +769,10 @@
 			// 
 			// numericUpDown1
 			// 
-			this.numericUpDown1.Location = new System.Drawing.Point(164, 45);
+			this.numericUpDown1.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.numericUpDown1.Location = new System.Drawing.Point(166, 33);
 			this.numericUpDown1.Name = "numericUpDown1";
-			this.numericUpDown1.Size = new System.Drawing.Size(52, 20);
+			this.numericUpDown1.Size = new System.Drawing.Size(49, 20);
 			this.numericUpDown1.TabIndex = 11;
 			this.numericUpDown1.Value = new decimal(new int[] {
             25,
@@ -750,13 +782,14 @@
 			// 
 			// comboBox1
 			// 
+			this.comboBox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.comboBox1.FormattingEnabled = true;
 			this.comboBox1.Items.AddRange(new object[] {
             "M",
             "F"});
-			this.comboBox1.Location = new System.Drawing.Point(118, 44);
+			this.comboBox1.Location = new System.Drawing.Point(120, 32);
 			this.comboBox1.Name = "comboBox1";
-			this.comboBox1.Size = new System.Drawing.Size(40, 21);
+			this.comboBox1.Size = new System.Drawing.Size(37, 21);
 			this.comboBox1.TabIndex = 10;
 			// 
 			// prdTab
@@ -769,10 +802,12 @@
 			this.prdTab.Controls.Add(this.spiceTab);
 			this.prdTab.Controls.Add(this.meatTab);
 			this.prdTab.Controls.Add(this.otherTab);
-			this.prdTab.Location = new System.Drawing.Point(16, 290);
+			this.prdTab.Dock = System.Windows.Forms.DockStyle.Bottom;
+			this.prdTab.Location = new System.Drawing.Point(0, 267);
 			this.prdTab.Name = "prdTab";
 			this.prdTab.SelectedIndex = 0;
-			this.prdTab.Size = new System.Drawing.Size(1396, 591);
+			this.prdTab.Size = new System.Drawing.Size(1264, 462);
+			this.prdTab.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
 			this.prdTab.TabIndex = 2;
 			// 
 			// tabPage1
@@ -800,15 +835,16 @@
 			this.tabPage1.Location = new System.Drawing.Point(4, 22);
 			this.tabPage1.Name = "tabPage1";
 			this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage1.Size = new System.Drawing.Size(1388, 565);
+			this.tabPage1.Size = new System.Drawing.Size(1256, 436);
 			this.tabPage1.TabIndex = 0;
 			this.tabPage1.Text = "Fruits";
 			this.tabPage1.UseVisualStyleBackColor = true;
 			// 
 			// checkBox6
 			// 
+			this.checkBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.checkBox6.AutoSize = true;
-			this.checkBox6.Location = new System.Drawing.Point(1205, 527);
+			this.checkBox6.Location = new System.Drawing.Point(1005, 379);
 			this.checkBox6.Name = "checkBox6";
 			this.checkBox6.Size = new System.Drawing.Size(80, 17);
 			this.checkBox6.TabIndex = 33;
@@ -817,8 +853,9 @@
 			// 
 			// checkBox7
 			// 
+			this.checkBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.checkBox7.AutoSize = true;
-			this.checkBox7.Location = new System.Drawing.Point(922, 527);
+			this.checkBox7.Location = new System.Drawing.Point(776, 378);
 			this.checkBox7.Name = "checkBox7";
 			this.checkBox7.Size = new System.Drawing.Size(80, 17);
 			this.checkBox7.TabIndex = 32;
@@ -827,8 +864,9 @@
 			// 
 			// checkBox8
 			// 
+			this.checkBox8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.checkBox8.AutoSize = true;
-			this.checkBox8.Location = new System.Drawing.Point(653, 527);
+			this.checkBox8.Location = new System.Drawing.Point(565, 380);
 			this.checkBox8.Name = "checkBox8";
 			this.checkBox8.Size = new System.Drawing.Size(80, 17);
 			this.checkBox8.TabIndex = 31;
@@ -837,8 +875,9 @@
 			// 
 			// checkBox9
 			// 
+			this.checkBox9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.checkBox9.AutoSize = true;
-			this.checkBox9.Location = new System.Drawing.Point(376, 527);
+			this.checkBox9.Location = new System.Drawing.Point(359, 381);
 			this.checkBox9.Name = "checkBox9";
 			this.checkBox9.Size = new System.Drawing.Size(80, 17);
 			this.checkBox9.TabIndex = 30;
@@ -847,8 +886,9 @@
 			// 
 			// checkBox10
 			// 
+			this.checkBox10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.checkBox10.AutoSize = true;
-			this.checkBox10.Location = new System.Drawing.Point(98, 527);
+			this.checkBox10.Location = new System.Drawing.Point(143, 380);
 			this.checkBox10.Name = "checkBox10";
 			this.checkBox10.Size = new System.Drawing.Size(86, 17);
 			this.checkBox10.TabIndex = 29;
@@ -857,8 +897,9 @@
 			// 
 			// checkBox5
 			// 
+			this.checkBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.checkBox5.AutoSize = true;
-			this.checkBox5.Location = new System.Drawing.Point(1205, 271);
+			this.checkBox5.Location = new System.Drawing.Point(1005, 174);
 			this.checkBox5.Name = "checkBox5";
 			this.checkBox5.Size = new System.Drawing.Size(80, 17);
 			this.checkBox5.TabIndex = 28;
@@ -867,8 +908,9 @@
 			// 
 			// checkBox3
 			// 
+			this.checkBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.checkBox3.AutoSize = true;
-			this.checkBox3.Location = new System.Drawing.Point(922, 271);
+			this.checkBox3.Location = new System.Drawing.Point(776, 173);
 			this.checkBox3.Name = "checkBox3";
 			this.checkBox3.Size = new System.Drawing.Size(80, 17);
 			this.checkBox3.TabIndex = 27;
@@ -877,8 +919,9 @@
 			// 
 			// checkBox4
 			// 
+			this.checkBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.checkBox4.AutoSize = true;
-			this.checkBox4.Location = new System.Drawing.Point(653, 271);
+			this.checkBox4.Location = new System.Drawing.Point(565, 175);
 			this.checkBox4.Name = "checkBox4";
 			this.checkBox4.Size = new System.Drawing.Size(80, 17);
 			this.checkBox4.TabIndex = 26;
@@ -887,8 +930,9 @@
 			// 
 			// checkBox2
 			// 
+			this.checkBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.checkBox2.AutoSize = true;
-			this.checkBox2.Location = new System.Drawing.Point(376, 271);
+			this.checkBox2.Location = new System.Drawing.Point(359, 176);
 			this.checkBox2.Name = "checkBox2";
 			this.checkBox2.Size = new System.Drawing.Size(80, 17);
 			this.checkBox2.TabIndex = 25;
@@ -898,8 +942,9 @@
 			// 
 			// checkBox1
 			// 
+			this.checkBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.checkBox1.AutoSize = true;
-			this.checkBox1.Location = new System.Drawing.Point(98, 271);
+			this.checkBox1.Location = new System.Drawing.Point(143, 173);
 			this.checkBox1.Name = "checkBox1";
 			this.checkBox1.Size = new System.Drawing.Size(80, 17);
 			this.checkBox1.TabIndex = 24;
@@ -908,58 +953,65 @@
 			// 
 			// pictureBox11
 			// 
-			this.pictureBox11.Location = new System.Drawing.Point(1138, 52);
+			this.pictureBox11.Anchor = System.Windows.Forms.AnchorStyles.None;
+			this.pictureBox11.Location = new System.Drawing.Point(982, 34);
 			this.pictureBox11.Name = "pictureBox11";
-			this.pictureBox11.Size = new System.Drawing.Size(212, 203);
+			this.pictureBox11.Size = new System.Drawing.Size(128, 128);
 			this.pictureBox11.TabIndex = 23;
 			this.pictureBox11.TabStop = false;
 			// 
 			// pictureBox12
 			// 
-			this.pictureBox12.Location = new System.Drawing.Point(1138, 309);
+			this.pictureBox12.Anchor = System.Windows.Forms.AnchorStyles.None;
+			this.pictureBox12.Location = new System.Drawing.Point(982, 233);
 			this.pictureBox12.Name = "pictureBox12";
-			this.pictureBox12.Size = new System.Drawing.Size(212, 203);
+			this.pictureBox12.Size = new System.Drawing.Size(128, 128);
 			this.pictureBox12.TabIndex = 22;
 			this.pictureBox12.TabStop = false;
 			// 
 			// pictureBox13
 			// 
-			this.pictureBox13.Location = new System.Drawing.Point(858, 53);
+			this.pictureBox13.Anchor = System.Windows.Forms.AnchorStyles.None;
+			this.pictureBox13.Location = new System.Drawing.Point(756, 34);
 			this.pictureBox13.Name = "pictureBox13";
-			this.pictureBox13.Size = new System.Drawing.Size(212, 203);
+			this.pictureBox13.Size = new System.Drawing.Size(128, 128);
 			this.pictureBox13.TabIndex = 21;
 			this.pictureBox13.TabStop = false;
 			// 
 			// pictureBox14
 			// 
-			this.pictureBox14.Location = new System.Drawing.Point(858, 310);
+			this.pictureBox14.Anchor = System.Windows.Forms.AnchorStyles.None;
+			this.pictureBox14.Location = new System.Drawing.Point(756, 233);
 			this.pictureBox14.Name = "pictureBox14";
-			this.pictureBox14.Size = new System.Drawing.Size(212, 203);
+			this.pictureBox14.Size = new System.Drawing.Size(128, 128);
 			this.pictureBox14.TabIndex = 20;
 			this.pictureBox14.TabStop = false;
 			// 
 			// pictureBox15
 			// 
-			this.pictureBox15.Location = new System.Drawing.Point(592, 51);
+			this.pictureBox15.Anchor = System.Windows.Forms.AnchorStyles.None;
+			this.pictureBox15.Location = new System.Drawing.Point(548, 34);
 			this.pictureBox15.Name = "pictureBox15";
-			this.pictureBox15.Size = new System.Drawing.Size(212, 203);
+			this.pictureBox15.Size = new System.Drawing.Size(128, 128);
 			this.pictureBox15.TabIndex = 19;
 			this.pictureBox15.TabStop = false;
 			// 
 			// pictureBox16
 			// 
-			this.pictureBox16.Location = new System.Drawing.Point(592, 308);
+			this.pictureBox16.Anchor = System.Windows.Forms.AnchorStyles.None;
+			this.pictureBox16.Location = new System.Drawing.Point(548, 233);
 			this.pictureBox16.Name = "pictureBox16";
-			this.pictureBox16.Size = new System.Drawing.Size(212, 203);
+			this.pictureBox16.Size = new System.Drawing.Size(128, 128);
 			this.pictureBox16.TabIndex = 18;
 			this.pictureBox16.TabStop = false;
 			// 
 			// pictureBox17
 			// 
+			this.pictureBox17.Anchor = System.Windows.Forms.AnchorStyles.None;
 			this.pictureBox17.Image = global::C__Project.Properties.Resources.anton_darius_FCrgmqqvl_w_unsplash;
-			this.pictureBox17.Location = new System.Drawing.Point(312, 52);
+			this.pictureBox17.Location = new System.Drawing.Point(339, 36);
 			this.pictureBox17.Name = "pictureBox17";
-			this.pictureBox17.Size = new System.Drawing.Size(212, 203);
+			this.pictureBox17.Size = new System.Drawing.Size(128, 128);
 			this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pictureBox17.TabIndex = 17;
 			this.pictureBox17.TabStop = false;
@@ -967,27 +1019,30 @@
 			// 
 			// pictureBox18
 			// 
-			this.pictureBox18.Location = new System.Drawing.Point(312, 309);
+			this.pictureBox18.Anchor = System.Windows.Forms.AnchorStyles.None;
+			this.pictureBox18.Location = new System.Drawing.Point(339, 235);
 			this.pictureBox18.Name = "pictureBox18";
-			this.pictureBox18.Size = new System.Drawing.Size(212, 203);
+			this.pictureBox18.Size = new System.Drawing.Size(128, 128);
 			this.pictureBox18.TabIndex = 16;
 			this.pictureBox18.TabStop = false;
 			// 
 			// pictureBox19
 			// 
+			this.pictureBox19.Anchor = System.Windows.Forms.AnchorStyles.None;
 			this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
-			this.pictureBox19.Location = new System.Drawing.Point(38, 52);
+			this.pictureBox19.Location = new System.Drawing.Point(127, 35);
 			this.pictureBox19.Name = "pictureBox19";
-			this.pictureBox19.Size = new System.Drawing.Size(212, 203);
+			this.pictureBox19.Size = new System.Drawing.Size(128, 128);
 			this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pictureBox19.TabIndex = 15;
 			this.pictureBox19.TabStop = false;
 			// 
 			// pictureBox20
 			// 
-			this.pictureBox20.Location = new System.Drawing.Point(38, 309);
+			this.pictureBox20.Anchor = System.Windows.Forms.AnchorStyles.None;
+			this.pictureBox20.Location = new System.Drawing.Point(127, 234);
 			this.pictureBox20.Name = "pictureBox20";
-			this.pictureBox20.Size = new System.Drawing.Size(212, 203);
+			this.pictureBox20.Size = new System.Drawing.Size(128, 128);
 			this.pictureBox20.TabIndex = 14;
 			this.pictureBox20.TabStop = false;
 			// 
@@ -1016,7 +1071,7 @@
 			this.tabPage2.Location = new System.Drawing.Point(4, 22);
 			this.tabPage2.Name = "tabPage2";
 			this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage2.Size = new System.Drawing.Size(1388, 565);
+			this.tabPage2.Size = new System.Drawing.Size(1256, 436);
 			this.tabPage2.TabIndex = 1;
 			this.tabPage2.Text = "Vegetables";
 			this.tabPage2.UseVisualStyleBackColor = true;
@@ -1226,7 +1281,7 @@
 			this.tabPage3.Location = new System.Drawing.Point(4, 22);
 			this.tabPage3.Name = "tabPage3";
 			this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage3.Size = new System.Drawing.Size(1388, 565);
+			this.tabPage3.Size = new System.Drawing.Size(1256, 436);
 			this.tabPage3.TabIndex = 2;
 			this.tabPage3.Text = "Dairy";
 			this.tabPage3.UseVisualStyleBackColor = true;
@@ -1436,7 +1491,7 @@
 			this.drinksTab.Location = new System.Drawing.Point(4, 22);
 			this.drinksTab.Name = "drinksTab";
 			this.drinksTab.Padding = new System.Windows.Forms.Padding(3);
-			this.drinksTab.Size = new System.Drawing.Size(1388, 565);
+			this.drinksTab.Size = new System.Drawing.Size(1256, 436);
 			this.drinksTab.TabIndex = 3;
 			this.drinksTab.Text = "Drinks";
 			this.drinksTab.UseVisualStyleBackColor = true;
@@ -1646,7 +1701,7 @@
 			this.tabPage5.Location = new System.Drawing.Point(4, 22);
 			this.tabPage5.Name = "tabPage5";
 			this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage5.Size = new System.Drawing.Size(1388, 565);
+			this.tabPage5.Size = new System.Drawing.Size(1256, 436);
 			this.tabPage5.TabIndex = 4;
 			this.tabPage5.Text = "Sweets";
 			this.tabPage5.UseVisualStyleBackColor = true;
@@ -1856,7 +1911,7 @@
 			this.spiceTab.Location = new System.Drawing.Point(4, 22);
 			this.spiceTab.Name = "spiceTab";
 			this.spiceTab.Padding = new System.Windows.Forms.Padding(3);
-			this.spiceTab.Size = new System.Drawing.Size(1388, 565);
+			this.spiceTab.Size = new System.Drawing.Size(1256, 436);
 			this.spiceTab.TabIndex = 5;
 			this.spiceTab.Text = "Spice";
 			this.spiceTab.UseVisualStyleBackColor = true;
@@ -2066,7 +2121,7 @@
 			this.meatTab.Location = new System.Drawing.Point(4, 22);
 			this.meatTab.Name = "meatTab";
 			this.meatTab.Padding = new System.Windows.Forms.Padding(3);
-			this.meatTab.Size = new System.Drawing.Size(1388, 565);
+			this.meatTab.Size = new System.Drawing.Size(1256, 436);
 			this.meatTab.TabIndex = 6;
 			this.meatTab.Text = "Meat";
 			this.meatTab.UseVisualStyleBackColor = true;
@@ -2276,7 +2331,7 @@
 			this.otherTab.Location = new System.Drawing.Point(4, 22);
 			this.otherTab.Name = "otherTab";
 			this.otherTab.Padding = new System.Windows.Forms.Padding(3);
-			this.otherTab.Size = new System.Drawing.Size(1388, 565);
+			this.otherTab.Size = new System.Drawing.Size(1256, 436);
 			this.otherTab.TabIndex = 7;
 			this.otherTab.Text = "Others";
 			this.otherTab.UseVisualStyleBackColor = true;
@@ -2463,21 +2518,23 @@
 			// 
 			// genBox
 			// 
+			this.genBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.genBox.Controls.Add(this.budgetLabel);
 			this.genBox.Controls.Add(this.typeLabel);
 			this.genBox.Controls.Add(this.peopleLabel);
 			this.genBox.Controls.Add(this.budgetNum);
 			this.genBox.Controls.Add(this.ageNum);
 			this.genBox.Controls.Add(this.typeList);
-			this.genBox.Location = new System.Drawing.Point(16, 37);
+			this.genBox.Location = new System.Drawing.Point(15, 17);
 			this.genBox.Name = "genBox";
-			this.genBox.Size = new System.Drawing.Size(289, 228);
+			this.genBox.Size = new System.Drawing.Size(256, 227);
 			this.genBox.TabIndex = 2;
 			this.genBox.TabStop = false;
 			this.genBox.Text = "المعلومات الرئيسية";
 			// 
 			// budgetLabel
 			// 
+			this.budgetLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.budgetLabel.AutoSize = true;
 			this.budgetLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.budgetLabel.Location = new System.Drawing.Point(16, 145);
@@ -2488,6 +2545,7 @@
 			// 
 			// typeLabel
 			// 
+			this.typeLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.typeLabel.AutoSize = true;
 			this.typeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.typeLabel.Location = new System.Drawing.Point(16, 102);
@@ -2498,6 +2556,7 @@
 			// 
 			// peopleLabel
 			// 
+			this.peopleLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.peopleLabel.AutoSize = true;
 			this.peopleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.peopleLabel.Location = new System.Drawing.Point(16, 58);
@@ -2508,6 +2567,7 @@
 			// 
 			// budgetNum
 			// 
+			this.budgetNum.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.budgetNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.budgetNum.Location = new System.Drawing.Point(147, 142);
 			this.budgetNum.Name = "budgetNum";
@@ -2516,6 +2576,7 @@
 			// 
 			// ageNum
 			// 
+			this.ageNum.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.ageNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.ageNum.Location = new System.Drawing.Point(147, 53);
 			this.ageNum.Name = "ageNum";
@@ -2524,6 +2585,7 @@
 			// 
 			// typeList
 			// 
+			this.typeList.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.typeList.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.typeList.FormattingEnabled = true;
 			this.typeList.Items.AddRange(new object[] {
@@ -2534,18 +2596,30 @@
 			this.typeList.Size = new System.Drawing.Size(90, 28);
 			this.typeList.TabIndex = 3;
 			// 
+			// textBox1
+			// 
+			this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+			this.textBox1.Location = new System.Drawing.Point(821, 21);
+			this.textBox1.Multiline = true;
+			this.textBox1.Name = "textBox1";
+			this.textBox1.Size = new System.Drawing.Size(431, 132);
+			this.textBox1.TabIndex = 3;
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.AutoSize = true;
 			this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-			this.ClientSize = new System.Drawing.Size(1443, 864);
-			this.Controls.Add(this.genBox);
+			this.ClientSize = new System.Drawing.Size(1264, 729);
 			this.Controls.Add(this.prdTab);
 			this.Controls.Add(this.famBox);
 			this.Controls.Add(this.prcBtn);
+			this.Controls.Add(this.genBox);
+			this.Controls.Add(this.textBox1);
+			this.MinimumSize = new System.Drawing.Size(1280, 768);
 			this.Name = "Form1";
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Stay fit and Healthy";
 			this.Load += new System.EventHandler(this.Form1_Load);
 			this.famBox.ResumeLayout(false);
@@ -2662,6 +2736,7 @@
 			((System.ComponentModel.ISupportInitialize)(this.budgetNum)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.ageNum)).EndInit();
 			this.ResumeLayout(false);
+			this.PerformLayout();
 
 		}
 
@@ -2879,5 +2954,6 @@
 		private System.Windows.Forms.CheckBox checkBox78;
 		private System.Windows.Forms.CheckBox checkBox79;
 		private System.Windows.Forms.CheckBox checkBox80;
+		private System.Windows.Forms.TextBox textBox1;
 	}
 }
