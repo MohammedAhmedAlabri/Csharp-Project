@@ -32,39 +32,39 @@
 			this.prcBtn = new System.Windows.Forms.Button();
 			this.famBox = new System.Windows.Forms.GroupBox();
 			this.person10Label = new System.Windows.Forms.Label();
-			this.numericUpDown7 = new System.Windows.Forms.NumericUpDown();
-			this.comboBox7 = new System.Windows.Forms.ComboBox();
+			this.Page10 = new System.Windows.Forms.NumericUpDown();
+			this.Gbox10 = new System.Windows.Forms.ComboBox();
 			this.person9Label = new System.Windows.Forms.Label();
-			this.numericUpDown8 = new System.Windows.Forms.NumericUpDown();
-			this.comboBox8 = new System.Windows.Forms.ComboBox();
+			this.Page9 = new System.Windows.Forms.NumericUpDown();
+			this.Gbox9 = new System.Windows.Forms.ComboBox();
 			this.person8Label = new System.Windows.Forms.Label();
-			this.numericUpDown9 = new System.Windows.Forms.NumericUpDown();
-			this.comboBox9 = new System.Windows.Forms.ComboBox();
+			this.Page8 = new System.Windows.Forms.NumericUpDown();
+			this.Gbox8 = new System.Windows.Forms.ComboBox();
 			this.person7Label = new System.Windows.Forms.Label();
-			this.numericUpDown10 = new System.Windows.Forms.NumericUpDown();
-			this.comboBox10 = new System.Windows.Forms.ComboBox();
+			this.Page7 = new System.Windows.Forms.NumericUpDown();
+			this.Gbox7 = new System.Windows.Forms.ComboBox();
 			this.person6Label = new System.Windows.Forms.Label();
-			this.numericUpDown11 = new System.Windows.Forms.NumericUpDown();
-			this.comboBox11 = new System.Windows.Forms.ComboBox();
+			this.Page6 = new System.Windows.Forms.NumericUpDown();
+			this.Gbox6 = new System.Windows.Forms.ComboBox();
 			this.person5Label = new System.Windows.Forms.Label();
-			this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
-			this.comboBox6 = new System.Windows.Forms.ComboBox();
+			this.Page5 = new System.Windows.Forms.NumericUpDown();
+			this.Gbox5 = new System.Windows.Forms.ComboBox();
 			this.person4Label = new System.Windows.Forms.Label();
-			this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
-			this.comboBox5 = new System.Windows.Forms.ComboBox();
+			this.Page4 = new System.Windows.Forms.NumericUpDown();
+			this.Gbox4 = new System.Windows.Forms.ComboBox();
 			this.person3Label = new System.Windows.Forms.Label();
-			this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
-			this.comboBox4 = new System.Windows.Forms.ComboBox();
+			this.Page3 = new System.Windows.Forms.NumericUpDown();
+			this.Gbox3 = new System.Windows.Forms.ComboBox();
 			this.person2Label = new System.Windows.Forms.Label();
-			this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
-			this.comboBox3 = new System.Windows.Forms.ComboBox();
+			this.Page2 = new System.Windows.Forms.NumericUpDown();
+			this.Gbox2 = new System.Windows.Forms.ComboBox();
 			this.person1Label = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
 			this.GenderLabel1 = new System.Windows.Forms.Label();
 			this.AgeLabel = new System.Windows.Forms.Label();
-			this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-			this.comboBox1 = new System.Windows.Forms.ComboBox();
+			this.Page1 = new System.Windows.Forms.NumericUpDown();
+			this.Gbox1 = new System.Windows.Forms.ComboBox();
 			this.prdTab = new System.Windows.Forms.TabControl();
 			this.tabPage1 = new System.Windows.Forms.TabPage();
 			this.checkBox6 = new System.Windows.Forms.CheckBox();
@@ -239,20 +239,20 @@
 			this.typeLabel = new System.Windows.Forms.Label();
 			this.peopleLabel = new System.Windows.Forms.Label();
 			this.budgetNum = new System.Windows.Forms.NumericUpDown();
-			this.ageNum = new System.Windows.Forms.NumericUpDown();
+			this.peopleNum = new System.Windows.Forms.NumericUpDown();
 			this.typeList = new System.Windows.Forms.ComboBox();
-			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.txtDisplay = new System.Windows.Forms.TextBox();
 			this.famBox.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown11)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.Page10)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.Page9)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.Page8)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.Page7)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.Page6)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.Page5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.Page4)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.Page3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.Page2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.Page1)).BeginInit();
 			this.prdTab.SuspendLayout();
 			this.tabPage1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
@@ -344,7 +344,7 @@
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
 			this.genBox.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.budgetNum)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.ageNum)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.peopleNum)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// prcBtn
@@ -366,39 +366,39 @@
 			// 
 			this.famBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.famBox.Controls.Add(this.person10Label);
-			this.famBox.Controls.Add(this.numericUpDown7);
-			this.famBox.Controls.Add(this.comboBox7);
+			this.famBox.Controls.Add(this.Page10);
+			this.famBox.Controls.Add(this.Gbox10);
 			this.famBox.Controls.Add(this.person9Label);
-			this.famBox.Controls.Add(this.numericUpDown8);
-			this.famBox.Controls.Add(this.comboBox8);
+			this.famBox.Controls.Add(this.Page9);
+			this.famBox.Controls.Add(this.Gbox9);
 			this.famBox.Controls.Add(this.person8Label);
-			this.famBox.Controls.Add(this.numericUpDown9);
-			this.famBox.Controls.Add(this.comboBox9);
+			this.famBox.Controls.Add(this.Page8);
+			this.famBox.Controls.Add(this.Gbox8);
 			this.famBox.Controls.Add(this.person7Label);
-			this.famBox.Controls.Add(this.numericUpDown10);
-			this.famBox.Controls.Add(this.comboBox10);
+			this.famBox.Controls.Add(this.Page7);
+			this.famBox.Controls.Add(this.Gbox7);
 			this.famBox.Controls.Add(this.person6Label);
-			this.famBox.Controls.Add(this.numericUpDown11);
-			this.famBox.Controls.Add(this.comboBox11);
+			this.famBox.Controls.Add(this.Page6);
+			this.famBox.Controls.Add(this.Gbox6);
 			this.famBox.Controls.Add(this.person5Label);
-			this.famBox.Controls.Add(this.numericUpDown6);
-			this.famBox.Controls.Add(this.comboBox6);
+			this.famBox.Controls.Add(this.Page5);
+			this.famBox.Controls.Add(this.Gbox5);
 			this.famBox.Controls.Add(this.person4Label);
-			this.famBox.Controls.Add(this.numericUpDown5);
-			this.famBox.Controls.Add(this.comboBox5);
+			this.famBox.Controls.Add(this.Page4);
+			this.famBox.Controls.Add(this.Gbox4);
 			this.famBox.Controls.Add(this.person3Label);
-			this.famBox.Controls.Add(this.numericUpDown4);
-			this.famBox.Controls.Add(this.comboBox4);
+			this.famBox.Controls.Add(this.Page3);
+			this.famBox.Controls.Add(this.Gbox3);
 			this.famBox.Controls.Add(this.person2Label);
-			this.famBox.Controls.Add(this.numericUpDown3);
-			this.famBox.Controls.Add(this.comboBox3);
+			this.famBox.Controls.Add(this.Page2);
+			this.famBox.Controls.Add(this.Gbox2);
 			this.famBox.Controls.Add(this.person1Label);
 			this.famBox.Controls.Add(this.label1);
 			this.famBox.Controls.Add(this.label2);
 			this.famBox.Controls.Add(this.GenderLabel1);
 			this.famBox.Controls.Add(this.AgeLabel);
-			this.famBox.Controls.Add(this.numericUpDown1);
-			this.famBox.Controls.Add(this.comboBox1);
+			this.famBox.Controls.Add(this.Page1);
+			this.famBox.Controls.Add(this.Gbox1);
 			this.famBox.Location = new System.Drawing.Point(303, 17);
 			this.famBox.Name = "famBox";
 			this.famBox.Size = new System.Drawing.Size(499, 227);
@@ -416,30 +416,30 @@
 			this.person10Label.TabIndex = 45;
 			this.person10Label.Text = "Person 10";
 			// 
-			// numericUpDown7
+			// Page10
 			// 
-			this.numericUpDown7.Anchor = System.Windows.Forms.AnchorStyles.Left;
-			this.numericUpDown7.Location = new System.Drawing.Point(392, 179);
-			this.numericUpDown7.Name = "numericUpDown7";
-			this.numericUpDown7.Size = new System.Drawing.Size(49, 20);
-			this.numericUpDown7.TabIndex = 44;
-			this.numericUpDown7.Value = new decimal(new int[] {
+			this.Page10.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.Page10.Location = new System.Drawing.Point(392, 179);
+			this.Page10.Name = "Page10";
+			this.Page10.Size = new System.Drawing.Size(49, 20);
+			this.Page10.TabIndex = 44;
+			this.Page10.Value = new decimal(new int[] {
             25,
             0,
             0,
             0});
 			// 
-			// comboBox7
+			// Gbox10
 			// 
-			this.comboBox7.Anchor = System.Windows.Forms.AnchorStyles.Left;
-			this.comboBox7.FormattingEnabled = true;
-			this.comboBox7.Items.AddRange(new object[] {
+			this.Gbox10.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.Gbox10.FormattingEnabled = true;
+			this.Gbox10.Items.AddRange(new object[] {
             "M",
             "F"});
-			this.comboBox7.Location = new System.Drawing.Point(346, 178);
-			this.comboBox7.Name = "comboBox7";
-			this.comboBox7.Size = new System.Drawing.Size(37, 21);
-			this.comboBox7.TabIndex = 43;
+			this.Gbox10.Location = new System.Drawing.Point(346, 178);
+			this.Gbox10.Name = "Gbox10";
+			this.Gbox10.Size = new System.Drawing.Size(37, 21);
+			this.Gbox10.TabIndex = 43;
 			// 
 			// person9Label
 			// 
@@ -451,30 +451,30 @@
 			this.person9Label.TabIndex = 42;
 			this.person9Label.Text = "Person 9";
 			// 
-			// numericUpDown8
+			// Page9
 			// 
-			this.numericUpDown8.Anchor = System.Windows.Forms.AnchorStyles.Left;
-			this.numericUpDown8.Location = new System.Drawing.Point(392, 142);
-			this.numericUpDown8.Name = "numericUpDown8";
-			this.numericUpDown8.Size = new System.Drawing.Size(49, 20);
-			this.numericUpDown8.TabIndex = 41;
-			this.numericUpDown8.Value = new decimal(new int[] {
+			this.Page9.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.Page9.Location = new System.Drawing.Point(392, 142);
+			this.Page9.Name = "Page9";
+			this.Page9.Size = new System.Drawing.Size(49, 20);
+			this.Page9.TabIndex = 41;
+			this.Page9.Value = new decimal(new int[] {
             25,
             0,
             0,
             0});
 			// 
-			// comboBox8
+			// Gbox9
 			// 
-			this.comboBox8.Anchor = System.Windows.Forms.AnchorStyles.Left;
-			this.comboBox8.FormattingEnabled = true;
-			this.comboBox8.Items.AddRange(new object[] {
+			this.Gbox9.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.Gbox9.FormattingEnabled = true;
+			this.Gbox9.Items.AddRange(new object[] {
             "M",
             "F"});
-			this.comboBox8.Location = new System.Drawing.Point(346, 141);
-			this.comboBox8.Name = "comboBox8";
-			this.comboBox8.Size = new System.Drawing.Size(37, 21);
-			this.comboBox8.TabIndex = 40;
+			this.Gbox9.Location = new System.Drawing.Point(346, 141);
+			this.Gbox9.Name = "Gbox9";
+			this.Gbox9.Size = new System.Drawing.Size(37, 21);
+			this.Gbox9.TabIndex = 40;
 			// 
 			// person8Label
 			// 
@@ -486,30 +486,30 @@
 			this.person8Label.TabIndex = 39;
 			this.person8Label.Text = "Person 8";
 			// 
-			// numericUpDown9
+			// Page8
 			// 
-			this.numericUpDown9.Anchor = System.Windows.Forms.AnchorStyles.Left;
-			this.numericUpDown9.Location = new System.Drawing.Point(392, 106);
-			this.numericUpDown9.Name = "numericUpDown9";
-			this.numericUpDown9.Size = new System.Drawing.Size(49, 20);
-			this.numericUpDown9.TabIndex = 38;
-			this.numericUpDown9.Value = new decimal(new int[] {
+			this.Page8.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.Page8.Location = new System.Drawing.Point(392, 106);
+			this.Page8.Name = "Page8";
+			this.Page8.Size = new System.Drawing.Size(49, 20);
+			this.Page8.TabIndex = 38;
+			this.Page8.Value = new decimal(new int[] {
             25,
             0,
             0,
             0});
 			// 
-			// comboBox9
+			// Gbox8
 			// 
-			this.comboBox9.Anchor = System.Windows.Forms.AnchorStyles.Left;
-			this.comboBox9.FormattingEnabled = true;
-			this.comboBox9.Items.AddRange(new object[] {
+			this.Gbox8.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.Gbox8.FormattingEnabled = true;
+			this.Gbox8.Items.AddRange(new object[] {
             "M",
             "F"});
-			this.comboBox9.Location = new System.Drawing.Point(346, 105);
-			this.comboBox9.Name = "comboBox9";
-			this.comboBox9.Size = new System.Drawing.Size(37, 21);
-			this.comboBox9.TabIndex = 37;
+			this.Gbox8.Location = new System.Drawing.Point(346, 105);
+			this.Gbox8.Name = "Gbox8";
+			this.Gbox8.Size = new System.Drawing.Size(37, 21);
+			this.Gbox8.TabIndex = 37;
 			// 
 			// person7Label
 			// 
@@ -521,30 +521,30 @@
 			this.person7Label.TabIndex = 36;
 			this.person7Label.Text = "Person 7";
 			// 
-			// numericUpDown10
+			// Page7
 			// 
-			this.numericUpDown10.Anchor = System.Windows.Forms.AnchorStyles.Left;
-			this.numericUpDown10.Location = new System.Drawing.Point(392, 69);
-			this.numericUpDown10.Name = "numericUpDown10";
-			this.numericUpDown10.Size = new System.Drawing.Size(49, 20);
-			this.numericUpDown10.TabIndex = 35;
-			this.numericUpDown10.Value = new decimal(new int[] {
+			this.Page7.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.Page7.Location = new System.Drawing.Point(392, 69);
+			this.Page7.Name = "Page7";
+			this.Page7.Size = new System.Drawing.Size(49, 20);
+			this.Page7.TabIndex = 35;
+			this.Page7.Value = new decimal(new int[] {
             25,
             0,
             0,
             0});
 			// 
-			// comboBox10
+			// Gbox7
 			// 
-			this.comboBox10.Anchor = System.Windows.Forms.AnchorStyles.Left;
-			this.comboBox10.FormattingEnabled = true;
-			this.comboBox10.Items.AddRange(new object[] {
+			this.Gbox7.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.Gbox7.FormattingEnabled = true;
+			this.Gbox7.Items.AddRange(new object[] {
             "M",
             "F"});
-			this.comboBox10.Location = new System.Drawing.Point(346, 68);
-			this.comboBox10.Name = "comboBox10";
-			this.comboBox10.Size = new System.Drawing.Size(37, 21);
-			this.comboBox10.TabIndex = 34;
+			this.Gbox7.Location = new System.Drawing.Point(346, 68);
+			this.Gbox7.Name = "Gbox7";
+			this.Gbox7.Size = new System.Drawing.Size(37, 21);
+			this.Gbox7.TabIndex = 34;
 			// 
 			// person6Label
 			// 
@@ -556,30 +556,30 @@
 			this.person6Label.TabIndex = 33;
 			this.person6Label.Text = "Person 6";
 			// 
-			// numericUpDown11
+			// Page6
 			// 
-			this.numericUpDown11.Anchor = System.Windows.Forms.AnchorStyles.Left;
-			this.numericUpDown11.Location = new System.Drawing.Point(392, 33);
-			this.numericUpDown11.Name = "numericUpDown11";
-			this.numericUpDown11.Size = new System.Drawing.Size(49, 20);
-			this.numericUpDown11.TabIndex = 32;
-			this.numericUpDown11.Value = new decimal(new int[] {
+			this.Page6.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.Page6.Location = new System.Drawing.Point(392, 33);
+			this.Page6.Name = "Page6";
+			this.Page6.Size = new System.Drawing.Size(49, 20);
+			this.Page6.TabIndex = 32;
+			this.Page6.Value = new decimal(new int[] {
             25,
             0,
             0,
             0});
 			// 
-			// comboBox11
+			// Gbox6
 			// 
-			this.comboBox11.Anchor = System.Windows.Forms.AnchorStyles.Left;
-			this.comboBox11.FormattingEnabled = true;
-			this.comboBox11.Items.AddRange(new object[] {
+			this.Gbox6.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.Gbox6.FormattingEnabled = true;
+			this.Gbox6.Items.AddRange(new object[] {
             "M",
             "F"});
-			this.comboBox11.Location = new System.Drawing.Point(346, 32);
-			this.comboBox11.Name = "comboBox11";
-			this.comboBox11.Size = new System.Drawing.Size(37, 21);
-			this.comboBox11.TabIndex = 31;
+			this.Gbox6.Location = new System.Drawing.Point(346, 32);
+			this.Gbox6.Name = "Gbox6";
+			this.Gbox6.Size = new System.Drawing.Size(37, 21);
+			this.Gbox6.TabIndex = 31;
 			// 
 			// person5Label
 			// 
@@ -591,30 +591,30 @@
 			this.person5Label.TabIndex = 30;
 			this.person5Label.Text = "Person 5";
 			// 
-			// numericUpDown6
+			// Page5
 			// 
-			this.numericUpDown6.Anchor = System.Windows.Forms.AnchorStyles.Left;
-			this.numericUpDown6.Location = new System.Drawing.Point(166, 179);
-			this.numericUpDown6.Name = "numericUpDown6";
-			this.numericUpDown6.Size = new System.Drawing.Size(49, 20);
-			this.numericUpDown6.TabIndex = 29;
-			this.numericUpDown6.Value = new decimal(new int[] {
+			this.Page5.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.Page5.Location = new System.Drawing.Point(166, 179);
+			this.Page5.Name = "Page5";
+			this.Page5.Size = new System.Drawing.Size(49, 20);
+			this.Page5.TabIndex = 29;
+			this.Page5.Value = new decimal(new int[] {
             25,
             0,
             0,
             0});
 			// 
-			// comboBox6
+			// Gbox5
 			// 
-			this.comboBox6.Anchor = System.Windows.Forms.AnchorStyles.Left;
-			this.comboBox6.FormattingEnabled = true;
-			this.comboBox6.Items.AddRange(new object[] {
+			this.Gbox5.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.Gbox5.FormattingEnabled = true;
+			this.Gbox5.Items.AddRange(new object[] {
             "M",
             "F"});
-			this.comboBox6.Location = new System.Drawing.Point(120, 178);
-			this.comboBox6.Name = "comboBox6";
-			this.comboBox6.Size = new System.Drawing.Size(37, 21);
-			this.comboBox6.TabIndex = 28;
+			this.Gbox5.Location = new System.Drawing.Point(120, 178);
+			this.Gbox5.Name = "Gbox5";
+			this.Gbox5.Size = new System.Drawing.Size(37, 21);
+			this.Gbox5.TabIndex = 28;
 			// 
 			// person4Label
 			// 
@@ -625,30 +625,30 @@
 			this.person4Label.TabIndex = 27;
 			this.person4Label.Text = "Person 4";
 			// 
-			// numericUpDown5
+			// Page4
 			// 
-			this.numericUpDown5.Anchor = System.Windows.Forms.AnchorStyles.Left;
-			this.numericUpDown5.Location = new System.Drawing.Point(166, 142);
-			this.numericUpDown5.Name = "numericUpDown5";
-			this.numericUpDown5.Size = new System.Drawing.Size(49, 20);
-			this.numericUpDown5.TabIndex = 26;
-			this.numericUpDown5.Value = new decimal(new int[] {
+			this.Page4.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.Page4.Location = new System.Drawing.Point(166, 142);
+			this.Page4.Name = "Page4";
+			this.Page4.Size = new System.Drawing.Size(49, 20);
+			this.Page4.TabIndex = 26;
+			this.Page4.Value = new decimal(new int[] {
             25,
             0,
             0,
             0});
 			// 
-			// comboBox5
+			// Gbox4
 			// 
-			this.comboBox5.Anchor = System.Windows.Forms.AnchorStyles.Left;
-			this.comboBox5.FormattingEnabled = true;
-			this.comboBox5.Items.AddRange(new object[] {
+			this.Gbox4.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.Gbox4.FormattingEnabled = true;
+			this.Gbox4.Items.AddRange(new object[] {
             "M",
             "F"});
-			this.comboBox5.Location = new System.Drawing.Point(120, 141);
-			this.comboBox5.Name = "comboBox5";
-			this.comboBox5.Size = new System.Drawing.Size(37, 21);
-			this.comboBox5.TabIndex = 25;
+			this.Gbox4.Location = new System.Drawing.Point(120, 141);
+			this.Gbox4.Name = "Gbox4";
+			this.Gbox4.Size = new System.Drawing.Size(37, 21);
+			this.Gbox4.TabIndex = 25;
 			// 
 			// person3Label
 			// 
@@ -660,30 +660,30 @@
 			this.person3Label.TabIndex = 24;
 			this.person3Label.Text = "Person 3";
 			// 
-			// numericUpDown4
+			// Page3
 			// 
-			this.numericUpDown4.Anchor = System.Windows.Forms.AnchorStyles.Left;
-			this.numericUpDown4.Location = new System.Drawing.Point(166, 106);
-			this.numericUpDown4.Name = "numericUpDown4";
-			this.numericUpDown4.Size = new System.Drawing.Size(49, 20);
-			this.numericUpDown4.TabIndex = 23;
-			this.numericUpDown4.Value = new decimal(new int[] {
+			this.Page3.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.Page3.Location = new System.Drawing.Point(166, 106);
+			this.Page3.Name = "Page3";
+			this.Page3.Size = new System.Drawing.Size(49, 20);
+			this.Page3.TabIndex = 23;
+			this.Page3.Value = new decimal(new int[] {
             25,
             0,
             0,
             0});
 			// 
-			// comboBox4
+			// Gbox3
 			// 
-			this.comboBox4.Anchor = System.Windows.Forms.AnchorStyles.Left;
-			this.comboBox4.FormattingEnabled = true;
-			this.comboBox4.Items.AddRange(new object[] {
+			this.Gbox3.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.Gbox3.FormattingEnabled = true;
+			this.Gbox3.Items.AddRange(new object[] {
             "M",
             "F"});
-			this.comboBox4.Location = new System.Drawing.Point(120, 105);
-			this.comboBox4.Name = "comboBox4";
-			this.comboBox4.Size = new System.Drawing.Size(37, 21);
-			this.comboBox4.TabIndex = 22;
+			this.Gbox3.Location = new System.Drawing.Point(120, 105);
+			this.Gbox3.Name = "Gbox3";
+			this.Gbox3.Size = new System.Drawing.Size(37, 21);
+			this.Gbox3.TabIndex = 22;
 			// 
 			// person2Label
 			// 
@@ -695,30 +695,30 @@
 			this.person2Label.TabIndex = 21;
 			this.person2Label.Text = "Person 2";
 			// 
-			// numericUpDown3
+			// Page2
 			// 
-			this.numericUpDown3.Anchor = System.Windows.Forms.AnchorStyles.Left;
-			this.numericUpDown3.Location = new System.Drawing.Point(166, 69);
-			this.numericUpDown3.Name = "numericUpDown3";
-			this.numericUpDown3.Size = new System.Drawing.Size(49, 20);
-			this.numericUpDown3.TabIndex = 20;
-			this.numericUpDown3.Value = new decimal(new int[] {
+			this.Page2.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.Page2.Location = new System.Drawing.Point(166, 69);
+			this.Page2.Name = "Page2";
+			this.Page2.Size = new System.Drawing.Size(49, 20);
+			this.Page2.TabIndex = 20;
+			this.Page2.Value = new decimal(new int[] {
             25,
             0,
             0,
             0});
 			// 
-			// comboBox3
+			// Gbox2
 			// 
-			this.comboBox3.Anchor = System.Windows.Forms.AnchorStyles.Left;
-			this.comboBox3.FormattingEnabled = true;
-			this.comboBox3.Items.AddRange(new object[] {
+			this.Gbox2.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.Gbox2.FormattingEnabled = true;
+			this.Gbox2.Items.AddRange(new object[] {
             "M",
             "F"});
-			this.comboBox3.Location = new System.Drawing.Point(120, 68);
-			this.comboBox3.Name = "comboBox3";
-			this.comboBox3.Size = new System.Drawing.Size(37, 21);
-			this.comboBox3.TabIndex = 19;
+			this.Gbox2.Location = new System.Drawing.Point(120, 68);
+			this.Gbox2.Name = "Gbox2";
+			this.Gbox2.Size = new System.Drawing.Size(37, 21);
+			this.Gbox2.TabIndex = 19;
 			// 
 			// person1Label
 			// 
@@ -767,30 +767,30 @@
 			this.AgeLabel.TabIndex = 12;
 			this.AgeLabel.Text = "Age";
 			// 
-			// numericUpDown1
+			// Page1
 			// 
-			this.numericUpDown1.Anchor = System.Windows.Forms.AnchorStyles.Left;
-			this.numericUpDown1.Location = new System.Drawing.Point(166, 33);
-			this.numericUpDown1.Name = "numericUpDown1";
-			this.numericUpDown1.Size = new System.Drawing.Size(49, 20);
-			this.numericUpDown1.TabIndex = 11;
-			this.numericUpDown1.Value = new decimal(new int[] {
+			this.Page1.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.Page1.Location = new System.Drawing.Point(166, 33);
+			this.Page1.Name = "Page1";
+			this.Page1.Size = new System.Drawing.Size(49, 20);
+			this.Page1.TabIndex = 11;
+			this.Page1.Value = new decimal(new int[] {
             25,
             0,
             0,
             0});
 			// 
-			// comboBox1
+			// Gbox1
 			// 
-			this.comboBox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
-			this.comboBox1.FormattingEnabled = true;
-			this.comboBox1.Items.AddRange(new object[] {
+			this.Gbox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.Gbox1.FormattingEnabled = true;
+			this.Gbox1.Items.AddRange(new object[] {
             "M",
             "F"});
-			this.comboBox1.Location = new System.Drawing.Point(120, 32);
-			this.comboBox1.Name = "comboBox1";
-			this.comboBox1.Size = new System.Drawing.Size(37, 21);
-			this.comboBox1.TabIndex = 10;
+			this.Gbox1.Location = new System.Drawing.Point(120, 32);
+			this.Gbox1.Name = "Gbox1";
+			this.Gbox1.Size = new System.Drawing.Size(37, 21);
+			this.Gbox1.TabIndex = 10;
 			// 
 			// prdTab
 			// 
@@ -2523,7 +2523,7 @@
 			this.genBox.Controls.Add(this.typeLabel);
 			this.genBox.Controls.Add(this.peopleLabel);
 			this.genBox.Controls.Add(this.budgetNum);
-			this.genBox.Controls.Add(this.ageNum);
+			this.genBox.Controls.Add(this.peopleNum);
 			this.genBox.Controls.Add(this.typeList);
 			this.genBox.Location = new System.Drawing.Point(15, 17);
 			this.genBox.Name = "genBox";
@@ -2574,14 +2574,19 @@
 			this.budgetNum.Size = new System.Drawing.Size(90, 26);
 			this.budgetNum.TabIndex = 6;
 			// 
-			// ageNum
+			// peopleNum
 			// 
-			this.ageNum.Anchor = System.Windows.Forms.AnchorStyles.Left;
-			this.ageNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.ageNum.Location = new System.Drawing.Point(147, 53);
-			this.ageNum.Name = "ageNum";
-			this.ageNum.Size = new System.Drawing.Size(90, 26);
-			this.ageNum.TabIndex = 5;
+			this.peopleNum.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.peopleNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.peopleNum.Location = new System.Drawing.Point(147, 53);
+			this.peopleNum.Maximum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+			this.peopleNum.Name = "peopleNum";
+			this.peopleNum.Size = new System.Drawing.Size(90, 26);
+			this.peopleNum.TabIndex = 5;
 			// 
 			// typeList
 			// 
@@ -2596,14 +2601,14 @@
 			this.typeList.Size = new System.Drawing.Size(90, 28);
 			this.typeList.TabIndex = 3;
 			// 
-			// textBox1
+			// txtDisplay
 			// 
-			this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-			this.textBox1.Location = new System.Drawing.Point(821, 21);
-			this.textBox1.Multiline = true;
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(431, 132);
-			this.textBox1.TabIndex = 3;
+			this.txtDisplay.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+			this.txtDisplay.Location = new System.Drawing.Point(821, 21);
+			this.txtDisplay.Multiline = true;
+			this.txtDisplay.Name = "txtDisplay";
+			this.txtDisplay.Size = new System.Drawing.Size(431, 132);
+			this.txtDisplay.TabIndex = 3;
 			// 
 			// Form1
 			// 
@@ -2616,7 +2621,7 @@
 			this.Controls.Add(this.famBox);
 			this.Controls.Add(this.prcBtn);
 			this.Controls.Add(this.genBox);
-			this.Controls.Add(this.textBox1);
+			this.Controls.Add(this.txtDisplay);
 			this.MinimumSize = new System.Drawing.Size(1280, 768);
 			this.Name = "Form1";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -2624,16 +2629,16 @@
 			this.Load += new System.EventHandler(this.Form1_Load);
 			this.famBox.ResumeLayout(false);
 			this.famBox.PerformLayout();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown11)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.Page10)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.Page9)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.Page8)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.Page7)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.Page6)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.Page5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.Page4)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.Page3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.Page2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.Page1)).EndInit();
 			this.prdTab.ResumeLayout(false);
 			this.tabPage1.ResumeLayout(false);
 			this.tabPage1.PerformLayout();
@@ -2734,7 +2739,7 @@
 			this.genBox.ResumeLayout(false);
 			this.genBox.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.budgetNum)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.ageNum)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.peopleNum)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -2836,44 +2841,44 @@
 		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.PictureBox pictureBox2;
 		private System.Windows.Forms.NumericUpDown budgetNum;
-		private System.Windows.Forms.NumericUpDown ageNum;
+		private System.Windows.Forms.NumericUpDown peopleNum;
 		private System.Windows.Forms.Label budgetLabel;
 		private System.Windows.Forms.Label typeLabel;
 		private System.Windows.Forms.Label peopleLabel;
 		private System.Windows.Forms.Label AgeLabel;
-		private System.Windows.Forms.NumericUpDown numericUpDown1;
-		private System.Windows.Forms.ComboBox comboBox1;
+		private System.Windows.Forms.NumericUpDown Page1;
+		private System.Windows.Forms.ComboBox Gbox1;
 		private System.Windows.Forms.Label person1Label;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label GenderLabel1;
 		private System.Windows.Forms.Label person10Label;
-		private System.Windows.Forms.NumericUpDown numericUpDown7;
-		private System.Windows.Forms.ComboBox comboBox7;
+		private System.Windows.Forms.NumericUpDown Page10;
+		private System.Windows.Forms.ComboBox Gbox10;
 		private System.Windows.Forms.Label person9Label;
-		private System.Windows.Forms.NumericUpDown numericUpDown8;
-		private System.Windows.Forms.ComboBox comboBox8;
+		private System.Windows.Forms.NumericUpDown Page9;
+		private System.Windows.Forms.ComboBox Gbox9;
 		private System.Windows.Forms.Label person8Label;
-		private System.Windows.Forms.NumericUpDown numericUpDown9;
-		private System.Windows.Forms.ComboBox comboBox9;
+		private System.Windows.Forms.NumericUpDown Page8;
+		private System.Windows.Forms.ComboBox Gbox8;
 		private System.Windows.Forms.Label person7Label;
-		private System.Windows.Forms.NumericUpDown numericUpDown10;
-		private System.Windows.Forms.ComboBox comboBox10;
+		private System.Windows.Forms.NumericUpDown Page7;
+		private System.Windows.Forms.ComboBox Gbox7;
 		private System.Windows.Forms.Label person6Label;
-		private System.Windows.Forms.NumericUpDown numericUpDown11;
-		private System.Windows.Forms.ComboBox comboBox11;
+		private System.Windows.Forms.NumericUpDown Page6;
+		private System.Windows.Forms.ComboBox Gbox6;
 		private System.Windows.Forms.Label person5Label;
-		private System.Windows.Forms.NumericUpDown numericUpDown6;
-		private System.Windows.Forms.ComboBox comboBox6;
+		private System.Windows.Forms.NumericUpDown Page5;
+		private System.Windows.Forms.ComboBox Gbox5;
 		private System.Windows.Forms.Label person4Label;
-		private System.Windows.Forms.NumericUpDown numericUpDown5;
-		private System.Windows.Forms.ComboBox comboBox5;
+		private System.Windows.Forms.NumericUpDown Page4;
+		private System.Windows.Forms.ComboBox Gbox4;
 		private System.Windows.Forms.Label person3Label;
-		private System.Windows.Forms.NumericUpDown numericUpDown4;
-		private System.Windows.Forms.ComboBox comboBox4;
+		private System.Windows.Forms.NumericUpDown Page3;
+		private System.Windows.Forms.ComboBox Gbox3;
 		private System.Windows.Forms.Label person2Label;
-		private System.Windows.Forms.NumericUpDown numericUpDown3;
-		private System.Windows.Forms.ComboBox comboBox3;
+		private System.Windows.Forms.NumericUpDown Page2;
+		private System.Windows.Forms.ComboBox Gbox2;
 		private System.Windows.Forms.CheckBox checkBox2;
 		private System.Windows.Forms.CheckBox checkBox1;
 		private System.Windows.Forms.CheckBox checkBox6;
@@ -2954,6 +2959,6 @@
 		private System.Windows.Forms.CheckBox checkBox78;
 		private System.Windows.Forms.CheckBox checkBox79;
 		private System.Windows.Forms.CheckBox checkBox80;
-		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.TextBox txtDisplay;
 	}
 }
