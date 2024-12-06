@@ -434,12 +434,14 @@
 			this.Gbox10.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.Gbox10.FormattingEnabled = true;
 			this.Gbox10.Items.AddRange(new object[] {
+            "Choose",
             "M",
             "F"});
 			this.Gbox10.Location = new System.Drawing.Point(346, 178);
 			this.Gbox10.Name = "Gbox10";
 			this.Gbox10.Size = new System.Drawing.Size(37, 21);
 			this.Gbox10.TabIndex = 43;
+			this.Gbox10.Text = "Choose";
 			// 
 			// person9Label
 			// 
@@ -469,12 +471,14 @@
 			this.Gbox9.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.Gbox9.FormattingEnabled = true;
 			this.Gbox9.Items.AddRange(new object[] {
+            "Choose",
             "M",
             "F"});
 			this.Gbox9.Location = new System.Drawing.Point(346, 141);
 			this.Gbox9.Name = "Gbox9";
 			this.Gbox9.Size = new System.Drawing.Size(37, 21);
 			this.Gbox9.TabIndex = 40;
+			this.Gbox9.Text = "Choose";
 			// 
 			// person8Label
 			// 
@@ -504,12 +508,14 @@
 			this.Gbox8.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.Gbox8.FormattingEnabled = true;
 			this.Gbox8.Items.AddRange(new object[] {
+            "Choose",
             "M",
             "F"});
 			this.Gbox8.Location = new System.Drawing.Point(346, 105);
 			this.Gbox8.Name = "Gbox8";
 			this.Gbox8.Size = new System.Drawing.Size(37, 21);
 			this.Gbox8.TabIndex = 37;
+			this.Gbox8.Text = "Choose";
 			// 
 			// person7Label
 			// 
@@ -539,12 +545,14 @@
 			this.Gbox7.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.Gbox7.FormattingEnabled = true;
 			this.Gbox7.Items.AddRange(new object[] {
+            "Choose",
             "M",
             "F"});
 			this.Gbox7.Location = new System.Drawing.Point(346, 68);
 			this.Gbox7.Name = "Gbox7";
 			this.Gbox7.Size = new System.Drawing.Size(37, 21);
 			this.Gbox7.TabIndex = 34;
+			this.Gbox7.Text = "Choose";
 			// 
 			// person6Label
 			// 
@@ -574,12 +582,14 @@
 			this.Gbox6.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.Gbox6.FormattingEnabled = true;
 			this.Gbox6.Items.AddRange(new object[] {
+            "Choose",
             "M",
             "F"});
 			this.Gbox6.Location = new System.Drawing.Point(346, 32);
 			this.Gbox6.Name = "Gbox6";
 			this.Gbox6.Size = new System.Drawing.Size(37, 21);
 			this.Gbox6.TabIndex = 31;
+			this.Gbox6.Text = "Choose";
 			// 
 			// person5Label
 			// 
@@ -609,12 +619,14 @@
 			this.Gbox5.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.Gbox5.FormattingEnabled = true;
 			this.Gbox5.Items.AddRange(new object[] {
+            "Choose",
             "M",
             "F"});
 			this.Gbox5.Location = new System.Drawing.Point(120, 178);
 			this.Gbox5.Name = "Gbox5";
 			this.Gbox5.Size = new System.Drawing.Size(37, 21);
 			this.Gbox5.TabIndex = 28;
+			this.Gbox5.Text = "Choose";
 			// 
 			// person4Label
 			// 
@@ -643,12 +655,14 @@
 			this.Gbox4.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.Gbox4.FormattingEnabled = true;
 			this.Gbox4.Items.AddRange(new object[] {
+            "Choose",
             "M",
             "F"});
 			this.Gbox4.Location = new System.Drawing.Point(120, 141);
 			this.Gbox4.Name = "Gbox4";
 			this.Gbox4.Size = new System.Drawing.Size(37, 21);
 			this.Gbox4.TabIndex = 25;
+			this.Gbox4.Text = "Choose";
 			// 
 			// person3Label
 			// 
@@ -678,12 +692,14 @@
 			this.Gbox3.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.Gbox3.FormattingEnabled = true;
 			this.Gbox3.Items.AddRange(new object[] {
+            "Choose",
             "M",
             "F"});
 			this.Gbox3.Location = new System.Drawing.Point(120, 105);
 			this.Gbox3.Name = "Gbox3";
 			this.Gbox3.Size = new System.Drawing.Size(37, 21);
 			this.Gbox3.TabIndex = 22;
+			this.Gbox3.Text = "Choose";
 			// 
 			// person2Label
 			// 
@@ -713,12 +729,14 @@
 			this.Gbox2.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.Gbox2.FormattingEnabled = true;
 			this.Gbox2.Items.AddRange(new object[] {
+            "Choose",
             "M",
             "F"});
 			this.Gbox2.Location = new System.Drawing.Point(120, 68);
 			this.Gbox2.Name = "Gbox2";
 			this.Gbox2.Size = new System.Drawing.Size(37, 21);
 			this.Gbox2.TabIndex = 19;
+			this.Gbox2.Text = "Choose";
 			// 
 			// person1Label
 			// 
@@ -785,12 +803,14 @@
 			this.Gbox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.Gbox1.FormattingEnabled = true;
 			this.Gbox1.Items.AddRange(new object[] {
+            "Choose",
             "M",
             "F"});
 			this.Gbox1.Location = new System.Drawing.Point(120, 32);
 			this.Gbox1.Name = "Gbox1";
 			this.Gbox1.Size = new System.Drawing.Size(37, 21);
 			this.Gbox1.TabIndex = 10;
+			this.Gbox1.Text = "Choose";
 			// 
 			// prdTab
 			// 
@@ -2587,6 +2607,11 @@
 			this.peopleNum.Name = "peopleNum";
 			this.peopleNum.Size = new System.Drawing.Size(90, 26);
 			this.peopleNum.TabIndex = 5;
+			this.peopleNum.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
 			// 
 			// typeList
 			// 
@@ -2600,6 +2625,7 @@
 			this.typeList.Name = "typeList";
 			this.typeList.Size = new System.Drawing.Size(90, 28);
 			this.typeList.TabIndex = 3;
+			this.typeList.Text = "Week";
 			// 
 			// txtDisplay
 			// 

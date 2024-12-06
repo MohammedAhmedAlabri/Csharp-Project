@@ -22,131 +22,228 @@ namespace C__Project
 		private void prcBtn_Click(object sender, EventArgs e)
 		{
 			int Nopeople = Convert.ToInt16(peopleNum.Value);
+			double dblmtotalfruit = 0;
+			double dblmtotalveg = 0;
+			double dblftotalfruit = 0;
+			double dblftotalveg = 0;
+			int Fcount =0, Mcount =0;
+			double totalcups = 0;
+			// gender arrray ========================================================================
 
-			double dblDailyFruit = 0;
-			double dblDailyVeg = 0;
-
-
-			// gender arrray
-			string Pg1 = Gbox1.SelectedItem.ToString();
-			string Pg2 = Gbox2.SelectedItem.ToString();
-			string Pg3 = Gbox3.SelectedItem.ToString();
-			string Pg4 = Gbox4.SelectedItem.ToString();
-			string Pg5 = Gbox5.SelectedItem.ToString();
-			string Pg6 = Gbox6.SelectedItem.ToString();
-			string Pg7 = Gbox7.SelectedItem.ToString();
-			string Pg8 = Gbox8.SelectedItem.ToString();
-			string Pg9 = Gbox9.SelectedItem.ToString();
-			string Pg10 = Gbox10.SelectedItem.ToString();
+			string strPg1 = Gbox1.SelectedItem.ToString();
+			string strPg2 = Gbox2.SelectedItem.ToString();
+			string strPg3 = Gbox3.SelectedItem.ToString();
+			string strPg4 = Gbox4.SelectedItem.ToString();
+			string strPg5 = Gbox5.SelectedItem.ToString();
+			string strPg6 = Gbox6.SelectedItem.ToString();
+			string strPg7 = Gbox7.SelectedItem.ToString();
+			string strPg8 = Gbox8.SelectedItem.ToString();
+			string strPg9 = Gbox9.SelectedItem.ToString();
+			string strPg10 = Gbox10.SelectedItem.ToString();
 
 			string[] StrGender = new string[10];
 
-			StrGender[0] = Pg1;
-			StrGender[1] = Pg2;
-			StrGender[2] = Pg3;
-			StrGender[3] = Pg4;
-			StrGender[4] = Pg5;
-			StrGender[5] = Pg6;
-			StrGender[6] = Pg7;
-			StrGender[7] = Pg8;
-			StrGender[8] = Pg9;
-			StrGender[9] = Pg10;
+			StrGender[0] = strPg1;
+			StrGender[1] = strPg2;
+			StrGender[2] = strPg3;
+			StrGender[3] = strPg4;
+			StrGender[4] = strPg5;
+			StrGender[5] = strPg6;
+			StrGender[6] = strPg7;
+			StrGender[7] = strPg8;
+			StrGender[8] = strPg9;
+			StrGender[9] = strPg10;
 
-			// age array
+			// age array ========================================================================
 
-			int Pa1 = Convert.ToInt16(Page1.Value);
-			int Pa2 = Convert.ToInt16(Page2.Value);
-			int Pa3 = Convert.ToInt16(Page3.Value);
-			int Pa4 = Convert.ToInt16(Page4.Value);
-			int Pa5 = Convert.ToInt16(Page5.Value);
-			int Pa6 = Convert.ToInt16(Page6.Value);
-			int Pa7 = Convert.ToInt16(Page7.Value);
-			int Pa8 = Convert.ToInt16(Page8.Value);
-			int Pa9 = Convert.ToInt16(Page9.Value);
-			int Pa10 = Convert.ToInt16(Page10.Value);
+			int intPa1 = Convert.ToInt16(Page1.Value);
+			int intPa2 = Convert.ToInt16(Page2.Value);
+			int intPa3 = Convert.ToInt16(Page3.Value);
+			int intPa4 = Convert.ToInt16(Page4.Value);
+			int intPa5 = Convert.ToInt16(Page5.Value);
+			int intPa6 = Convert.ToInt16(Page6.Value);
+			int intPa7 = Convert.ToInt16(Page7.Value);
+			int intPa8 = Convert.ToInt16(Page8.Value);
+			int intPa9 = Convert.ToInt16(Page9.Value);
+			int intPa10 = Convert.ToInt16(Page10.Value);
 
 
 			int[] intAge = new int[10];
 
-			intAge[0] = Pa1;
-			intAge[1] = Pa2;
-			intAge[2] = Pa3;
-			intAge[3] = Pa4;
-			intAge[4] = Pa5;
-			intAge[5] = Pa6;
-			intAge[6] = Pa7;
-			intAge[7] = Pa8;
-			intAge[8] = Pa9;
-			intAge[9] = Pa10;
+			intAge[0] = intPa1;
+			intAge[1] = intPa2;
+			intAge[2] = intPa3;
+			intAge[3] = intPa4;
+			intAge[4] = intPa5;
+			intAge[5] = intPa6;
+			intAge[6] = intPa7;
+			intAge[7] = intPa8;
+			intAge[8] = intPa9;
+			intAge[9] = intPa10;
+
+			// how many females from each age group with total cup array ========================================================================
+			int[] intFemalegroup = new int[14];
+			double[] dblFFruit = { 1, 1.5, 1.5, 2, 2, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5 }; 
+			double[] dblFVeg = { 1.5, 1.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2, 2,2,2, 2};
+
+			// how many males from each age group with total cup array ========================================================================
+			int[] intMalegroup = new int[11];
+			double[] dblMFruit = { 1, 1.5, 2, 2, 2, 2, 2, 2, 2, 2, 2 }; 
+			double[] dblMVeg = { 1.5, 2, 3, 3.5, 3, 3, 3, 3, 3, 3, 3 };
 
 
+			// calculate loop ========================================================================
 
-			for (int intCounter = 0; intCounter	< Nopeople; intCounter++)
+			for (int intCounter = 0; intCounter < Nopeople; intCounter++)
 			{
+				// male calculate section ==========================================================================
 				if (StrGender[intCounter] == "M")
 				{
+					Mcount++;
 					if (intAge[intCounter] <= 5)
 					{
-						dblDailyFruit = 1;
-						dblDailyVeg = 1.5;
+						intMalegroup[0]++;
 					}
 					else if (intAge[intCounter] <= 10)
 					{
-						dblDailyFruit = 1.5;
-						dblDailyVeg = 2;
+						intMalegroup[1]++;
 					}
 					else if (intAge[intCounter] <= 15)
 					{
-						dblDailyFruit = 2;
-						dblDailyVeg = 3;
+						intMalegroup[2]++;
 					}
 					else if (intAge[intCounter] <= 20)
 					{
-						dblDailyFruit = 2;
-						dblDailyVeg = 3.5;
+						intMalegroup[3]++;
 					}
 					else if (intAge[intCounter] <= 25)
 					{
-						dblDailyFruit = 2;
-						dblDailyVeg = 3;
+						intMalegroup[4]++;
 					}
 					else if (intAge[intCounter] <= 30)
 					{
-						dblDailyFruit = 2;
-						dblDailyVeg = 3;
+						intMalegroup[5]++;
 					}
 					else if (intAge[intCounter] <= 35)
 					{
-						dblDailyFruit = 2;
-						dblDailyVeg = 3;
+						intMalegroup[6]++;
 					}
 					else if (intAge[intCounter] <= 40)
 					{
-						dblDailyFruit = 2;
-						dblDailyVeg = 3;
+						intMalegroup[7]++;
 					}
 					else if (intAge[intCounter] <= 45)
 					{
-						dblDailyFruit = 2;
-						dblDailyVeg = 3;
+						intMalegroup[8]++;
 					}
 					else if (intAge[intCounter] <= 50)
 					{
-						dblDailyFruit = 2;
-						dblDailyVeg = 3;
+						intMalegroup[9]++;
 					}
 					else if (intAge[intCounter] <= 55)
 					{
-						dblDailyFruit = 2;
-						dblDailyVeg = 3;
+						intMalegroup[10]++;
 					}
 					else
 					{
-						dblDailyFruit = 2;
-						dblDailyVeg = 3; 
 					}
 				}
+
+				else if (StrGender[intCounter] == "F")
+				{
+					Fcount++;
+
+					// Female calculate section ==========================================================================
+
+					if (intAge[intCounter] <= 5)
+					{
+						intFemalegroup[0]++;
+
+					}
+					else if (intAge[intCounter] <= 10)
+					{
+						intFemalegroup[1]++;
+					}
+					else if (intAge[intCounter] <= 15)
+					{
+						intFemalegroup[2]++;
+					}
+					else if (intAge[intCounter] <= 20)
+					{
+						intFemalegroup[3]++;
+					}
+					else if (intAge[intCounter] <= 25)
+					{
+						intFemalegroup[4]++;
+					}
+					else if (intAge[intCounter] <= 30)
+					{
+						intFemalegroup[5]++;
+					}
+					else if (intAge[intCounter] <= 40)
+					{
+					
+						intFemalegroup[6]++;
+					}
+					else if (intAge[intCounter] <= 45)
+					{
+						intFemalegroup[7]++;
+					}
+					else if (intAge[intCounter] <= 50)
+					{
+						intFemalegroup[8]++;
+					}
+					else if (intAge[intCounter] <= 55)
+					{
+						intFemalegroup[9]++;
+					}
+					else if (intAge[intCounter] <= 60)
+					{
+						intFemalegroup[10]++;
+					}
+					else if (intAge[intCounter] <= 65)
+					{
+						intFemalegroup[11]++;
+					}
+					else if (intAge[intCounter] <= 70)
+					{
+						intFemalegroup[12]++;
+					}
+					else if (intAge[intCounter] <= 75)
+					{
+						intFemalegroup[13]++;
+					}
+					else
+					{
+
+					}
+
+				}
+
 			}
+
+			// to calculate total cups for each gender
+
+			for (int x = 0; x < 14; x++)
+			{
+				dblftotalfruit += intFemalegroup[x] * dblFFruit[x];
+				dblftotalveg += intFemalegroup[x] * dblFVeg[x];
+			}
+
+			for (int x = 0; x < 11; x++)
+			{
+				dblmtotalfruit += intMalegroup[x] * dblMFruit[x];
+				dblmtotalveg += intMalegroup[x] * dblMVeg[x];
+			}
+
+			totalcups = (dblftotalfruit + dblftotalveg) + (dblmtotalfruit + dblmtotalveg);
+
+			txtDisplay.Text += "Total Fruits for Females: " + Convert.ToString(dblftotalfruit) + " cups" + Environment.NewLine;
+			txtDisplay.Text += "Total Vegetables for Females: " + Convert.ToString(dblftotalveg) + " cups" + Environment.NewLine;
+			txtDisplay.Text += "Total Fruits for Males: " + Convert.ToString(dblmtotalfruit) + " cups" + Environment.NewLine;
+			txtDisplay.Text += "Total Vegetables for Males: " + Convert.ToString(dblmtotalveg) + " cups" + Environment.NewLine;
+			txtDisplay.Text += "Total cups: " + Convert.ToString(totalcups) + " cups" + Environment.NewLine;
+
 		}
 
 		private void label2_Click(object sender, EventArgs e)
