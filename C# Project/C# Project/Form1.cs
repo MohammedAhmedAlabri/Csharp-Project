@@ -56,7 +56,7 @@ namespace C__Project
 
 			// age array ========================================================================
 
-			int intPa1 = Convert.ToInt16(Page1.Value);
+			int intPa1 = Convert.ToInt16(PersonAge1.Value);
 			int intPa2 = Convert.ToInt16(Page2.Value);
 			int intPa3 = Convert.ToInt16(Page3.Value);
 			int intPa4 = Convert.ToInt16(Page4.Value);
@@ -222,9 +222,11 @@ namespace C__Project
 
 			}
 
-			// to calculate total cups for each gender
 
-			for (int x = 0; x < 14; x++)
+
+            // to calculate total cups for each gender
+
+            for (int x = 0; x < 14; x++)
 			{
 				dblftotalfruit += intFemalegroup[x] * dblFFruit[x];
 				dblftotalveg += intFemalegroup[x] * dblFVeg[x];
@@ -268,7 +270,136 @@ namespace C__Project
 
 		private void Form1_Load(object sender, EventArgs e)
 		{
+            //for visibilty
+            Gbox2.Visible = false;
+            Gbox3.Visible = false;
+            Gbox4.Visible = false;
+            Gbox5.Visible = false;
+            Gbox6.Visible = false;
+            Gbox7.Visible = false;
+            Gbox8.Visible = false;
+            Gbox9.Visible = false;
+			Gbox10.Visible = false;
 
-		}
-	}
+
+			Page2.Visible = false;
+			Page3.Visible = false;
+            Page4.Visible = false;
+            Page5.Visible = false;
+            Page6.Visible = false;
+            Page7.Visible = false;
+            Page8.Visible = false;
+            Page9.Visible = false;
+            Page10.Visible = false;
+
+        }
+
+        private void peopleNum_ValueChanged(object sender, EventArgs e)
+        {
+            int Nopeople = Convert.ToInt16(peopleNum.Value);
+
+            // Update visibility
+            for (int x = 0; x < Nopeople; x++)
+            {
+				if (x == 1)
+				{
+					Page2.Visible = true;
+					Gbox2.Visible = true;
+				}
+				if (x == 2)
+				{
+					Page3.Visible= true;
+					Gbox3.Visible = true;
+				}
+				if (x == 3)
+				{
+					Page4.Visible= true;
+					Gbox4.Visible = true;
+				}
+				if (x == 4)
+				{
+					Page5.Visible= true;
+					Gbox5.Visible = true;
+				}
+				if (x == 5)
+				{
+					Page6.Visible= true;
+					Gbox6.Visible = true;
+				}
+				if (x == 6)
+				{
+					Page7.Visible= true;
+					Gbox7.Visible = true;
+				}
+				if (x == 7)
+				{
+					Page8.Visible= true;
+					Gbox8.Visible = true;
+				}
+				if (x == 8)
+				{
+					Page9.Visible= true;
+					Gbox9.Visible = true;
+				}
+				if (x == 9)
+				{
+					Page10.Visible= true;
+					Gbox10.Visible = true;
+				}
+
+            }
+
+            for (int x = 11; x > Nopeople; x--)
+            {
+				if (x == 2)
+				{
+					Page2.Visible = false;
+					Gbox2.Visible = false;
+				}
+				if (x == 3)
+				{
+					Page3.Visible = false;
+					Gbox3.Visible = false;
+				}
+				if (x == 4)
+				{
+					Page4.Visible = false;
+					Gbox4.Visible = false;
+				}
+				if (x == 5)
+				{
+					Page5.Visible = false;
+					Gbox5.Visible = false;
+				}
+				if (x == 6)
+				{
+					Page6.Visible = false;
+					Gbox6.Visible = false;
+				}
+				if (x == 7)
+				{
+					Page7.Visible = false;
+					Gbox7.Visible = false;
+				}
+				if (x == 8)
+				{
+					Page8.Visible = false;
+					Gbox8.Visible = false;
+				}
+				if (x == 9)
+				{
+					Page9.Visible = false;
+					Gbox9.Visible = false;
+				}
+				if (x == 10)
+				{
+					Page10.Visible = false;
+					Gbox10.Visible = false;
+				}
+
+
+            }
+
+        }
+    }
 }
