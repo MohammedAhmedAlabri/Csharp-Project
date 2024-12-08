@@ -58,3 +58,13 @@ D:\SQU\BAD\Assignment\C#project\C# Project\C# Project\obj\Debug\C# Project.cspro
 D:\SQU\BAD\Assignment\C#project\C# Project\C# Project\obj\Debug\C# Project.csproj.CoreCompileInputs.cache
 D:\SQU\BAD\Assignment\C#project\C# Project\C# Project\obj\Debug\C# Project.exe
 D:\SQU\BAD\Assignment\C#project\C# Project\C# Project\obj\Debug\C# Project.pdb
+C:\Users\s132928\Source\Repos\Csharp-Project\C# Project\C# Project\bin\Debug\C# Project.exe.config
+C:\Users\s132928\Source\Repos\Csharp-Project\C# Project\C# Project\bin\Debug\C# Project.exe
+C:\Users\s132928\Source\Repos\Csharp-Project\C# Project\C# Project\bin\Debug\C# Project.pdb
+C:\Users\s132928\Source\Repos\Csharp-Project\C# Project\C# Project\obj\Debug\C# Project.csproj.AssemblyReference.cache
+C:\Users\s132928\Source\Repos\Csharp-Project\C# Project\C# Project\obj\Debug\C__Project.Form1.resources
+C:\Users\s132928\Source\Repos\Csharp-Project\C# Project\C# Project\obj\Debug\C__Project.Properties.Resources.resources
+C:\Users\s132928\Source\Repos\Csharp-Project\C# Project\C# Project\obj\Debug\C# Project.csproj.GenerateResource.cache
+C:\Users\s132928\Source\Repos\Csharp-Project\C# Project\C# Project\obj\Debug\C# Project.csproj.CoreCompileInputs.cache
+C:\Users\s132928\Source\Repos\Csharp-Project\C# Project\C# Project\obj\Debug\C# Project.exe
+C:\Users\s132928\Source\Repos\Csharp-Project\C# Project\C# Project\obj\Debug\C# Project.pdb
