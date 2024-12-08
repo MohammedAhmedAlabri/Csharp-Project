@@ -2228,7 +2228,7 @@
             // pictureBox18
             // 
             this.pictureBox18.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox18.Image = global::C__Project.Properties.Resources.عنب___Copy;
+            this.pictureBox18.Image = global::C__Project.Properties.Resources.bananas_1_e1624909301641_jpg_optimal;
             this.pictureBox18.Location = new System.Drawing.Point(316, 264);
             this.pictureBox18.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox18.Name = "pictureBox18";
@@ -2263,7 +2263,7 @@
             // 
             // pictureBox21
             // 
-            this.pictureBox21.Image = global::C__Project.Properties.Resources.قرنبيط;
+            this.pictureBox21.Image = global::C__Project.Properties.Resources.iC7HBvohbJqExqvbKcV3pP_1200_80;
             this.pictureBox21.Location = new System.Drawing.Point(1321, 28);
             this.pictureBox21.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox21.Name = "pictureBox21";

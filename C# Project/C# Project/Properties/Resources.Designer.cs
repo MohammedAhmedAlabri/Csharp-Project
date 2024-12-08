@@ -93,6 +93,16 @@ namespace C__Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bananas_1_e1624909301641_jpg_optimal {
+            get {
+                object obj = ResourceManager.GetObject("bananas-1-e1624909301641.jpg.optimal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap close_up_of_a_juicy_peach_slice_created_by_ai_tools_photo {
             get {
                 object obj = ResourceManager.GetObject("close-up-of-a-juicy-peach-slice-created-by-ai-tools-photo", resourceCulture);
@@ -106,6 +116,16 @@ namespace C__Project.Properties {
         internal static System.Drawing.Bitmap F3_02 {
             get {
                 object obj = ResourceManager.GetObject("F3-02", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iC7HBvohbJqExqvbKcV3pP_1200_80 {
+            get {
+                object obj = ResourceManager.GetObject("iC7HBvohbJqExqvbKcV3pP-1200-80", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

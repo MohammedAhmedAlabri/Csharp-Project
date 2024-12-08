@@ -148,6 +148,12 @@
   <data name="قرنبيط" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\قرنبيط.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="فلفل" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\فلفل.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bananas-1-e1624909301641.jpg.optimal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bananas-1-e1624909301641.jpg.optimal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="mango - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mango - Copy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -169,10 +175,10 @@
   <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="فلفل" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\فلفل.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="F3-02" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\F3-02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iC7HBvohbJqExqvbKcV3pP-1200-80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iC7HBvohbJqExqvbKcV3pP-1200-80.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
