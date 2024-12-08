@@ -83,5 +83,59 @@
   <ItemGroup>
     <None Include="Resources\anton-darius-FCrgmqqvl-w-unsplash.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-612524020-1024x1024.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mango - Copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\توت - Copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\جح - Copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\عنب - Copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32497c3866a4c36ebb81051a8a2ee5f0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Simply-Recipes-How-to-Ripe-Pineapple-LEAD-1-2fa3fc49249b48caa5d80c54fa71675f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-up-of-a-juicy-peach-slice-created-by-ai-tools-photo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\بصل.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ثوم.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\طماط.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\فلفل.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\قرنبيط.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\قرنبيط1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ليمون.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdobeStock_195401764.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F3-02.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

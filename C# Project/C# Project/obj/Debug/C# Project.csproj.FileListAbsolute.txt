@@ -48,3 +48,13 @@ C:\Users\crystal\Source\Repos\MohammedAhmedAlabri\Csharp-Project\C# Project\C# P
 C:\Users\crystal\Source\Repos\MohammedAhmedAlabri\Csharp-Project\C# Project\C# Project\obj\Debug\C# Project.csproj.CoreCompileInputs.cache
 C:\Users\crystal\Source\Repos\MohammedAhmedAlabri\Csharp-Project\C# Project\C# Project\obj\Debug\C# Project.exe
 C:\Users\crystal\Source\Repos\MohammedAhmedAlabri\Csharp-Project\C# Project\C# Project\obj\Debug\C# Project.pdb
+D:\SQU\BAD\Assignment\C#project\C# Project\C# Project\bin\Debug\C# Project.exe.config
+D:\SQU\BAD\Assignment\C#project\C# Project\C# Project\bin\Debug\C# Project.exe
+D:\SQU\BAD\Assignment\C#project\C# Project\C# Project\bin\Debug\C# Project.pdb
+D:\SQU\BAD\Assignment\C#project\C# Project\C# Project\obj\Debug\C# Project.csproj.AssemblyReference.cache
+D:\SQU\BAD\Assignment\C#project\C# Project\C# Project\obj\Debug\C__Project.Form1.resources
+D:\SQU\BAD\Assignment\C#project\C# Project\C# Project\obj\Debug\C__Project.Properties.Resources.resources
+D:\SQU\BAD\Assignment\C#project\C# Project\C# Project\obj\Debug\C# Project.csproj.GenerateResource.cache
+D:\SQU\BAD\Assignment\C#project\C# Project\C# Project\obj\Debug\C# Project.csproj.CoreCompileInputs.cache
+D:\SQU\BAD\Assignment\C#project\C# Project\C# Project\obj\Debug\C# Project.exe
+D:\SQU\BAD\Assignment\C#project\C# Project\C# Project\obj\Debug\C# Project.pdb

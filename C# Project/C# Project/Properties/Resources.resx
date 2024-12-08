@@ -118,7 +118,61 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="جح - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\جح - Copy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close-up-of-a-juicy-peach-slice-created-by-ai-tools-photo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close-up-of-a-juicy-peach-slice-created-by-ai-tools-photo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-612524020-1024x1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-612524020-1024x1024.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="طماط" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\طماط.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="32497c3866a4c36ebb81051a8a2ee5f0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\32497c3866a4c36ebb81051a8a2ee5f0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ليمون" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ليمون.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="عنب - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\عنب - Copy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ثوم" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ثوم.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="قرنبيط1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\قرنبيط1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="قرنبيط" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\قرنبيط.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mango - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mango - Copy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="بصل" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\بصل.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="توت - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\توت - Copy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Simply-Recipes-How-to-Ripe-Pineapple-LEAD-1-2fa3fc49249b48caa5d80c54fa71675f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Simply-Recipes-How-to-Ripe-Pineapple-LEAD-1-2fa3fc49249b48caa5d80c54fa71675f.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AdobeStock_195401764" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AdobeStock_195401764.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="anton-darius-FCrgmqqvl-w-unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\anton-darius-FCrgmqqvl-w-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="فلفل" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\فلفل.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F3-02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\F3-02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
