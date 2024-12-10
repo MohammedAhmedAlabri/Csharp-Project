@@ -26,8 +26,11 @@ namespace C__Project
 			double dblmtotalveg = 0;
 			double dblftotalfruit = 0;
 			double dblftotalveg = 0;
-			int Fcount =0, Mcount =0;
-			double totalcups = 0;
+			double dblBananaPortion = 0, dblWatermelonPortion = 0, dblOrangePortion = 0, dblPotatoesPortion = 0, dblOnionPortion = 0, dblGarlicPortion = 0;
+			int M5count =0, M10count = 0, M15count = 0, M20count = 0, M25count = 0, M30count = 0, M35count = 0, M40count = 0, M45count = 0, M50count = 0, M55count = 0;
+			int F5count = 0, F10count = 0, F15count = 0, F20count = 0, F25count = 0, F30count = 0, F35count = 0, F40count = 0, F45count = 0, F50count = 0, F55count = 0, F60count = 0, F65count = 0, F70count = 0, F75count = 0;
+
+            double totalcups = 0;
 			// gender arrray ========================================================================
 
 			string strPg1 = Gbox1.SelectedItem.ToString();
@@ -99,10 +102,11 @@ namespace C__Project
 				// male calculate section ==========================================================================
 				if (StrGender[intCounter] == "M")
 				{
-					Mcount++;
+					
 					if (intAge[intCounter] <= 5)
 					{
 						intMalegroup[0]++;
+
 					}
 					else if (intAge[intCounter] <= 10)
 					{
@@ -151,10 +155,6 @@ namespace C__Project
 
 				else if (StrGender[intCounter] == "F")
 				{
-					Fcount++;
-
-					// Female calculate section ==========================================================================
-
 					if (intAge[intCounter] <= 5)
 					{
 						intFemalegroup[0]++;
@@ -224,29 +224,349 @@ namespace C__Project
 
 
 
-            // to calculate total cups for each gender
-
-            for (int x = 0; x < 14; x++)
-			{
-				dblftotalfruit += intFemalegroup[x] * dblFFruit[x];
-				dblftotalveg += intFemalegroup[x] * dblFVeg[x];
-			}
-
+			// Array to calculate cups per age group
+			double[] dblCupPerAgeGroupM = new double[11];
 			for (int x = 0; x < 11; x++)
 			{
-				dblmtotalfruit += intMalegroup[x] * dblMFruit[x];
-				dblmtotalveg += intMalegroup[x] * dblMVeg[x];
+				dblCupPerAgeGroupM[x] = intMalegroup[x] * dblMFruit[x];
 			}
 
-			totalcups = (dblftotalfruit + dblftotalveg) + (dblmtotalfruit + dblmtotalveg);
 
-			txtDisplay.Text += "Total Fruits for Females: " + Convert.ToString(dblftotalfruit) + " cups" + Environment.NewLine;
-			txtDisplay.Text += "Total Vegetables for Females: " + Convert.ToString(dblftotalveg) + " cups" + Environment.NewLine;
-			txtDisplay.Text += "Total Fruits for Males: " + Convert.ToString(dblmtotalfruit) + " cups" + Environment.NewLine;
-			txtDisplay.Text += "Total Vegetables for Males: " + Convert.ToString(dblmtotalveg) + " cups" + Environment.NewLine;
-			txtDisplay.Text += "Total cups: " + Convert.ToString(totalcups) + " cups" + Environment.NewLine;
 
-		}
+			// display section 
+            for (int x = 0; x < 11; x++)
+            {
+				if (intMalegroup[x] > 0)
+				{
+					txtDisplay.Text += intMalegroup[x] + " number of peope in this Age group get" + dblCupPerAgeGroupM[x] + " cup" + Environment.NewLine;
+					if (Banana_CB.Checked)
+					{
+						dblportion[x, 6];
+					}
+                }
+            };
+               
+				
+				//if (StrGender[x] == "M")
+                //{
+                //	if (intAge[x] <= 5)
+                //	{
+                //                    dblCupPerAgeGroupM[x] = intMalegroup[x] * dblMFruit[x];
+
+                //                }
+
+                //		if (Banana_CB.Checked)
+                //		{
+                //			dblBananaPortion = dblmtotalfruit * 0.25;
+
+                //		}
+                //		if (Watermelon_CB.Checked)
+                //		{
+                //			dblWatermelonPortion = dblmtotalfruit * 0.20;
+
+                //		}
+                //		if (Orange_CB.Checked)
+                //		{
+                //			dblOrangePortion = dblmtotalfruit * 0.20;
+
+                //		}
+                //		if (Potatoes_CB.Checked)
+                //		{
+                //			dblPotatoesPortion = dblmtotalveg * 0.25;
+
+                //		}
+                //		if (Onion_CB.Checked)
+                //		{
+                //			dblOnionPortion = dblmtotalveg * 0.20;
+
+                //		}
+                //		if (Garlic_CB.Checked)
+                //		{
+                //			dblGarlicPortion = dblmtotalveg * 0.20;
+
+                //		}
+
+
+                //else if (intAge[x] <= 10)
+                //               {
+                //                   M10count++;
+                //                   dblmtotalfruit += intMalegroup[x] * dblMFruit[x];
+                //                   dblmtotalveg += intMalegroup[x] * dblMVeg[x];
+
+                //                   if (Banana_CB.Checked)
+                //                   {
+                //                       dblBananaPortion = dblmtotalfruit * 0.25;
+
+                //                   }
+                //                   if (Watermelon_CB.Checked)
+                //                   {
+                //                       dblWatermelonPortion = dblmtotalfruit * 0.20;
+
+                //                   }
+                //                   if (Orange_CB.Checked)
+                //                   {
+                //                       dblOrangePortion = dblmtotalfruit * 0.20;
+
+                //                   }
+                //                   if (Potatoes_CB.Checked)
+                //                   {
+                //                       dblPotatoesPortion = dblmtotalveg * 0.25;
+
+                //                   }
+                //                   if (Onion_CB.Checked)
+                //                   {
+                //                       dblOnionPortion = dblmtotalveg * 0.20;
+
+                //                   }
+                //                   if (Garlic_CB.Checked)
+                //                   {
+                //                       dblGarlicPortion = dblmtotalveg * 0.20;
+
+                //                   }
+
+                //               }
+                //}
+            //}
+
+
+					//for (int y = 0; y < Nopeople; y++)
+					//{
+
+					//	if (StrGender[y] == "M")
+					//	{
+							
+					//	}
+					//}
+                            //if (intAge[x] <= 10)
+                            //{
+                            //	M10count++;
+                            //                   dblmtotalfruit += intMalegroup[x] * dblMFruit[x];
+                            //                   dblmtotalveg += intMalegroup[x] * dblMVeg[x];
+
+                            //                   if (Banana_CB.Checked)
+                            //                   {
+                            //                       dblBananaPortion = dblmtotalfruit * 0.25;
+
+                            //                   }
+                            //                   if (Watermelon_CB.Checked)
+                            //                   {
+                            //                       dblWatermelonPortion = dblmtotalfruit * 0.20;
+
+                            //                   }
+                            //                   if (Orange_CB.Checked)
+                            //                   {
+                            //                       dblOrangePortion = dblmtotalfruit * 0.20;
+
+                            //                   }
+                            //                   if (Potatoes_CB.Checked)
+                            //                   {
+                            //                       dblPotatoesPortion = dblmtotalveg * 0.25;
+
+                            //                   }
+                            //                   if (Onion_CB.Checked)
+                            //                   {
+                            //                       dblOnionPortion = dblmtotalveg * 0.20;
+
+                            //                   }
+                            //                   if (Garlic_CB.Checked)
+                            //                   {
+                            //                       dblGarlicPortion = dblmtotalveg * 0.20;
+
+                            //                   }
+                            //               }
+                        
+			
+
+
+			//if (M5count > 0) 
+			//{
+   //             txtDisplay.Text += "Total Fruits for 5 year old Males: " + Convert.ToString(dblmtotalfruit) + " cups" + Environment.NewLine;
+   //             txtDisplay.Text += "Total Vegetables for 5 year old Males: " + Convert.ToString(dblmtotalveg) + " cups" + Environment.NewLine;
+   //             if (Banana_CB.Checked) 
+			//	{
+   //                 txtDisplay.Text += dblBananaPortion + " Cups of total Fruits should be Bananas" + Environment.NewLine;
+
+   //             }
+   //             if (Watermelon_CB.Checked)
+   //             {
+   //                 txtDisplay.Text += dblWatermelonPortion + " Cups of total Fruits should be Watermelon" + Environment.NewLine;
+
+
+   //             }
+   //             if (Orange_CB.Checked)
+   //             {
+   //                 txtDisplay.Text += dblOrangePortion + " Cups of total Fruits should be Oranges" + Environment.NewLine;
+
+
+   //             }
+   //             if (Potatoes_CB.Checked)
+   //             {
+   //                 txtDisplay.Text += dblPotatoesPortion + " Cups of total Vegetables should be Potatoes" + Environment.NewLine;
+
+
+   //             }
+   //             if (Onion_CB.Checked)
+   //             {
+   //                 txtDisplay.Text += dblOnionPortion + " Cups of total Vegetables should be Onion" + Environment.NewLine;
+
+
+   //             }
+   //             if (Garlic_CB.Checked)
+   //             {
+   //                 txtDisplay.Text += dblGarlicPortion + " Cups of total Vegetables should be Garlic" + Environment.NewLine;
+
+
+   //             }
+   //         }
+			//		if (M10count > 0)
+			//		{
+			//			txtDisplay.Text += "Total Fruits for 10 year old Males: " + Convert.ToString(dblmtotalfruit) + " cups" + Environment.NewLine;
+			//			txtDisplay.Text += "Total Vegetables for 10 year old Males: " + Convert.ToString(dblmtotalveg) + " cups" + Environment.NewLine;
+			//			if (Banana_CB.Checked)
+			//			{
+			//				txtDisplay.Text += dblBananaPortion + " Cups of total Fruits should be Bananas" + Environment.NewLine;
+
+			//			}
+			//			if (Watermelon_CB.Checked)
+			//			{
+			//				txtDisplay.Text += dblWatermelonPortion + " Cups of total Fruits should be Watermelon" + Environment.NewLine;
+
+
+			//			}
+			//			if (Orange_CB.Checked)
+			//			{
+			//				txtDisplay.Text += dblOrangePortion + " Cups of total Fruits should be Oranges" + Environment.NewLine;
+
+
+			//			}
+			//			if (Potatoes_CB.Checked)
+			//			{
+			//				txtDisplay.Text += dblPotatoesPortion + " Cups of total Vegetables should be Potatoes" + Environment.NewLine;
+
+
+			//			}
+			//			if (Onion_CB.Checked)
+			//			{
+			//				txtDisplay.Text += dblOnionPortion + " Cups of total Vegetables should be Onion" + Environment.NewLine;
+
+
+			//			}
+			//			if (Garlic_CB.Checked)
+			//			{
+			//				txtDisplay.Text += dblGarlicPortion + " Cups of total Vegetables should be Garlic" + Environment.NewLine;
+
+
+			//			}
+			//		}
+
+					//        for (int x = 0; x < 11; x++)
+					//{
+					//    if (intAge[x] <= 5)
+					//    {
+					//        dblmtotalfruit += intMalegroup[x] * dblMFruit[x];
+					//        dblmtotalveg += intMalegroup[x] * dblMVeg[x];
+					//    }
+
+					//}
+
+					//         for (int x = 0; x < 14; x++)
+					//{
+					//	dblftotalfruit += intFemalegroup[x] * dblFFruit[x];
+					//	dblftotalveg += intFemalegroup[x] * dblFVeg[x];
+					//}
+
+					//for (int x = 0; x < 11; x++)
+					//{
+					//	dblmtotalfruit += intMalegroup[x] * dblMFruit[x];
+					//	dblmtotalveg += intMalegroup[x] * dblMVeg[x];
+					//}
+
+
+					//totalcups = (dblftotalfruit + dblftotalveg) + (dblmtotalfruit + dblmtotalveg);
+
+					//txtDisplay.Text += "Total Fruits for Females: " + Convert.ToString(dblftotalfruit) + " cups" + Environment.NewLine;
+					//txtDisplay.Text += "Total Vegetables for Females: " + Convert.ToString(dblftotalveg) + " cups" + Environment.NewLine;
+					//for (int intCounter = 0; intCounter < Nopeople; intCounter++)
+					//{
+
+					//	if (StrGender[intCounter] == "M")
+					//	{
+					//		if (intAge[intCounter] <= 5)
+					//		{
+					//			txtDisplay.Text += "Total Fruits for 5 year old Males: " + Convert.ToString(dblmtotalfruit) + " cups" + Environment.NewLine;
+
+
+					//			if (Banana_CB.Checked)
+					//			{
+					//                         txtDisplay.Text += dblBananaPortion + " Cups of total Fruits should be Bananas" + Environment.NewLine;
+
+
+					//                     }
+					//                     if (Watermelon_CB.Checked)
+					//			{
+					//                         txtDisplay.Text += dblWatermelonPortion + " Cups of total Fruits should be Watermelon" + Environment.NewLine;
+
+
+					//                     }
+					//                     if (Orange_CB.Checked)
+					//			{
+					//                         txtDisplay.Text += dblOrangePortion + " Cups of total Fruits should be Oranges" + Environment.NewLine;
+
+
+					//                     }
+					//                     if (Potatoes_CB.Checked)
+					//			{
+					//                         txtDisplay.Text += dblPotatoesPortion + " Cups of total Vegetables should be Potatoes" + Environment.NewLine;
+
+
+					//                     }
+					//                     if (Onion_CB.Checked)
+					//			{
+					//                         txtDisplay.Text += dblOnionPortion + " Cups of total Vegetables should be Onion" + Environment.NewLine;
+
+
+					//                     }
+					//                     if (Garlic_CB.Checked)
+					//			{
+					//                         txtDisplay.Text += dblGarlicPortion + " Cups of total Vegetables should be Garlic" + Environment.NewLine;
+
+
+					//                     }
+					//                 }
+					//	}
+					//}
+
+					//                     txtDisplay.Text += "Total Fruits for 5 year old Males: " + Convert.ToString(dblmtotalfruit) + " cups" + Environment.NewLine;
+					//         if (Banana_CB.Checked)
+					//         {
+					//             txtDisplay.Text += dblBananaPortion + " Cups of total Fruits should be Bananas" + Environment.NewLine;
+					//         }
+					//         if (Watermelon_CB.Checked)
+					//         {
+					//             txtDisplay.Text += dblWatermelonPortion + " Cups of total Fruits should be Watermelon" + Environment.NewLine;
+
+					//         }
+					//         if (Orange_CB.Checked)
+					//         {
+					//             txtDisplay.Text += dblOrangePortion + " Cups of total Fruits should be Oranges" + Environment.NewLine;
+					//         }
+					//         txtDisplay.Text += "Total Vegetables for 5 year old Males: " + Convert.ToString(dblmtotalveg) + " cups" + Environment.NewLine;
+					//if (Potatoes_CB.Checked)
+					//         {
+					//             txtDisplay.Text += dblPotatoesPortion + " Cups of total Vegetables should be Potatoes" + Environment.NewLine;
+					//         }
+					//         if (Onion_CB.Checked)
+					//         {
+					//             txtDisplay.Text += dblOnionPortion + " Cups of total Vegetables should be Onion" + Environment.NewLine;
+
+					//         }
+					//         if (Garlic_CB.Checked)
+					//         {
+					//             txtDisplay.Text += dblGarlicPortion + " Cups of total Vegetables should be Garlic" + Environment.NewLine;
+					//         }
+					//txtDisplay.Text += "Total cups: " + Convert.ToString(totalcups) + " cups" + Environment.NewLine;
+
+				}
 
 		private void label2_Click(object sender, EventArgs e)
 		{

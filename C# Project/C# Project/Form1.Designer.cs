@@ -67,28 +67,48 @@
             this.Gbox1 = new System.Windows.Forms.ComboBox();
             this.prdTab = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.Pineapple_CB = new System.Windows.Forms.CheckBox();
+            this.Peach_CB = new System.Windows.Forms.CheckBox();
+            this.Orange_CB = new System.Windows.Forms.CheckBox();
+            this.Banana_CB = new System.Windows.Forms.CheckBox();
+            this.Watermelon_CB = new System.Windows.Forms.CheckBox();
+            this.Berry_CB = new System.Windows.Forms.CheckBox();
+            this.Mango_CB = new System.Windows.Forms.CheckBox();
+            this.Cherry_CB = new System.Windows.Forms.CheckBox();
+            this.Strawberry_CB = new System.Windows.Forms.CheckBox();
+            this.Apple_CB = new System.Windows.Forms.CheckBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.checkBox81 = new System.Windows.Forms.CheckBox();
+            this.Radish_CB = new System.Windows.Forms.CheckBox();
             this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.checkBox17 = new System.Windows.Forms.CheckBox();
-            this.checkBox18 = new System.Windows.Forms.CheckBox();
-            this.checkBox19 = new System.Windows.Forms.CheckBox();
-            this.checkBox20 = new System.Windows.Forms.CheckBox();
+            this.Lettuce_CB = new System.Windows.Forms.CheckBox();
+            this.Carrot_CB = new System.Windows.Forms.CheckBox();
+            this.Lemon_CB = new System.Windows.Forms.CheckBox();
+            this.Broccoli_CB = new System.Windows.Forms.CheckBox();
+            this.Potatoes_CB = new System.Windows.Forms.CheckBox();
+            this.Peppers_CB = new System.Windows.Forms.CheckBox();
+            this.Tomatoes_CB = new System.Windows.Forms.CheckBox();
+            this.Garlic_CB = new System.Windows.Forms.CheckBox();
+            this.Onion_CB = new System.Windows.Forms.CheckBox();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.pictureBox23 = new System.Windows.Forms.PictureBox();
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
+            this.pictureBox25 = new System.Windows.Forms.PictureBox();
+            this.pictureBox26 = new System.Windows.Forms.PictureBox();
+            this.pictureBox27 = new System.Windows.Forms.PictureBox();
+            this.pictureBox28 = new System.Windows.Forms.PictureBox();
+            this.pictureBox29 = new System.Windows.Forms.PictureBox();
+            this.pictureBox30 = new System.Windows.Forms.PictureBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.checkBox21 = new System.Windows.Forms.CheckBox();
             this.checkBox22 = new System.Windows.Forms.CheckBox();
@@ -100,6 +120,16 @@
             this.checkBox28 = new System.Windows.Forms.CheckBox();
             this.checkBox29 = new System.Windows.Forms.CheckBox();
             this.checkBox30 = new System.Windows.Forms.CheckBox();
+            this.pictureBox31 = new System.Windows.Forms.PictureBox();
+            this.pictureBox32 = new System.Windows.Forms.PictureBox();
+            this.pictureBox33 = new System.Windows.Forms.PictureBox();
+            this.pictureBox34 = new System.Windows.Forms.PictureBox();
+            this.pictureBox35 = new System.Windows.Forms.PictureBox();
+            this.pictureBox36 = new System.Windows.Forms.PictureBox();
+            this.pictureBox37 = new System.Windows.Forms.PictureBox();
+            this.pictureBox38 = new System.Windows.Forms.PictureBox();
+            this.pictureBox39 = new System.Windows.Forms.PictureBox();
+            this.pictureBox40 = new System.Windows.Forms.PictureBox();
             this.drinksTab = new System.Windows.Forms.TabPage();
             this.checkBox31 = new System.Windows.Forms.CheckBox();
             this.checkBox32 = new System.Windows.Forms.CheckBox();
@@ -111,6 +141,16 @@
             this.checkBox38 = new System.Windows.Forms.CheckBox();
             this.checkBox39 = new System.Windows.Forms.CheckBox();
             this.checkBox40 = new System.Windows.Forms.CheckBox();
+            this.pictureBox41 = new System.Windows.Forms.PictureBox();
+            this.pictureBox42 = new System.Windows.Forms.PictureBox();
+            this.pictureBox43 = new System.Windows.Forms.PictureBox();
+            this.pictureBox44 = new System.Windows.Forms.PictureBox();
+            this.pictureBox45 = new System.Windows.Forms.PictureBox();
+            this.pictureBox46 = new System.Windows.Forms.PictureBox();
+            this.pictureBox47 = new System.Windows.Forms.PictureBox();
+            this.pictureBox48 = new System.Windows.Forms.PictureBox();
+            this.pictureBox49 = new System.Windows.Forms.PictureBox();
+            this.pictureBox50 = new System.Windows.Forms.PictureBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.checkBox41 = new System.Windows.Forms.CheckBox();
             this.checkBox42 = new System.Windows.Forms.CheckBox();
@@ -122,6 +162,16 @@
             this.checkBox48 = new System.Windows.Forms.CheckBox();
             this.checkBox49 = new System.Windows.Forms.CheckBox();
             this.checkBox50 = new System.Windows.Forms.CheckBox();
+            this.pictureBox51 = new System.Windows.Forms.PictureBox();
+            this.pictureBox52 = new System.Windows.Forms.PictureBox();
+            this.pictureBox53 = new System.Windows.Forms.PictureBox();
+            this.pictureBox54 = new System.Windows.Forms.PictureBox();
+            this.pictureBox55 = new System.Windows.Forms.PictureBox();
+            this.pictureBox56 = new System.Windows.Forms.PictureBox();
+            this.pictureBox57 = new System.Windows.Forms.PictureBox();
+            this.pictureBox58 = new System.Windows.Forms.PictureBox();
+            this.pictureBox59 = new System.Windows.Forms.PictureBox();
+            this.pictureBox60 = new System.Windows.Forms.PictureBox();
             this.spiceTab = new System.Windows.Forms.TabPage();
             this.checkBox51 = new System.Windows.Forms.CheckBox();
             this.checkBox52 = new System.Windows.Forms.CheckBox();
@@ -133,6 +183,16 @@
             this.checkBox58 = new System.Windows.Forms.CheckBox();
             this.checkBox59 = new System.Windows.Forms.CheckBox();
             this.checkBox60 = new System.Windows.Forms.CheckBox();
+            this.pictureBox61 = new System.Windows.Forms.PictureBox();
+            this.pictureBox62 = new System.Windows.Forms.PictureBox();
+            this.pictureBox63 = new System.Windows.Forms.PictureBox();
+            this.pictureBox64 = new System.Windows.Forms.PictureBox();
+            this.pictureBox65 = new System.Windows.Forms.PictureBox();
+            this.pictureBox66 = new System.Windows.Forms.PictureBox();
+            this.pictureBox67 = new System.Windows.Forms.PictureBox();
+            this.pictureBox68 = new System.Windows.Forms.PictureBox();
+            this.pictureBox69 = new System.Windows.Forms.PictureBox();
+            this.pictureBox70 = new System.Windows.Forms.PictureBox();
             this.meatTab = new System.Windows.Forms.TabPage();
             this.checkBox61 = new System.Windows.Forms.CheckBox();
             this.checkBox62 = new System.Windows.Forms.CheckBox();
@@ -144,6 +204,16 @@
             this.checkBox68 = new System.Windows.Forms.CheckBox();
             this.checkBox69 = new System.Windows.Forms.CheckBox();
             this.checkBox70 = new System.Windows.Forms.CheckBox();
+            this.pictureBox71 = new System.Windows.Forms.PictureBox();
+            this.pictureBox72 = new System.Windows.Forms.PictureBox();
+            this.pictureBox73 = new System.Windows.Forms.PictureBox();
+            this.pictureBox74 = new System.Windows.Forms.PictureBox();
+            this.pictureBox75 = new System.Windows.Forms.PictureBox();
+            this.pictureBox76 = new System.Windows.Forms.PictureBox();
+            this.pictureBox77 = new System.Windows.Forms.PictureBox();
+            this.pictureBox78 = new System.Windows.Forms.PictureBox();
+            this.pictureBox79 = new System.Windows.Forms.PictureBox();
+            this.pictureBox80 = new System.Windows.Forms.PictureBox();
             this.otherTab = new System.Windows.Forms.TabPage();
             this.checkBox71 = new System.Windows.Forms.CheckBox();
             this.checkBox72 = new System.Windows.Forms.CheckBox();
@@ -155,84 +225,6 @@
             this.checkBox78 = new System.Windows.Forms.CheckBox();
             this.checkBox79 = new System.Windows.Forms.CheckBox();
             this.checkBox80 = new System.Windows.Forms.CheckBox();
-            this.genBox = new System.Windows.Forms.GroupBox();
-            this.budgetLabel = new System.Windows.Forms.Label();
-            this.typeLabel = new System.Windows.Forms.Label();
-            this.peopleLabel = new System.Windows.Forms.Label();
-            this.budgetNum = new System.Windows.Forms.NumericUpDown();
-            this.peopleNum = new System.Windows.Forms.NumericUpDown();
-            this.typeList = new System.Windows.Forms.ComboBox();
-            this.txtDisplay = new System.Windows.Forms.TextBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
-            this.pictureBox25 = new System.Windows.Forms.PictureBox();
-            this.pictureBox26 = new System.Windows.Forms.PictureBox();
-            this.pictureBox27 = new System.Windows.Forms.PictureBox();
-            this.pictureBox28 = new System.Windows.Forms.PictureBox();
-            this.pictureBox29 = new System.Windows.Forms.PictureBox();
-            this.pictureBox30 = new System.Windows.Forms.PictureBox();
-            this.pictureBox31 = new System.Windows.Forms.PictureBox();
-            this.pictureBox32 = new System.Windows.Forms.PictureBox();
-            this.pictureBox33 = new System.Windows.Forms.PictureBox();
-            this.pictureBox34 = new System.Windows.Forms.PictureBox();
-            this.pictureBox35 = new System.Windows.Forms.PictureBox();
-            this.pictureBox36 = new System.Windows.Forms.PictureBox();
-            this.pictureBox37 = new System.Windows.Forms.PictureBox();
-            this.pictureBox38 = new System.Windows.Forms.PictureBox();
-            this.pictureBox39 = new System.Windows.Forms.PictureBox();
-            this.pictureBox40 = new System.Windows.Forms.PictureBox();
-            this.pictureBox41 = new System.Windows.Forms.PictureBox();
-            this.pictureBox42 = new System.Windows.Forms.PictureBox();
-            this.pictureBox43 = new System.Windows.Forms.PictureBox();
-            this.pictureBox44 = new System.Windows.Forms.PictureBox();
-            this.pictureBox45 = new System.Windows.Forms.PictureBox();
-            this.pictureBox46 = new System.Windows.Forms.PictureBox();
-            this.pictureBox47 = new System.Windows.Forms.PictureBox();
-            this.pictureBox48 = new System.Windows.Forms.PictureBox();
-            this.pictureBox49 = new System.Windows.Forms.PictureBox();
-            this.pictureBox50 = new System.Windows.Forms.PictureBox();
-            this.pictureBox51 = new System.Windows.Forms.PictureBox();
-            this.pictureBox52 = new System.Windows.Forms.PictureBox();
-            this.pictureBox53 = new System.Windows.Forms.PictureBox();
-            this.pictureBox54 = new System.Windows.Forms.PictureBox();
-            this.pictureBox55 = new System.Windows.Forms.PictureBox();
-            this.pictureBox56 = new System.Windows.Forms.PictureBox();
-            this.pictureBox57 = new System.Windows.Forms.PictureBox();
-            this.pictureBox58 = new System.Windows.Forms.PictureBox();
-            this.pictureBox59 = new System.Windows.Forms.PictureBox();
-            this.pictureBox60 = new System.Windows.Forms.PictureBox();
-            this.pictureBox61 = new System.Windows.Forms.PictureBox();
-            this.pictureBox62 = new System.Windows.Forms.PictureBox();
-            this.pictureBox63 = new System.Windows.Forms.PictureBox();
-            this.pictureBox64 = new System.Windows.Forms.PictureBox();
-            this.pictureBox65 = new System.Windows.Forms.PictureBox();
-            this.pictureBox66 = new System.Windows.Forms.PictureBox();
-            this.pictureBox67 = new System.Windows.Forms.PictureBox();
-            this.pictureBox68 = new System.Windows.Forms.PictureBox();
-            this.pictureBox69 = new System.Windows.Forms.PictureBox();
-            this.pictureBox70 = new System.Windows.Forms.PictureBox();
-            this.pictureBox71 = new System.Windows.Forms.PictureBox();
-            this.pictureBox72 = new System.Windows.Forms.PictureBox();
-            this.pictureBox73 = new System.Windows.Forms.PictureBox();
-            this.pictureBox74 = new System.Windows.Forms.PictureBox();
-            this.pictureBox75 = new System.Windows.Forms.PictureBox();
-            this.pictureBox76 = new System.Windows.Forms.PictureBox();
-            this.pictureBox77 = new System.Windows.Forms.PictureBox();
-            this.pictureBox78 = new System.Windows.Forms.PictureBox();
-            this.pictureBox79 = new System.Windows.Forms.PictureBox();
-            this.pictureBox80 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
@@ -243,6 +235,14 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.genBox = new System.Windows.Forms.GroupBox();
+            this.budgetLabel = new System.Windows.Forms.Label();
+            this.typeLabel = new System.Windows.Forms.Label();
+            this.peopleLabel = new System.Windows.Forms.Label();
+            this.budgetNum = new System.Windows.Forms.NumericUpDown();
+            this.peopleNum = new System.Windows.Forms.NumericUpDown();
+            this.typeList = new System.Windows.Forms.ComboBox();
+            this.txtDisplay = new System.Windows.Forms.TextBox();
             this.famBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Page10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Page9)).BeginInit();
@@ -256,16 +256,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.PersonAge1)).BeginInit();
             this.prdTab.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            this.drinksTab.SuspendLayout();
-            this.tabPage5.SuspendLayout();
-            this.spiceTab.SuspendLayout();
-            this.meatTab.SuspendLayout();
-            this.otherTab.SuspendLayout();
-            this.genBox.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.budgetNum)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.peopleNum)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
@@ -276,6 +266,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
@@ -286,6 +277,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
+            this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
@@ -296,6 +288,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).BeginInit();
+            this.drinksTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).BeginInit();
@@ -306,6 +299,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox48)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox49)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox50)).BeginInit();
+            this.tabPage5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox51)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox52)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox53)).BeginInit();
@@ -316,6 +310,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox58)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox59)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox60)).BeginInit();
+            this.spiceTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox61)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox62)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox63)).BeginInit();
@@ -326,6 +321,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox68)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox69)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox70)).BeginInit();
+            this.meatTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox71)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox72)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox73)).BeginInit();
@@ -336,6 +332,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox78)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox79)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox80)).BeginInit();
+            this.otherTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
@@ -346,6 +343,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.genBox.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.budgetNum)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.peopleNum)).BeginInit();
             this.SuspendLayout();
             // 
             // prcBtn
@@ -872,16 +872,16 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.checkBox6);
-            this.tabPage1.Controls.Add(this.checkBox7);
-            this.tabPage1.Controls.Add(this.checkBox8);
-            this.tabPage1.Controls.Add(this.checkBox9);
-            this.tabPage1.Controls.Add(this.checkBox10);
-            this.tabPage1.Controls.Add(this.checkBox5);
-            this.tabPage1.Controls.Add(this.checkBox3);
-            this.tabPage1.Controls.Add(this.checkBox4);
-            this.tabPage1.Controls.Add(this.checkBox2);
-            this.tabPage1.Controls.Add(this.checkBox1);
+            this.tabPage1.Controls.Add(this.Pineapple_CB);
+            this.tabPage1.Controls.Add(this.Peach_CB);
+            this.tabPage1.Controls.Add(this.Orange_CB);
+            this.tabPage1.Controls.Add(this.Banana_CB);
+            this.tabPage1.Controls.Add(this.Watermelon_CB);
+            this.tabPage1.Controls.Add(this.Berry_CB);
+            this.tabPage1.Controls.Add(this.Mango_CB);
+            this.tabPage1.Controls.Add(this.Cherry_CB);
+            this.tabPage1.Controls.Add(this.Strawberry_CB);
+            this.tabPage1.Controls.Add(this.Apple_CB);
             this.tabPage1.Controls.Add(this.pictureBox11);
             this.tabPage1.Controls.Add(this.pictureBox12);
             this.tabPage1.Controls.Add(this.pictureBox13);
@@ -901,142 +901,263 @@
             this.tabPage1.Text = "Fruits";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // checkBox6
+            // Pineapple_CB
             // 
-            this.checkBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(1186, 425);
-            this.checkBox6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(95, 20);
-            this.checkBox6.TabIndex = 33;
-            this.checkBox6.Text = "checkBox6";
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.Pineapple_CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.Pineapple_CB.AutoSize = true;
+            this.Pineapple_CB.Location = new System.Drawing.Point(1186, 425);
+            this.Pineapple_CB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Pineapple_CB.Name = "Pineapple_CB";
+            this.Pineapple_CB.Size = new System.Drawing.Size(91, 20);
+            this.Pineapple_CB.TabIndex = 33;
+            this.Pineapple_CB.Text = "Pineapple";
+            this.Pineapple_CB.UseVisualStyleBackColor = true;
             // 
-            // checkBox7
+            // Peach_CB
             // 
-            this.checkBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(881, 425);
-            this.checkBox7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(95, 20);
-            this.checkBox7.TabIndex = 32;
-            this.checkBox7.Text = "checkBox7";
-            this.checkBox7.UseVisualStyleBackColor = true;
-            this.checkBox7.CheckedChanged += new System.EventHandler(this.checkBox7_CheckedChanged);
+            this.Peach_CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.Peach_CB.AutoSize = true;
+            this.Peach_CB.Location = new System.Drawing.Point(881, 425);
+            this.Peach_CB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Peach_CB.Name = "Peach_CB";
+            this.Peach_CB.Size = new System.Drawing.Size(68, 20);
+            this.Peach_CB.TabIndex = 32;
+            this.Peach_CB.Text = "Peach";
+            this.Peach_CB.UseVisualStyleBackColor = true;
+            this.Peach_CB.CheckedChanged += new System.EventHandler(this.checkBox7_CheckedChanged);
             // 
-            // checkBox8
+            // Orange_CB
             // 
-            this.checkBox8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(595, 425);
-            this.checkBox8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(95, 20);
-            this.checkBox8.TabIndex = 31;
-            this.checkBox8.Text = "checkBox8";
-            this.checkBox8.UseVisualStyleBackColor = true;
-            this.checkBox8.CheckedChanged += new System.EventHandler(this.checkBox8_CheckedChanged);
+            this.Orange_CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.Orange_CB.AutoSize = true;
+            this.Orange_CB.Location = new System.Drawing.Point(595, 425);
+            this.Orange_CB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Orange_CB.Name = "Orange_CB";
+            this.Orange_CB.Size = new System.Drawing.Size(74, 20);
+            this.Orange_CB.TabIndex = 31;
+            this.Orange_CB.Text = "Orange";
+            this.Orange_CB.UseVisualStyleBackColor = true;
+            this.Orange_CB.CheckedChanged += new System.EventHandler(this.checkBox8_CheckedChanged);
             // 
-            // checkBox9
+            // Banana_CB
             // 
-            this.checkBox9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(316, 425);
-            this.checkBox9.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(95, 20);
-            this.checkBox9.TabIndex = 30;
-            this.checkBox9.Text = "checkBox9";
-            this.checkBox9.UseVisualStyleBackColor = true;
+            this.Banana_CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.Banana_CB.AutoSize = true;
+            this.Banana_CB.Location = new System.Drawing.Point(316, 425);
+            this.Banana_CB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Banana_CB.Name = "Banana_CB";
+            this.Banana_CB.Size = new System.Drawing.Size(76, 20);
+            this.Banana_CB.TabIndex = 30;
+            this.Banana_CB.Text = "Banana";
+            this.Banana_CB.UseVisualStyleBackColor = true;
             // 
-            // checkBox10
+            // Watermelon_CB
             // 
-            this.checkBox10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Location = new System.Drawing.Point(36, 425);
-            this.checkBox10.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(102, 20);
-            this.checkBox10.TabIndex = 29;
-            this.checkBox10.Text = "checkBox10";
-            this.checkBox10.UseVisualStyleBackColor = true;
+            this.Watermelon_CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.Watermelon_CB.AutoSize = true;
+            this.Watermelon_CB.Location = new System.Drawing.Point(36, 425);
+            this.Watermelon_CB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Watermelon_CB.Name = "Watermelon_CB";
+            this.Watermelon_CB.Size = new System.Drawing.Size(102, 20);
+            this.Watermelon_CB.TabIndex = 29;
+            this.Watermelon_CB.Text = "Watermelon";
+            this.Watermelon_CB.UseVisualStyleBackColor = true;
             // 
-            // checkBox5
+            // Berry_CB
             // 
-            this.checkBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(1186, 187);
-            this.checkBox5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(95, 20);
-            this.checkBox5.TabIndex = 28;
-            this.checkBox5.Text = "checkBox5";
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.Berry_CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.Berry_CB.AutoSize = true;
+            this.Berry_CB.Location = new System.Drawing.Point(1186, 187);
+            this.Berry_CB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Berry_CB.Name = "Berry_CB";
+            this.Berry_CB.Size = new System.Drawing.Size(61, 20);
+            this.Berry_CB.TabIndex = 28;
+            this.Berry_CB.Text = "Berry";
+            this.Berry_CB.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // Mango_CB
             // 
-            this.checkBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(881, 186);
-            this.checkBox3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(95, 20);
-            this.checkBox3.TabIndex = 27;
-            this.checkBox3.Text = "checkBox3";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.Mango_CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.Mango_CB.AutoSize = true;
+            this.Mango_CB.Location = new System.Drawing.Point(881, 186);
+            this.Mango_CB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Mango_CB.Name = "Mango_CB";
+            this.Mango_CB.Size = new System.Drawing.Size(71, 20);
+            this.Mango_CB.TabIndex = 27;
+            this.Mango_CB.Text = "Mango";
+            this.Mango_CB.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // Cherry_CB
             // 
-            this.checkBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(600, 189);
-            this.checkBox4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(95, 20);
-            this.checkBox4.TabIndex = 26;
-            this.checkBox4.Text = "checkBox4";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.Cherry_CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.Cherry_CB.AutoSize = true;
+            this.Cherry_CB.Location = new System.Drawing.Point(600, 189);
+            this.Cherry_CB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Cherry_CB.Name = "Cherry_CB";
+            this.Cherry_CB.Size = new System.Drawing.Size(68, 20);
+            this.Cherry_CB.TabIndex = 26;
+            this.Cherry_CB.Text = "Cherry";
+            this.Cherry_CB.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // Strawberry_CB
             // 
-            this.checkBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(324, 189);
-            this.checkBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(95, 20);
-            this.checkBox2.TabIndex = 25;
-            this.checkBox2.Text = "checkBox2";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            this.Strawberry_CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.Strawberry_CB.AutoSize = true;
+            this.Strawberry_CB.Location = new System.Drawing.Point(324, 189);
+            this.Strawberry_CB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Strawberry_CB.Name = "Strawberry_CB";
+            this.Strawberry_CB.Size = new System.Drawing.Size(93, 20);
+            this.Strawberry_CB.TabIndex = 25;
+            this.Strawberry_CB.Text = "Strawberry";
+            this.Strawberry_CB.UseVisualStyleBackColor = true;
+            this.Strawberry_CB.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
-            // checkBox1
+            // Apple_CB
             // 
-            this.checkBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(36, 186);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(95, 20);
-            this.checkBox1.TabIndex = 24;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.Apple_CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.Apple_CB.AutoSize = true;
+            this.Apple_CB.Location = new System.Drawing.Point(36, 186);
+            this.Apple_CB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Apple_CB.Name = "Apple_CB";
+            this.Apple_CB.Size = new System.Drawing.Size(65, 20);
+            this.Apple_CB.TabIndex = 24;
+            this.Apple_CB.Text = "Apple";
+            this.Apple_CB.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox11.Image = global::C__Project.Properties.Resources.توت___Copy;
+            this.pictureBox11.Location = new System.Drawing.Point(1173, 17);
+            this.pictureBox11.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(161, 147);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox11.TabIndex = 23;
+            this.pictureBox11.TabStop = false;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox12.Image = global::C__Project.Properties.Resources.Simply_Recipes_How_to_Ripe_Pineapple_LEAD_1_2fa3fc49249b48caa5d80c54fa71675f;
+            this.pictureBox12.Location = new System.Drawing.Point(1173, 262);
+            this.pictureBox12.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(161, 147);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox12.TabIndex = 22;
+            this.pictureBox12.TabStop = false;
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox13.Image = global::C__Project.Properties.Resources.mango___Copy;
+            this.pictureBox13.Location = new System.Drawing.Point(872, 17);
+            this.pictureBox13.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(161, 147);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox13.TabIndex = 21;
+            this.pictureBox13.TabStop = false;
+            // 
+            // pictureBox14
+            // 
+            this.pictureBox14.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox14.Image = global::C__Project.Properties.Resources.close_up_of_a_juicy_peach_slice_created_by_ai_tools_photo;
+            this.pictureBox14.Location = new System.Drawing.Point(872, 262);
+            this.pictureBox14.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(161, 147);
+            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox14.TabIndex = 20;
+            this.pictureBox14.TabStop = false;
+            // 
+            // pictureBox15
+            // 
+            this.pictureBox15.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox15.Image = global::C__Project.Properties.Resources.istockphoto_612524020_1024x1024;
+            this.pictureBox15.Location = new System.Drawing.Point(595, 17);
+            this.pictureBox15.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(161, 147);
+            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox15.TabIndex = 19;
+            this.pictureBox15.TabStop = false;
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox16.Image = global::C__Project.Properties.Resources._32497c3866a4c36ebb81051a8a2ee5f0;
+            this.pictureBox16.Location = new System.Drawing.Point(595, 262);
+            this.pictureBox16.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(161, 147);
+            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox16.TabIndex = 18;
+            this.pictureBox16.TabStop = false;
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox17.Image = global::C__Project.Properties.Resources.anton_darius_FCrgmqqvl_w_unsplash;
+            this.pictureBox17.Location = new System.Drawing.Point(316, 20);
+            this.pictureBox17.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(161, 147);
+            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox17.TabIndex = 17;
+            this.pictureBox17.TabStop = false;
+            this.pictureBox17.Click += new System.EventHandler(this.pictureBox17_Click);
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox18.Image = global::C__Project.Properties.Resources.bananas_1_e1624909301641_jpg_optimal;
+            this.pictureBox18.Location = new System.Drawing.Point(316, 264);
+            this.pictureBox18.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(161, 147);
+            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox18.TabIndex = 16;
+            this.pictureBox18.TabStop = false;
+            // 
+            // pictureBox19
+            // 
+            this.pictureBox19.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
+            this.pictureBox19.Location = new System.Drawing.Point(33, 18);
+            this.pictureBox19.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(161, 147);
+            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox19.TabIndex = 15;
+            this.pictureBox19.TabStop = false;
+            // 
+            // pictureBox20
+            // 
+            this.pictureBox20.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox20.Image = global::C__Project.Properties.Resources.جح___Copy;
+            this.pictureBox20.Location = new System.Drawing.Point(33, 263);
+            this.pictureBox20.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(161, 147);
+            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox20.TabIndex = 14;
+            this.pictureBox20.TabStop = false;
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.checkBox81);
+            this.tabPage2.Controls.Add(this.Radish_CB);
             this.tabPage2.Controls.Add(this.checkBox11);
-            this.tabPage2.Controls.Add(this.checkBox12);
-            this.tabPage2.Controls.Add(this.checkBox13);
-            this.tabPage2.Controls.Add(this.checkBox14);
-            this.tabPage2.Controls.Add(this.checkBox15);
-            this.tabPage2.Controls.Add(this.checkBox16);
-            this.tabPage2.Controls.Add(this.checkBox17);
-            this.tabPage2.Controls.Add(this.checkBox18);
-            this.tabPage2.Controls.Add(this.checkBox19);
-            this.tabPage2.Controls.Add(this.checkBox20);
+            this.tabPage2.Controls.Add(this.Lettuce_CB);
+            this.tabPage2.Controls.Add(this.Carrot_CB);
+            this.tabPage2.Controls.Add(this.Lemon_CB);
+            this.tabPage2.Controls.Add(this.Broccoli_CB);
+            this.tabPage2.Controls.Add(this.Potatoes_CB);
+            this.tabPage2.Controls.Add(this.Peppers_CB);
+            this.tabPage2.Controls.Add(this.Tomatoes_CB);
+            this.tabPage2.Controls.Add(this.Garlic_CB);
+            this.tabPage2.Controls.Add(this.Onion_CB);
             this.tabPage2.Controls.Add(this.pictureBox21);
             this.tabPage2.Controls.Add(this.pictureBox22);
             this.tabPage2.Controls.Add(this.pictureBox23);
@@ -1056,16 +1177,16 @@
             this.tabPage2.Text = "Vegetables";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // checkBox81
+            // Radish_CB
             // 
-            this.checkBox81.AutoSize = true;
-            this.checkBox81.Location = new System.Drawing.Point(1321, 425);
-            this.checkBox81.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBox81.Name = "checkBox81";
-            this.checkBox81.Size = new System.Drawing.Size(102, 20);
-            this.checkBox81.TabIndex = 44;
-            this.checkBox81.Text = "checkBox81";
-            this.checkBox81.UseVisualStyleBackColor = true;
+            this.Radish_CB.AutoSize = true;
+            this.Radish_CB.Location = new System.Drawing.Point(1321, 425);
+            this.Radish_CB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Radish_CB.Name = "Radish_CB";
+            this.Radish_CB.Size = new System.Drawing.Size(75, 20);
+            this.Radish_CB.TabIndex = 44;
+            this.Radish_CB.Text = "Radish ";
+            this.Radish_CB.UseVisualStyleBackColor = true;
             // 
             // checkBox11
             // 
@@ -1078,104 +1199,214 @@
             this.checkBox11.Text = "checkBox11";
             this.checkBox11.UseVisualStyleBackColor = true;
             // 
-            // checkBox12
+            // Lettuce_CB
             // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Location = new System.Drawing.Point(1025, 425);
-            this.checkBox12.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(102, 20);
-            this.checkBox12.TabIndex = 42;
-            this.checkBox12.Text = "checkBox12";
-            this.checkBox12.UseVisualStyleBackColor = true;
+            this.Lettuce_CB.AutoSize = true;
+            this.Lettuce_CB.Location = new System.Drawing.Point(1025, 425);
+            this.Lettuce_CB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Lettuce_CB.Name = "Lettuce_CB";
+            this.Lettuce_CB.Size = new System.Drawing.Size(72, 20);
+            this.Lettuce_CB.TabIndex = 42;
+            this.Lettuce_CB.Text = "Lettuce";
+            this.Lettuce_CB.UseVisualStyleBackColor = true;
             // 
-            // checkBox13
+            // Carrot_CB
             // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Location = new System.Drawing.Point(713, 425);
-            this.checkBox13.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(102, 20);
-            this.checkBox13.TabIndex = 41;
-            this.checkBox13.Text = "checkBox13";
-            this.checkBox13.UseVisualStyleBackColor = true;
+            this.Carrot_CB.AutoSize = true;
+            this.Carrot_CB.Location = new System.Drawing.Point(713, 425);
+            this.Carrot_CB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Carrot_CB.Name = "Carrot_CB";
+            this.Carrot_CB.Size = new System.Drawing.Size(72, 20);
+            this.Carrot_CB.TabIndex = 41;
+            this.Carrot_CB.Text = "Carrots";
+            this.Carrot_CB.UseVisualStyleBackColor = true;
             // 
-            // checkBox14
+            // Lemon_CB
             // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Location = new System.Drawing.Point(417, 425);
-            this.checkBox14.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(102, 20);
-            this.checkBox14.TabIndex = 40;
-            this.checkBox14.Text = "checkBox14";
-            this.checkBox14.UseVisualStyleBackColor = true;
+            this.Lemon_CB.AutoSize = true;
+            this.Lemon_CB.Location = new System.Drawing.Point(417, 425);
+            this.Lemon_CB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Lemon_CB.Name = "Lemon_CB";
+            this.Lemon_CB.Size = new System.Drawing.Size(70, 20);
+            this.Lemon_CB.TabIndex = 40;
+            this.Lemon_CB.Text = "Lemon";
+            this.Lemon_CB.UseVisualStyleBackColor = true;
             // 
-            // checkBox15
+            // Broccoli_CB
             // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Location = new System.Drawing.Point(128, 425);
-            this.checkBox15.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(102, 20);
-            this.checkBox15.TabIndex = 39;
-            this.checkBox15.Text = "checkBox15";
-            this.checkBox15.UseVisualStyleBackColor = true;
+            this.Broccoli_CB.AutoSize = true;
+            this.Broccoli_CB.Location = new System.Drawing.Point(128, 425);
+            this.Broccoli_CB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Broccoli_CB.Name = "Broccoli_CB";
+            this.Broccoli_CB.Size = new System.Drawing.Size(78, 20);
+            this.Broccoli_CB.TabIndex = 39;
+            this.Broccoli_CB.Text = "Broccoli";
+            this.Broccoli_CB.UseVisualStyleBackColor = true;
             // 
-            // checkBox16
+            // Potatoes_CB
             // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.Location = new System.Drawing.Point(1321, 198);
-            this.checkBox16.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(102, 20);
-            this.checkBox16.TabIndex = 38;
-            this.checkBox16.Text = "checkBox16";
-            this.checkBox16.UseVisualStyleBackColor = true;
+            this.Potatoes_CB.AutoSize = true;
+            this.Potatoes_CB.Location = new System.Drawing.Point(1321, 198);
+            this.Potatoes_CB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Potatoes_CB.Name = "Potatoes_CB";
+            this.Potatoes_CB.Size = new System.Drawing.Size(86, 20);
+            this.Potatoes_CB.TabIndex = 38;
+            this.Potatoes_CB.Text = "Potatoes ";
+            this.Potatoes_CB.UseVisualStyleBackColor = true;
             // 
-            // checkBox17
+            // Peppers_CB
             // 
-            this.checkBox17.AutoSize = true;
-            this.checkBox17.Location = new System.Drawing.Point(1025, 198);
-            this.checkBox17.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBox17.Name = "checkBox17";
-            this.checkBox17.Size = new System.Drawing.Size(102, 20);
-            this.checkBox17.TabIndex = 37;
-            this.checkBox17.Text = "checkBox17";
-            this.checkBox17.UseVisualStyleBackColor = true;
+            this.Peppers_CB.AutoSize = true;
+            this.Peppers_CB.Location = new System.Drawing.Point(1025, 198);
+            this.Peppers_CB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Peppers_CB.Name = "Peppers_CB";
+            this.Peppers_CB.Size = new System.Drawing.Size(81, 20);
+            this.Peppers_CB.TabIndex = 37;
+            this.Peppers_CB.Text = "Peppers";
+            this.Peppers_CB.UseVisualStyleBackColor = true;
             // 
-            // checkBox18
+            // Tomatoes_CB
             // 
-            this.checkBox18.AutoSize = true;
-            this.checkBox18.Location = new System.Drawing.Point(713, 198);
-            this.checkBox18.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBox18.Name = "checkBox18";
-            this.checkBox18.Size = new System.Drawing.Size(102, 20);
-            this.checkBox18.TabIndex = 36;
-            this.checkBox18.Text = "checkBox18";
-            this.checkBox18.UseVisualStyleBackColor = true;
+            this.Tomatoes_CB.AutoSize = true;
+            this.Tomatoes_CB.Location = new System.Drawing.Point(713, 198);
+            this.Tomatoes_CB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Tomatoes_CB.Name = "Tomatoes_CB";
+            this.Tomatoes_CB.Size = new System.Drawing.Size(91, 20);
+            this.Tomatoes_CB.TabIndex = 36;
+            this.Tomatoes_CB.Text = "Tomatoes";
+            this.Tomatoes_CB.UseVisualStyleBackColor = true;
             // 
-            // checkBox19
+            // Garlic_CB
             // 
-            this.checkBox19.AutoSize = true;
-            this.checkBox19.Location = new System.Drawing.Point(417, 198);
-            this.checkBox19.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBox19.Name = "checkBox19";
-            this.checkBox19.Size = new System.Drawing.Size(102, 20);
-            this.checkBox19.TabIndex = 35;
-            this.checkBox19.Text = "checkBox19";
-            this.checkBox19.UseVisualStyleBackColor = true;
+            this.Garlic_CB.AutoSize = true;
+            this.Garlic_CB.Location = new System.Drawing.Point(417, 198);
+            this.Garlic_CB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Garlic_CB.Name = "Garlic_CB";
+            this.Garlic_CB.Size = new System.Drawing.Size(64, 20);
+            this.Garlic_CB.TabIndex = 35;
+            this.Garlic_CB.Text = "Garlic";
+            this.Garlic_CB.UseVisualStyleBackColor = true;
             // 
-            // checkBox20
+            // Onion_CB
             // 
-            this.checkBox20.AutoSize = true;
-            this.checkBox20.Location = new System.Drawing.Point(128, 198);
-            this.checkBox20.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBox20.Name = "checkBox20";
-            this.checkBox20.Size = new System.Drawing.Size(102, 20);
-            this.checkBox20.TabIndex = 34;
-            this.checkBox20.Text = "checkBox20";
-            this.checkBox20.UseVisualStyleBackColor = true;
+            this.Onion_CB.AutoSize = true;
+            this.Onion_CB.Location = new System.Drawing.Point(128, 198);
+            this.Onion_CB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Onion_CB.Name = "Onion_CB";
+            this.Onion_CB.Size = new System.Drawing.Size(64, 20);
+            this.Onion_CB.TabIndex = 34;
+            this.Onion_CB.Text = "Onion";
+            this.Onion_CB.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox21
+            // 
+            this.pictureBox21.Image = global::C__Project.Properties.Resources.iC7HBvohbJqExqvbKcV3pP_1200_80;
+            this.pictureBox21.Location = new System.Drawing.Point(1321, 28);
+            this.pictureBox21.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(161, 147);
+            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox21.TabIndex = 23;
+            this.pictureBox21.TabStop = false;
+            // 
+            // pictureBox22
+            // 
+            this.pictureBox22.Image = global::C__Project.Properties.Resources.F3_02;
+            this.pictureBox22.Location = new System.Drawing.Point(1321, 254);
+            this.pictureBox22.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(161, 147);
+            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox22.TabIndex = 22;
+            this.pictureBox22.TabStop = false;
+            // 
+            // pictureBox23
+            // 
+            this.pictureBox23.Image = global::C__Project.Properties.Resources.فلفل;
+            this.pictureBox23.Location = new System.Drawing.Point(1025, 29);
+            this.pictureBox23.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox23.Name = "pictureBox23";
+            this.pictureBox23.Size = new System.Drawing.Size(161, 147);
+            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox23.TabIndex = 21;
+            this.pictureBox23.TabStop = false;
+            // 
+            // pictureBox24
+            // 
+            this.pictureBox24.Image = global::C__Project.Properties.Resources.AdobeStock_195401764;
+            this.pictureBox24.Location = new System.Drawing.Point(1025, 254);
+            this.pictureBox24.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(161, 147);
+            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox24.TabIndex = 20;
+            this.pictureBox24.TabStop = false;
+            // 
+            // pictureBox25
+            // 
+            this.pictureBox25.Image = global::C__Project.Properties.Resources.طماط;
+            this.pictureBox25.Location = new System.Drawing.Point(713, 27);
+            this.pictureBox25.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox25.Name = "pictureBox25";
+            this.pictureBox25.Size = new System.Drawing.Size(161, 147);
+            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox25.TabIndex = 19;
+            this.pictureBox25.TabStop = false;
+            // 
+            // pictureBox26
+            // 
+            this.pictureBox26.Image = global::C__Project.Properties.Resources.images;
+            this.pictureBox26.Location = new System.Drawing.Point(713, 252);
+            this.pictureBox26.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox26.Name = "pictureBox26";
+            this.pictureBox26.Size = new System.Drawing.Size(161, 147);
+            this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox26.TabIndex = 18;
+            this.pictureBox26.TabStop = false;
+            // 
+            // pictureBox27
+            // 
+            this.pictureBox27.Image = global::C__Project.Properties.Resources.ثوم;
+            this.pictureBox27.Location = new System.Drawing.Point(413, 28);
+            this.pictureBox27.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox27.Name = "pictureBox27";
+            this.pictureBox27.Size = new System.Drawing.Size(161, 147);
+            this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox27.TabIndex = 17;
+            this.pictureBox27.TabStop = false;
+            // 
+            // pictureBox28
+            // 
+            this.pictureBox28.Image = global::C__Project.Properties.Resources.ليمون;
+            this.pictureBox28.Location = new System.Drawing.Point(413, 254);
+            this.pictureBox28.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox28.Name = "pictureBox28";
+            this.pictureBox28.Size = new System.Drawing.Size(161, 147);
+            this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox28.TabIndex = 16;
+            this.pictureBox28.TabStop = false;
+            // 
+            // pictureBox29
+            // 
+            this.pictureBox29.Image = global::C__Project.Properties.Resources.بصل;
+            this.pictureBox29.Location = new System.Drawing.Point(128, 28);
+            this.pictureBox29.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox29.Name = "pictureBox29";
+            this.pictureBox29.Size = new System.Drawing.Size(161, 147);
+            this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox29.TabIndex = 15;
+            this.pictureBox29.TabStop = false;
+            // 
+            // pictureBox30
+            // 
+            this.pictureBox30.Image = global::C__Project.Properties.Resources.قرنبيط1;
+            this.pictureBox30.Location = new System.Drawing.Point(128, 254);
+            this.pictureBox30.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox30.Name = "pictureBox30";
+            this.pictureBox30.Size = new System.Drawing.Size(161, 147);
+            this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox30.TabIndex = 14;
+            this.pictureBox30.TabStop = false;
             // 
             // tabPage3
             // 
@@ -1320,6 +1551,100 @@
             this.checkBox30.Text = "checkBox30";
             this.checkBox30.UseVisualStyleBackColor = true;
             // 
+            // pictureBox31
+            // 
+            this.pictureBox31.Location = new System.Drawing.Point(1079, 65);
+            this.pictureBox31.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox31.Name = "pictureBox31";
+            this.pictureBox31.Size = new System.Drawing.Size(161, 147);
+            this.pictureBox31.TabIndex = 23;
+            this.pictureBox31.TabStop = false;
+            // 
+            // pictureBox32
+            // 
+            this.pictureBox32.Location = new System.Drawing.Point(1079, 295);
+            this.pictureBox32.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox32.Name = "pictureBox32";
+            this.pictureBox32.Size = new System.Drawing.Size(161, 147);
+            this.pictureBox32.TabIndex = 22;
+            this.pictureBox32.TabStop = false;
+            // 
+            // pictureBox33
+            // 
+            this.pictureBox33.Location = new System.Drawing.Point(827, 65);
+            this.pictureBox33.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox33.Name = "pictureBox33";
+            this.pictureBox33.Size = new System.Drawing.Size(161, 147);
+            this.pictureBox33.TabIndex = 21;
+            this.pictureBox33.TabStop = false;
+            // 
+            // pictureBox34
+            // 
+            this.pictureBox34.Location = new System.Drawing.Point(827, 295);
+            this.pictureBox34.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox34.Name = "pictureBox34";
+            this.pictureBox34.Size = new System.Drawing.Size(161, 147);
+            this.pictureBox34.TabIndex = 20;
+            this.pictureBox34.TabStop = false;
+            // 
+            // pictureBox35
+            // 
+            this.pictureBox35.Location = new System.Drawing.Point(574, 65);
+            this.pictureBox35.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox35.Name = "pictureBox35";
+            this.pictureBox35.Size = new System.Drawing.Size(161, 147);
+            this.pictureBox35.TabIndex = 19;
+            this.pictureBox35.TabStop = false;
+            this.pictureBox35.Click += new System.EventHandler(this.pictureBox35_Click);
+            // 
+            // pictureBox36
+            // 
+            this.pictureBox36.Location = new System.Drawing.Point(574, 295);
+            this.pictureBox36.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox36.Name = "pictureBox36";
+            this.pictureBox36.Size = new System.Drawing.Size(161, 147);
+            this.pictureBox36.TabIndex = 18;
+            this.pictureBox36.TabStop = false;
+            this.pictureBox36.Click += new System.EventHandler(this.pictureBox36_Click);
+            // 
+            // pictureBox37
+            // 
+            this.pictureBox37.Location = new System.Drawing.Point(314, 64);
+            this.pictureBox37.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox37.Name = "pictureBox37";
+            this.pictureBox37.Size = new System.Drawing.Size(161, 147);
+            this.pictureBox37.TabIndex = 17;
+            this.pictureBox37.TabStop = false;
+            this.pictureBox37.Click += new System.EventHandler(this.pictureBox37_Click);
+            // 
+            // pictureBox38
+            // 
+            this.pictureBox38.Location = new System.Drawing.Point(314, 295);
+            this.pictureBox38.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox38.Name = "pictureBox38";
+            this.pictureBox38.Size = new System.Drawing.Size(161, 147);
+            this.pictureBox38.TabIndex = 16;
+            this.pictureBox38.TabStop = false;
+            this.pictureBox38.Click += new System.EventHandler(this.pictureBox38_Click);
+            // 
+            // pictureBox39
+            // 
+            this.pictureBox39.Location = new System.Drawing.Point(51, 64);
+            this.pictureBox39.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox39.Name = "pictureBox39";
+            this.pictureBox39.Size = new System.Drawing.Size(161, 147);
+            this.pictureBox39.TabIndex = 15;
+            this.pictureBox39.TabStop = false;
+            // 
+            // pictureBox40
+            // 
+            this.pictureBox40.Location = new System.Drawing.Point(51, 295);
+            this.pictureBox40.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox40.Name = "pictureBox40";
+            this.pictureBox40.Size = new System.Drawing.Size(161, 147);
+            this.pictureBox40.TabIndex = 14;
+            this.pictureBox40.TabStop = false;
+            // 
             // drinksTab
             // 
             this.drinksTab.Controls.Add(this.checkBox31);
@@ -1460,6 +1785,96 @@
             this.checkBox40.TabIndex = 34;
             this.checkBox40.Text = "checkBox40";
             this.checkBox40.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox41
+            // 
+            this.pictureBox41.Location = new System.Drawing.Point(1517, 64);
+            this.pictureBox41.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox41.Name = "pictureBox41";
+            this.pictureBox41.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox41.TabIndex = 23;
+            this.pictureBox41.TabStop = false;
+            // 
+            // pictureBox42
+            // 
+            this.pictureBox42.Location = new System.Drawing.Point(1517, 381);
+            this.pictureBox42.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox42.Name = "pictureBox42";
+            this.pictureBox42.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox42.TabIndex = 22;
+            this.pictureBox42.TabStop = false;
+            // 
+            // pictureBox43
+            // 
+            this.pictureBox43.Location = new System.Drawing.Point(1144, 65);
+            this.pictureBox43.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox43.Name = "pictureBox43";
+            this.pictureBox43.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox43.TabIndex = 21;
+            this.pictureBox43.TabStop = false;
+            // 
+            // pictureBox44
+            // 
+            this.pictureBox44.Location = new System.Drawing.Point(1144, 381);
+            this.pictureBox44.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox44.Name = "pictureBox44";
+            this.pictureBox44.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox44.TabIndex = 20;
+            this.pictureBox44.TabStop = false;
+            // 
+            // pictureBox45
+            // 
+            this.pictureBox45.Location = new System.Drawing.Point(789, 63);
+            this.pictureBox45.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox45.Name = "pictureBox45";
+            this.pictureBox45.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox45.TabIndex = 19;
+            this.pictureBox45.TabStop = false;
+            // 
+            // pictureBox46
+            // 
+            this.pictureBox46.Location = new System.Drawing.Point(789, 379);
+            this.pictureBox46.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox46.Name = "pictureBox46";
+            this.pictureBox46.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox46.TabIndex = 18;
+            this.pictureBox46.TabStop = false;
+            // 
+            // pictureBox47
+            // 
+            this.pictureBox47.Location = new System.Drawing.Point(416, 64);
+            this.pictureBox47.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox47.Name = "pictureBox47";
+            this.pictureBox47.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox47.TabIndex = 17;
+            this.pictureBox47.TabStop = false;
+            // 
+            // pictureBox48
+            // 
+            this.pictureBox48.Location = new System.Drawing.Point(416, 381);
+            this.pictureBox48.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox48.Name = "pictureBox48";
+            this.pictureBox48.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox48.TabIndex = 16;
+            this.pictureBox48.TabStop = false;
+            // 
+            // pictureBox49
+            // 
+            this.pictureBox49.Location = new System.Drawing.Point(51, 64);
+            this.pictureBox49.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox49.Name = "pictureBox49";
+            this.pictureBox49.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox49.TabIndex = 15;
+            this.pictureBox49.TabStop = false;
+            // 
+            // pictureBox50
+            // 
+            this.pictureBox50.Location = new System.Drawing.Point(51, 381);
+            this.pictureBox50.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox50.Name = "pictureBox50";
+            this.pictureBox50.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox50.TabIndex = 14;
+            this.pictureBox50.TabStop = false;
             // 
             // tabPage5
             // 
@@ -1602,6 +2017,96 @@
             this.checkBox50.Text = "checkBox50";
             this.checkBox50.UseVisualStyleBackColor = true;
             // 
+            // pictureBox51
+            // 
+            this.pictureBox51.Location = new System.Drawing.Point(1517, 64);
+            this.pictureBox51.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox51.Name = "pictureBox51";
+            this.pictureBox51.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox51.TabIndex = 23;
+            this.pictureBox51.TabStop = false;
+            // 
+            // pictureBox52
+            // 
+            this.pictureBox52.Location = new System.Drawing.Point(1517, 381);
+            this.pictureBox52.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox52.Name = "pictureBox52";
+            this.pictureBox52.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox52.TabIndex = 22;
+            this.pictureBox52.TabStop = false;
+            // 
+            // pictureBox53
+            // 
+            this.pictureBox53.Location = new System.Drawing.Point(1144, 65);
+            this.pictureBox53.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox53.Name = "pictureBox53";
+            this.pictureBox53.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox53.TabIndex = 21;
+            this.pictureBox53.TabStop = false;
+            // 
+            // pictureBox54
+            // 
+            this.pictureBox54.Location = new System.Drawing.Point(1144, 381);
+            this.pictureBox54.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox54.Name = "pictureBox54";
+            this.pictureBox54.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox54.TabIndex = 20;
+            this.pictureBox54.TabStop = false;
+            // 
+            // pictureBox55
+            // 
+            this.pictureBox55.Location = new System.Drawing.Point(789, 63);
+            this.pictureBox55.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox55.Name = "pictureBox55";
+            this.pictureBox55.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox55.TabIndex = 19;
+            this.pictureBox55.TabStop = false;
+            // 
+            // pictureBox56
+            // 
+            this.pictureBox56.Location = new System.Drawing.Point(789, 379);
+            this.pictureBox56.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox56.Name = "pictureBox56";
+            this.pictureBox56.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox56.TabIndex = 18;
+            this.pictureBox56.TabStop = false;
+            // 
+            // pictureBox57
+            // 
+            this.pictureBox57.Location = new System.Drawing.Point(416, 64);
+            this.pictureBox57.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox57.Name = "pictureBox57";
+            this.pictureBox57.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox57.TabIndex = 17;
+            this.pictureBox57.TabStop = false;
+            // 
+            // pictureBox58
+            // 
+            this.pictureBox58.Location = new System.Drawing.Point(416, 381);
+            this.pictureBox58.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox58.Name = "pictureBox58";
+            this.pictureBox58.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox58.TabIndex = 16;
+            this.pictureBox58.TabStop = false;
+            // 
+            // pictureBox59
+            // 
+            this.pictureBox59.Location = new System.Drawing.Point(51, 64);
+            this.pictureBox59.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox59.Name = "pictureBox59";
+            this.pictureBox59.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox59.TabIndex = 15;
+            this.pictureBox59.TabStop = false;
+            // 
+            // pictureBox60
+            // 
+            this.pictureBox60.Location = new System.Drawing.Point(51, 381);
+            this.pictureBox60.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox60.Name = "pictureBox60";
+            this.pictureBox60.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox60.TabIndex = 14;
+            this.pictureBox60.TabStop = false;
+            // 
             // spiceTab
             // 
             this.spiceTab.Controls.Add(this.checkBox51);
@@ -1742,6 +2247,96 @@
             this.checkBox60.TabIndex = 34;
             this.checkBox60.Text = "checkBox60";
             this.checkBox60.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox61
+            // 
+            this.pictureBox61.Location = new System.Drawing.Point(1517, 64);
+            this.pictureBox61.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox61.Name = "pictureBox61";
+            this.pictureBox61.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox61.TabIndex = 23;
+            this.pictureBox61.TabStop = false;
+            // 
+            // pictureBox62
+            // 
+            this.pictureBox62.Location = new System.Drawing.Point(1517, 381);
+            this.pictureBox62.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox62.Name = "pictureBox62";
+            this.pictureBox62.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox62.TabIndex = 22;
+            this.pictureBox62.TabStop = false;
+            // 
+            // pictureBox63
+            // 
+            this.pictureBox63.Location = new System.Drawing.Point(1144, 65);
+            this.pictureBox63.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox63.Name = "pictureBox63";
+            this.pictureBox63.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox63.TabIndex = 21;
+            this.pictureBox63.TabStop = false;
+            // 
+            // pictureBox64
+            // 
+            this.pictureBox64.Location = new System.Drawing.Point(1144, 381);
+            this.pictureBox64.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox64.Name = "pictureBox64";
+            this.pictureBox64.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox64.TabIndex = 20;
+            this.pictureBox64.TabStop = false;
+            // 
+            // pictureBox65
+            // 
+            this.pictureBox65.Location = new System.Drawing.Point(789, 63);
+            this.pictureBox65.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox65.Name = "pictureBox65";
+            this.pictureBox65.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox65.TabIndex = 19;
+            this.pictureBox65.TabStop = false;
+            // 
+            // pictureBox66
+            // 
+            this.pictureBox66.Location = new System.Drawing.Point(789, 379);
+            this.pictureBox66.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox66.Name = "pictureBox66";
+            this.pictureBox66.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox66.TabIndex = 18;
+            this.pictureBox66.TabStop = false;
+            // 
+            // pictureBox67
+            // 
+            this.pictureBox67.Location = new System.Drawing.Point(416, 64);
+            this.pictureBox67.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox67.Name = "pictureBox67";
+            this.pictureBox67.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox67.TabIndex = 17;
+            this.pictureBox67.TabStop = false;
+            // 
+            // pictureBox68
+            // 
+            this.pictureBox68.Location = new System.Drawing.Point(416, 381);
+            this.pictureBox68.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox68.Name = "pictureBox68";
+            this.pictureBox68.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox68.TabIndex = 16;
+            this.pictureBox68.TabStop = false;
+            // 
+            // pictureBox69
+            // 
+            this.pictureBox69.Location = new System.Drawing.Point(51, 64);
+            this.pictureBox69.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox69.Name = "pictureBox69";
+            this.pictureBox69.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox69.TabIndex = 15;
+            this.pictureBox69.TabStop = false;
+            // 
+            // pictureBox70
+            // 
+            this.pictureBox70.Location = new System.Drawing.Point(51, 381);
+            this.pictureBox70.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox70.Name = "pictureBox70";
+            this.pictureBox70.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox70.TabIndex = 14;
+            this.pictureBox70.TabStop = false;
             // 
             // meatTab
             // 
@@ -1884,6 +2479,96 @@
             this.checkBox70.Text = "checkBox70";
             this.checkBox70.UseVisualStyleBackColor = true;
             // 
+            // pictureBox71
+            // 
+            this.pictureBox71.Location = new System.Drawing.Point(1517, 64);
+            this.pictureBox71.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox71.Name = "pictureBox71";
+            this.pictureBox71.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox71.TabIndex = 23;
+            this.pictureBox71.TabStop = false;
+            // 
+            // pictureBox72
+            // 
+            this.pictureBox72.Location = new System.Drawing.Point(1517, 381);
+            this.pictureBox72.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox72.Name = "pictureBox72";
+            this.pictureBox72.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox72.TabIndex = 22;
+            this.pictureBox72.TabStop = false;
+            // 
+            // pictureBox73
+            // 
+            this.pictureBox73.Location = new System.Drawing.Point(1144, 65);
+            this.pictureBox73.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox73.Name = "pictureBox73";
+            this.pictureBox73.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox73.TabIndex = 21;
+            this.pictureBox73.TabStop = false;
+            // 
+            // pictureBox74
+            // 
+            this.pictureBox74.Location = new System.Drawing.Point(1144, 381);
+            this.pictureBox74.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox74.Name = "pictureBox74";
+            this.pictureBox74.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox74.TabIndex = 20;
+            this.pictureBox74.TabStop = false;
+            // 
+            // pictureBox75
+            // 
+            this.pictureBox75.Location = new System.Drawing.Point(789, 63);
+            this.pictureBox75.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox75.Name = "pictureBox75";
+            this.pictureBox75.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox75.TabIndex = 19;
+            this.pictureBox75.TabStop = false;
+            // 
+            // pictureBox76
+            // 
+            this.pictureBox76.Location = new System.Drawing.Point(789, 379);
+            this.pictureBox76.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox76.Name = "pictureBox76";
+            this.pictureBox76.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox76.TabIndex = 18;
+            this.pictureBox76.TabStop = false;
+            // 
+            // pictureBox77
+            // 
+            this.pictureBox77.Location = new System.Drawing.Point(416, 64);
+            this.pictureBox77.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox77.Name = "pictureBox77";
+            this.pictureBox77.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox77.TabIndex = 17;
+            this.pictureBox77.TabStop = false;
+            // 
+            // pictureBox78
+            // 
+            this.pictureBox78.Location = new System.Drawing.Point(416, 381);
+            this.pictureBox78.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox78.Name = "pictureBox78";
+            this.pictureBox78.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox78.TabIndex = 16;
+            this.pictureBox78.TabStop = false;
+            // 
+            // pictureBox79
+            // 
+            this.pictureBox79.Location = new System.Drawing.Point(51, 64);
+            this.pictureBox79.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox79.Name = "pictureBox79";
+            this.pictureBox79.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox79.TabIndex = 15;
+            this.pictureBox79.TabStop = false;
+            // 
+            // pictureBox80
+            // 
+            this.pictureBox80.Location = new System.Drawing.Point(51, 381);
+            this.pictureBox80.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox80.Name = "pictureBox80";
+            this.pictureBox80.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox80.TabIndex = 14;
+            this.pictureBox80.TabStop = false;
+            // 
             // otherTab
             // 
             this.otherTab.Controls.Add(this.checkBox71);
@@ -2025,6 +2710,96 @@
             this.checkBox80.Text = "checkBox80";
             this.checkBox80.UseVisualStyleBackColor = true;
             // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Location = new System.Drawing.Point(1517, 64);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox7.TabIndex = 23;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Location = new System.Drawing.Point(1517, 381);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox8.TabIndex = 22;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Location = new System.Drawing.Point(1144, 65);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox9.TabIndex = 21;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Location = new System.Drawing.Point(1144, 381);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox10.TabIndex = 20;
+            this.pictureBox10.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Location = new System.Drawing.Point(789, 63);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox5.TabIndex = 19;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Location = new System.Drawing.Point(789, 379);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox6.TabIndex = 18;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Location = new System.Drawing.Point(416, 64);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox3.TabIndex = 17;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Location = new System.Drawing.Point(416, 381);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox4.TabIndex = 16;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(51, 64);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox1.TabIndex = 15;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Location = new System.Drawing.Point(51, 381);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(283, 250);
+            this.pictureBox2.TabIndex = 14;
+            this.pictureBox2.TabStop = false;
+            // 
             // genBox
             // 
             this.genBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
@@ -2140,781 +2915,6 @@
             this.txtDisplay.Size = new System.Drawing.Size(573, 160);
             this.txtDisplay.TabIndex = 3;
             // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox11.Image = global::C__Project.Properties.Resources.توت___Copy;
-            this.pictureBox11.Location = new System.Drawing.Point(1173, 17);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(161, 147);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox11.TabIndex = 23;
-            this.pictureBox11.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox12.Image = global::C__Project.Properties.Resources.Simply_Recipes_How_to_Ripe_Pineapple_LEAD_1_2fa3fc49249b48caa5d80c54fa71675f;
-            this.pictureBox12.Location = new System.Drawing.Point(1173, 262);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(161, 147);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox12.TabIndex = 22;
-            this.pictureBox12.TabStop = false;
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox13.Image = global::C__Project.Properties.Resources.mango___Copy;
-            this.pictureBox13.Location = new System.Drawing.Point(872, 17);
-            this.pictureBox13.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(161, 147);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox13.TabIndex = 21;
-            this.pictureBox13.TabStop = false;
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox14.Image = global::C__Project.Properties.Resources.close_up_of_a_juicy_peach_slice_created_by_ai_tools_photo;
-            this.pictureBox14.Location = new System.Drawing.Point(872, 262);
-            this.pictureBox14.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(161, 147);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox14.TabIndex = 20;
-            this.pictureBox14.TabStop = false;
-            // 
-            // pictureBox15
-            // 
-            this.pictureBox15.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox15.Image = global::C__Project.Properties.Resources.istockphoto_612524020_1024x1024;
-            this.pictureBox15.Location = new System.Drawing.Point(595, 17);
-            this.pictureBox15.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(161, 147);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox15.TabIndex = 19;
-            this.pictureBox15.TabStop = false;
-            // 
-            // pictureBox16
-            // 
-            this.pictureBox16.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox16.Image = global::C__Project.Properties.Resources._32497c3866a4c36ebb81051a8a2ee5f0;
-            this.pictureBox16.Location = new System.Drawing.Point(595, 262);
-            this.pictureBox16.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(161, 147);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox16.TabIndex = 18;
-            this.pictureBox16.TabStop = false;
-            // 
-            // pictureBox17
-            // 
-            this.pictureBox17.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox17.Image = global::C__Project.Properties.Resources.anton_darius_FCrgmqqvl_w_unsplash;
-            this.pictureBox17.Location = new System.Drawing.Point(316, 20);
-            this.pictureBox17.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(161, 147);
-            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox17.TabIndex = 17;
-            this.pictureBox17.TabStop = false;
-            this.pictureBox17.Click += new System.EventHandler(this.pictureBox17_Click);
-            // 
-            // pictureBox18
-            // 
-            this.pictureBox18.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox18.Image = global::C__Project.Properties.Resources.bananas_1_e1624909301641_jpg_optimal;
-            this.pictureBox18.Location = new System.Drawing.Point(316, 264);
-            this.pictureBox18.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(161, 147);
-            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox18.TabIndex = 16;
-            this.pictureBox18.TabStop = false;
-            // 
-            // pictureBox19
-            // 
-            this.pictureBox19.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
-            this.pictureBox19.Location = new System.Drawing.Point(33, 18);
-            this.pictureBox19.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(161, 147);
-            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox19.TabIndex = 15;
-            this.pictureBox19.TabStop = false;
-            // 
-            // pictureBox20
-            // 
-            this.pictureBox20.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox20.Image = global::C__Project.Properties.Resources.جح___Copy;
-            this.pictureBox20.Location = new System.Drawing.Point(33, 263);
-            this.pictureBox20.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(161, 147);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox20.TabIndex = 14;
-            this.pictureBox20.TabStop = false;
-            // 
-            // pictureBox21
-            // 
-            this.pictureBox21.Image = global::C__Project.Properties.Resources.iC7HBvohbJqExqvbKcV3pP_1200_80;
-            this.pictureBox21.Location = new System.Drawing.Point(1321, 28);
-            this.pictureBox21.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(161, 147);
-            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox21.TabIndex = 23;
-            this.pictureBox21.TabStop = false;
-            // 
-            // pictureBox22
-            // 
-            this.pictureBox22.Image = global::C__Project.Properties.Resources.F3_02;
-            this.pictureBox22.Location = new System.Drawing.Point(1321, 254);
-            this.pictureBox22.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(161, 147);
-            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox22.TabIndex = 22;
-            this.pictureBox22.TabStop = false;
-            // 
-            // pictureBox23
-            // 
-            this.pictureBox23.Image = global::C__Project.Properties.Resources.فلفل;
-            this.pictureBox23.Location = new System.Drawing.Point(1025, 29);
-            this.pictureBox23.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(161, 147);
-            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox23.TabIndex = 21;
-            this.pictureBox23.TabStop = false;
-            // 
-            // pictureBox24
-            // 
-            this.pictureBox24.Image = global::C__Project.Properties.Resources.AdobeStock_195401764;
-            this.pictureBox24.Location = new System.Drawing.Point(1025, 254);
-            this.pictureBox24.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(161, 147);
-            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox24.TabIndex = 20;
-            this.pictureBox24.TabStop = false;
-            // 
-            // pictureBox25
-            // 
-            this.pictureBox25.Image = global::C__Project.Properties.Resources.طماط;
-            this.pictureBox25.Location = new System.Drawing.Point(713, 27);
-            this.pictureBox25.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(161, 147);
-            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox25.TabIndex = 19;
-            this.pictureBox25.TabStop = false;
-            // 
-            // pictureBox26
-            // 
-            this.pictureBox26.Image = global::C__Project.Properties.Resources.images;
-            this.pictureBox26.Location = new System.Drawing.Point(713, 252);
-            this.pictureBox26.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(161, 147);
-            this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox26.TabIndex = 18;
-            this.pictureBox26.TabStop = false;
-            // 
-            // pictureBox27
-            // 
-            this.pictureBox27.Image = global::C__Project.Properties.Resources.ثوم;
-            this.pictureBox27.Location = new System.Drawing.Point(413, 28);
-            this.pictureBox27.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox27.Name = "pictureBox27";
-            this.pictureBox27.Size = new System.Drawing.Size(161, 147);
-            this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox27.TabIndex = 17;
-            this.pictureBox27.TabStop = false;
-            // 
-            // pictureBox28
-            // 
-            this.pictureBox28.Image = global::C__Project.Properties.Resources.ليمون;
-            this.pictureBox28.Location = new System.Drawing.Point(413, 254);
-            this.pictureBox28.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox28.Name = "pictureBox28";
-            this.pictureBox28.Size = new System.Drawing.Size(161, 147);
-            this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox28.TabIndex = 16;
-            this.pictureBox28.TabStop = false;
-            // 
-            // pictureBox29
-            // 
-            this.pictureBox29.Image = global::C__Project.Properties.Resources.بصل;
-            this.pictureBox29.Location = new System.Drawing.Point(128, 28);
-            this.pictureBox29.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox29.Name = "pictureBox29";
-            this.pictureBox29.Size = new System.Drawing.Size(161, 147);
-            this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox29.TabIndex = 15;
-            this.pictureBox29.TabStop = false;
-            // 
-            // pictureBox30
-            // 
-            this.pictureBox30.Image = global::C__Project.Properties.Resources.قرنبيط1;
-            this.pictureBox30.Location = new System.Drawing.Point(128, 254);
-            this.pictureBox30.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox30.Name = "pictureBox30";
-            this.pictureBox30.Size = new System.Drawing.Size(161, 147);
-            this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox30.TabIndex = 14;
-            this.pictureBox30.TabStop = false;
-            // 
-            // pictureBox31
-            // 
-            this.pictureBox31.Location = new System.Drawing.Point(1079, 65);
-            this.pictureBox31.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox31.Name = "pictureBox31";
-            this.pictureBox31.Size = new System.Drawing.Size(161, 147);
-            this.pictureBox31.TabIndex = 23;
-            this.pictureBox31.TabStop = false;
-            // 
-            // pictureBox32
-            // 
-            this.pictureBox32.Location = new System.Drawing.Point(1079, 295);
-            this.pictureBox32.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox32.Name = "pictureBox32";
-            this.pictureBox32.Size = new System.Drawing.Size(161, 147);
-            this.pictureBox32.TabIndex = 22;
-            this.pictureBox32.TabStop = false;
-            // 
-            // pictureBox33
-            // 
-            this.pictureBox33.Location = new System.Drawing.Point(827, 65);
-            this.pictureBox33.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox33.Name = "pictureBox33";
-            this.pictureBox33.Size = new System.Drawing.Size(161, 147);
-            this.pictureBox33.TabIndex = 21;
-            this.pictureBox33.TabStop = false;
-            // 
-            // pictureBox34
-            // 
-            this.pictureBox34.Location = new System.Drawing.Point(827, 295);
-            this.pictureBox34.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox34.Name = "pictureBox34";
-            this.pictureBox34.Size = new System.Drawing.Size(161, 147);
-            this.pictureBox34.TabIndex = 20;
-            this.pictureBox34.TabStop = false;
-            // 
-            // pictureBox35
-            // 
-            this.pictureBox35.Location = new System.Drawing.Point(574, 65);
-            this.pictureBox35.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox35.Name = "pictureBox35";
-            this.pictureBox35.Size = new System.Drawing.Size(161, 147);
-            this.pictureBox35.TabIndex = 19;
-            this.pictureBox35.TabStop = false;
-            this.pictureBox35.Click += new System.EventHandler(this.pictureBox35_Click);
-            // 
-            // pictureBox36
-            // 
-            this.pictureBox36.Location = new System.Drawing.Point(574, 295);
-            this.pictureBox36.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox36.Name = "pictureBox36";
-            this.pictureBox36.Size = new System.Drawing.Size(161, 147);
-            this.pictureBox36.TabIndex = 18;
-            this.pictureBox36.TabStop = false;
-            this.pictureBox36.Click += new System.EventHandler(this.pictureBox36_Click);
-            // 
-            // pictureBox37
-            // 
-            this.pictureBox37.Location = new System.Drawing.Point(314, 64);
-            this.pictureBox37.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox37.Name = "pictureBox37";
-            this.pictureBox37.Size = new System.Drawing.Size(161, 147);
-            this.pictureBox37.TabIndex = 17;
-            this.pictureBox37.TabStop = false;
-            this.pictureBox37.Click += new System.EventHandler(this.pictureBox37_Click);
-            // 
-            // pictureBox38
-            // 
-            this.pictureBox38.Location = new System.Drawing.Point(314, 295);
-            this.pictureBox38.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox38.Name = "pictureBox38";
-            this.pictureBox38.Size = new System.Drawing.Size(161, 147);
-            this.pictureBox38.TabIndex = 16;
-            this.pictureBox38.TabStop = false;
-            this.pictureBox38.Click += new System.EventHandler(this.pictureBox38_Click);
-            // 
-            // pictureBox39
-            // 
-            this.pictureBox39.Location = new System.Drawing.Point(51, 64);
-            this.pictureBox39.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox39.Name = "pictureBox39";
-            this.pictureBox39.Size = new System.Drawing.Size(161, 147);
-            this.pictureBox39.TabIndex = 15;
-            this.pictureBox39.TabStop = false;
-            // 
-            // pictureBox40
-            // 
-            this.pictureBox40.Location = new System.Drawing.Point(51, 295);
-            this.pictureBox40.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox40.Name = "pictureBox40";
-            this.pictureBox40.Size = new System.Drawing.Size(161, 147);
-            this.pictureBox40.TabIndex = 14;
-            this.pictureBox40.TabStop = false;
-            // 
-            // pictureBox41
-            // 
-            this.pictureBox41.Location = new System.Drawing.Point(1517, 64);
-            this.pictureBox41.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox41.Name = "pictureBox41";
-            this.pictureBox41.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox41.TabIndex = 23;
-            this.pictureBox41.TabStop = false;
-            // 
-            // pictureBox42
-            // 
-            this.pictureBox42.Location = new System.Drawing.Point(1517, 381);
-            this.pictureBox42.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox42.Name = "pictureBox42";
-            this.pictureBox42.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox42.TabIndex = 22;
-            this.pictureBox42.TabStop = false;
-            // 
-            // pictureBox43
-            // 
-            this.pictureBox43.Location = new System.Drawing.Point(1144, 65);
-            this.pictureBox43.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox43.Name = "pictureBox43";
-            this.pictureBox43.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox43.TabIndex = 21;
-            this.pictureBox43.TabStop = false;
-            // 
-            // pictureBox44
-            // 
-            this.pictureBox44.Location = new System.Drawing.Point(1144, 381);
-            this.pictureBox44.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox44.Name = "pictureBox44";
-            this.pictureBox44.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox44.TabIndex = 20;
-            this.pictureBox44.TabStop = false;
-            // 
-            // pictureBox45
-            // 
-            this.pictureBox45.Location = new System.Drawing.Point(789, 63);
-            this.pictureBox45.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox45.Name = "pictureBox45";
-            this.pictureBox45.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox45.TabIndex = 19;
-            this.pictureBox45.TabStop = false;
-            // 
-            // pictureBox46
-            // 
-            this.pictureBox46.Location = new System.Drawing.Point(789, 379);
-            this.pictureBox46.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox46.Name = "pictureBox46";
-            this.pictureBox46.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox46.TabIndex = 18;
-            this.pictureBox46.TabStop = false;
-            // 
-            // pictureBox47
-            // 
-            this.pictureBox47.Location = new System.Drawing.Point(416, 64);
-            this.pictureBox47.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox47.Name = "pictureBox47";
-            this.pictureBox47.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox47.TabIndex = 17;
-            this.pictureBox47.TabStop = false;
-            // 
-            // pictureBox48
-            // 
-            this.pictureBox48.Location = new System.Drawing.Point(416, 381);
-            this.pictureBox48.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox48.Name = "pictureBox48";
-            this.pictureBox48.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox48.TabIndex = 16;
-            this.pictureBox48.TabStop = false;
-            // 
-            // pictureBox49
-            // 
-            this.pictureBox49.Location = new System.Drawing.Point(51, 64);
-            this.pictureBox49.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox49.Name = "pictureBox49";
-            this.pictureBox49.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox49.TabIndex = 15;
-            this.pictureBox49.TabStop = false;
-            // 
-            // pictureBox50
-            // 
-            this.pictureBox50.Location = new System.Drawing.Point(51, 381);
-            this.pictureBox50.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox50.Name = "pictureBox50";
-            this.pictureBox50.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox50.TabIndex = 14;
-            this.pictureBox50.TabStop = false;
-            // 
-            // pictureBox51
-            // 
-            this.pictureBox51.Location = new System.Drawing.Point(1517, 64);
-            this.pictureBox51.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox51.Name = "pictureBox51";
-            this.pictureBox51.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox51.TabIndex = 23;
-            this.pictureBox51.TabStop = false;
-            // 
-            // pictureBox52
-            // 
-            this.pictureBox52.Location = new System.Drawing.Point(1517, 381);
-            this.pictureBox52.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox52.Name = "pictureBox52";
-            this.pictureBox52.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox52.TabIndex = 22;
-            this.pictureBox52.TabStop = false;
-            // 
-            // pictureBox53
-            // 
-            this.pictureBox53.Location = new System.Drawing.Point(1144, 65);
-            this.pictureBox53.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox53.Name = "pictureBox53";
-            this.pictureBox53.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox53.TabIndex = 21;
-            this.pictureBox53.TabStop = false;
-            // 
-            // pictureBox54
-            // 
-            this.pictureBox54.Location = new System.Drawing.Point(1144, 381);
-            this.pictureBox54.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox54.Name = "pictureBox54";
-            this.pictureBox54.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox54.TabIndex = 20;
-            this.pictureBox54.TabStop = false;
-            // 
-            // pictureBox55
-            // 
-            this.pictureBox55.Location = new System.Drawing.Point(789, 63);
-            this.pictureBox55.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox55.Name = "pictureBox55";
-            this.pictureBox55.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox55.TabIndex = 19;
-            this.pictureBox55.TabStop = false;
-            // 
-            // pictureBox56
-            // 
-            this.pictureBox56.Location = new System.Drawing.Point(789, 379);
-            this.pictureBox56.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox56.Name = "pictureBox56";
-            this.pictureBox56.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox56.TabIndex = 18;
-            this.pictureBox56.TabStop = false;
-            // 
-            // pictureBox57
-            // 
-            this.pictureBox57.Location = new System.Drawing.Point(416, 64);
-            this.pictureBox57.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox57.Name = "pictureBox57";
-            this.pictureBox57.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox57.TabIndex = 17;
-            this.pictureBox57.TabStop = false;
-            // 
-            // pictureBox58
-            // 
-            this.pictureBox58.Location = new System.Drawing.Point(416, 381);
-            this.pictureBox58.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox58.Name = "pictureBox58";
-            this.pictureBox58.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox58.TabIndex = 16;
-            this.pictureBox58.TabStop = false;
-            // 
-            // pictureBox59
-            // 
-            this.pictureBox59.Location = new System.Drawing.Point(51, 64);
-            this.pictureBox59.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox59.Name = "pictureBox59";
-            this.pictureBox59.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox59.TabIndex = 15;
-            this.pictureBox59.TabStop = false;
-            // 
-            // pictureBox60
-            // 
-            this.pictureBox60.Location = new System.Drawing.Point(51, 381);
-            this.pictureBox60.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox60.Name = "pictureBox60";
-            this.pictureBox60.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox60.TabIndex = 14;
-            this.pictureBox60.TabStop = false;
-            // 
-            // pictureBox61
-            // 
-            this.pictureBox61.Location = new System.Drawing.Point(1517, 64);
-            this.pictureBox61.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox61.Name = "pictureBox61";
-            this.pictureBox61.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox61.TabIndex = 23;
-            this.pictureBox61.TabStop = false;
-            // 
-            // pictureBox62
-            // 
-            this.pictureBox62.Location = new System.Drawing.Point(1517, 381);
-            this.pictureBox62.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox62.Name = "pictureBox62";
-            this.pictureBox62.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox62.TabIndex = 22;
-            this.pictureBox62.TabStop = false;
-            // 
-            // pictureBox63
-            // 
-            this.pictureBox63.Location = new System.Drawing.Point(1144, 65);
-            this.pictureBox63.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox63.Name = "pictureBox63";
-            this.pictureBox63.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox63.TabIndex = 21;
-            this.pictureBox63.TabStop = false;
-            // 
-            // pictureBox64
-            // 
-            this.pictureBox64.Location = new System.Drawing.Point(1144, 381);
-            this.pictureBox64.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox64.Name = "pictureBox64";
-            this.pictureBox64.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox64.TabIndex = 20;
-            this.pictureBox64.TabStop = false;
-            // 
-            // pictureBox65
-            // 
-            this.pictureBox65.Location = new System.Drawing.Point(789, 63);
-            this.pictureBox65.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox65.Name = "pictureBox65";
-            this.pictureBox65.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox65.TabIndex = 19;
-            this.pictureBox65.TabStop = false;
-            // 
-            // pictureBox66
-            // 
-            this.pictureBox66.Location = new System.Drawing.Point(789, 379);
-            this.pictureBox66.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox66.Name = "pictureBox66";
-            this.pictureBox66.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox66.TabIndex = 18;
-            this.pictureBox66.TabStop = false;
-            // 
-            // pictureBox67
-            // 
-            this.pictureBox67.Location = new System.Drawing.Point(416, 64);
-            this.pictureBox67.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox67.Name = "pictureBox67";
-            this.pictureBox67.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox67.TabIndex = 17;
-            this.pictureBox67.TabStop = false;
-            // 
-            // pictureBox68
-            // 
-            this.pictureBox68.Location = new System.Drawing.Point(416, 381);
-            this.pictureBox68.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox68.Name = "pictureBox68";
-            this.pictureBox68.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox68.TabIndex = 16;
-            this.pictureBox68.TabStop = false;
-            // 
-            // pictureBox69
-            // 
-            this.pictureBox69.Location = new System.Drawing.Point(51, 64);
-            this.pictureBox69.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox69.Name = "pictureBox69";
-            this.pictureBox69.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox69.TabIndex = 15;
-            this.pictureBox69.TabStop = false;
-            // 
-            // pictureBox70
-            // 
-            this.pictureBox70.Location = new System.Drawing.Point(51, 381);
-            this.pictureBox70.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox70.Name = "pictureBox70";
-            this.pictureBox70.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox70.TabIndex = 14;
-            this.pictureBox70.TabStop = false;
-            // 
-            // pictureBox71
-            // 
-            this.pictureBox71.Location = new System.Drawing.Point(1517, 64);
-            this.pictureBox71.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox71.Name = "pictureBox71";
-            this.pictureBox71.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox71.TabIndex = 23;
-            this.pictureBox71.TabStop = false;
-            // 
-            // pictureBox72
-            // 
-            this.pictureBox72.Location = new System.Drawing.Point(1517, 381);
-            this.pictureBox72.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox72.Name = "pictureBox72";
-            this.pictureBox72.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox72.TabIndex = 22;
-            this.pictureBox72.TabStop = false;
-            // 
-            // pictureBox73
-            // 
-            this.pictureBox73.Location = new System.Drawing.Point(1144, 65);
-            this.pictureBox73.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox73.Name = "pictureBox73";
-            this.pictureBox73.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox73.TabIndex = 21;
-            this.pictureBox73.TabStop = false;
-            // 
-            // pictureBox74
-            // 
-            this.pictureBox74.Location = new System.Drawing.Point(1144, 381);
-            this.pictureBox74.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox74.Name = "pictureBox74";
-            this.pictureBox74.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox74.TabIndex = 20;
-            this.pictureBox74.TabStop = false;
-            // 
-            // pictureBox75
-            // 
-            this.pictureBox75.Location = new System.Drawing.Point(789, 63);
-            this.pictureBox75.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox75.Name = "pictureBox75";
-            this.pictureBox75.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox75.TabIndex = 19;
-            this.pictureBox75.TabStop = false;
-            // 
-            // pictureBox76
-            // 
-            this.pictureBox76.Location = new System.Drawing.Point(789, 379);
-            this.pictureBox76.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox76.Name = "pictureBox76";
-            this.pictureBox76.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox76.TabIndex = 18;
-            this.pictureBox76.TabStop = false;
-            // 
-            // pictureBox77
-            // 
-            this.pictureBox77.Location = new System.Drawing.Point(416, 64);
-            this.pictureBox77.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox77.Name = "pictureBox77";
-            this.pictureBox77.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox77.TabIndex = 17;
-            this.pictureBox77.TabStop = false;
-            // 
-            // pictureBox78
-            // 
-            this.pictureBox78.Location = new System.Drawing.Point(416, 381);
-            this.pictureBox78.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox78.Name = "pictureBox78";
-            this.pictureBox78.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox78.TabIndex = 16;
-            this.pictureBox78.TabStop = false;
-            // 
-            // pictureBox79
-            // 
-            this.pictureBox79.Location = new System.Drawing.Point(51, 64);
-            this.pictureBox79.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox79.Name = "pictureBox79";
-            this.pictureBox79.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox79.TabIndex = 15;
-            this.pictureBox79.TabStop = false;
-            // 
-            // pictureBox80
-            // 
-            this.pictureBox80.Location = new System.Drawing.Point(51, 381);
-            this.pictureBox80.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox80.Name = "pictureBox80";
-            this.pictureBox80.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox80.TabIndex = 14;
-            this.pictureBox80.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Location = new System.Drawing.Point(1517, 64);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox7.TabIndex = 23;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Location = new System.Drawing.Point(1517, 381);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox8.TabIndex = 22;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Location = new System.Drawing.Point(1144, 65);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox9.TabIndex = 21;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Location = new System.Drawing.Point(1144, 381);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox10.TabIndex = 20;
-            this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Location = new System.Drawing.Point(789, 63);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox5.TabIndex = 19;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Location = new System.Drawing.Point(789, 379);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox6.TabIndex = 18;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Location = new System.Drawing.Point(416, 64);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox3.TabIndex = 17;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Location = new System.Drawing.Point(416, 381);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox4.TabIndex = 16;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(51, 64);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox1.TabIndex = 15;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(51, 381);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(283, 250);
-            this.pictureBox2.TabIndex = 14;
-            this.pictureBox2.TabStop = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -2947,24 +2947,6 @@
             this.prdTab.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
-            this.drinksTab.ResumeLayout(false);
-            this.drinksTab.PerformLayout();
-            this.tabPage5.ResumeLayout(false);
-            this.tabPage5.PerformLayout();
-            this.spiceTab.ResumeLayout(false);
-            this.spiceTab.PerformLayout();
-            this.meatTab.ResumeLayout(false);
-            this.meatTab.PerformLayout();
-            this.otherTab.ResumeLayout(false);
-            this.otherTab.PerformLayout();
-            this.genBox.ResumeLayout(false);
-            this.genBox.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.budgetNum)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.peopleNum)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
@@ -2975,6 +2957,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
@@ -2985,6 +2969,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).EndInit();
@@ -2995,6 +2981,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).EndInit();
+            this.drinksTab.ResumeLayout(false);
+            this.drinksTab.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).EndInit();
@@ -3005,6 +2993,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox48)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox49)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox50)).EndInit();
+            this.tabPage5.ResumeLayout(false);
+            this.tabPage5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox51)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox52)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox53)).EndInit();
@@ -3015,6 +3005,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox58)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox59)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox60)).EndInit();
+            this.spiceTab.ResumeLayout(false);
+            this.spiceTab.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox61)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox62)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox63)).EndInit();
@@ -3025,6 +3017,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox68)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox69)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox70)).EndInit();
+            this.meatTab.ResumeLayout(false);
+            this.meatTab.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox71)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox72)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox73)).EndInit();
@@ -3035,6 +3029,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox78)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox79)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox80)).EndInit();
+            this.otherTab.ResumeLayout(false);
+            this.otherTab.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
@@ -3045,6 +3041,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.genBox.ResumeLayout(false);
+            this.genBox.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.budgetNum)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.peopleNum)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3184,26 +3184,26 @@
 		private System.Windows.Forms.Label person2Label;
 		private System.Windows.Forms.NumericUpDown Page2;
 		private System.Windows.Forms.ComboBox Gbox2;
-		private System.Windows.Forms.CheckBox checkBox2;
-		private System.Windows.Forms.CheckBox checkBox1;
-		private System.Windows.Forms.CheckBox checkBox6;
-		private System.Windows.Forms.CheckBox checkBox7;
-		private System.Windows.Forms.CheckBox checkBox8;
-		private System.Windows.Forms.CheckBox checkBox9;
-		private System.Windows.Forms.CheckBox checkBox10;
-		private System.Windows.Forms.CheckBox checkBox5;
-		private System.Windows.Forms.CheckBox checkBox3;
-		private System.Windows.Forms.CheckBox checkBox4;
+		private System.Windows.Forms.CheckBox Strawberry_CB;
+		private System.Windows.Forms.CheckBox Apple_CB;
+		private System.Windows.Forms.CheckBox Pineapple_CB;
+		private System.Windows.Forms.CheckBox Peach_CB;
+		private System.Windows.Forms.CheckBox Orange_CB;
+		private System.Windows.Forms.CheckBox Banana_CB;
+		private System.Windows.Forms.CheckBox Watermelon_CB;
+		private System.Windows.Forms.CheckBox Berry_CB;
+		private System.Windows.Forms.CheckBox Mango_CB;
+		private System.Windows.Forms.CheckBox Cherry_CB;
 		private System.Windows.Forms.CheckBox checkBox11;
-		private System.Windows.Forms.CheckBox checkBox12;
-		private System.Windows.Forms.CheckBox checkBox13;
-		private System.Windows.Forms.CheckBox checkBox14;
-		private System.Windows.Forms.CheckBox checkBox15;
-		private System.Windows.Forms.CheckBox checkBox16;
-		private System.Windows.Forms.CheckBox checkBox17;
-		private System.Windows.Forms.CheckBox checkBox18;
-		private System.Windows.Forms.CheckBox checkBox19;
-		private System.Windows.Forms.CheckBox checkBox20;
+		private System.Windows.Forms.CheckBox Lettuce_CB;
+		private System.Windows.Forms.CheckBox Carrot_CB;
+		private System.Windows.Forms.CheckBox Lemon_CB;
+		private System.Windows.Forms.CheckBox Broccoli_CB;
+		private System.Windows.Forms.CheckBox Potatoes_CB;
+		private System.Windows.Forms.CheckBox Peppers_CB;
+		private System.Windows.Forms.CheckBox Tomatoes_CB;
+		private System.Windows.Forms.CheckBox Garlic_CB;
+		private System.Windows.Forms.CheckBox Onion_CB;
 		private System.Windows.Forms.CheckBox checkBox21;
 		private System.Windows.Forms.CheckBox checkBox22;
 		private System.Windows.Forms.CheckBox checkBox23;
@@ -3265,6 +3265,6 @@
 		private System.Windows.Forms.CheckBox checkBox79;
 		private System.Windows.Forms.CheckBox checkBox80;
 		private System.Windows.Forms.TextBox txtDisplay;
-        private System.Windows.Forms.CheckBox checkBox81;
+        private System.Windows.Forms.CheckBox Radish_CB;
     }
 }
