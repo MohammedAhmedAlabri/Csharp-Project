@@ -2,6 +2,7 @@
 ======================================================================
 For Age group of 20 - 25
 ======================================================================
-1 number of People in this Age group get 14 cup
- The remaining cups for the rest of fruits 14
-The remaining portion for the rest of Vegetables 21
+1 number of People in this Age group get 2450 cup
+ The remaining cups for the rest of fruits is 2450
+Portion of Onion: 0.735 Kg
+The remaining portion for the rest of Vegetables is 2940
