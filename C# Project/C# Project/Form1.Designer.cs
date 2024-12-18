@@ -750,7 +750,6 @@
 			this.Gbox2.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.Gbox2.FormattingEnabled = true;
 			this.Gbox2.Items.AddRange(new object[] {
-            "Choose",
             "M",
             "F"});
 			this.Gbox2.Location = new System.Drawing.Point(120, 68);
@@ -758,7 +757,7 @@
 			this.Gbox2.Name = "Gbox2";
 			this.Gbox2.Size = new System.Drawing.Size(37, 21);
 			this.Gbox2.TabIndex = 19;
-			this.Gbox2.Text = "Choose";
+			this.Gbox2.Text = "M";
 			// 
 			// person1Label
 			// 

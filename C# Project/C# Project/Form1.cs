@@ -28,6 +28,12 @@ namespace C__Project
 			double dblftotalveg = 0;
             double dbltotalcups = 0;
 			double dblRemainingcups = 0;
+			int intperiod = 1;
+			string Strselectedperiod = typeList.SelectedItem.ToString();
+			int intmcount = 0;
+			int intfcount = 0;
+
+
 			// gender arrray ========================================================================
 
 			string strPg1 = Gbox1.SelectedItem.ToString();
@@ -81,6 +87,20 @@ namespace C__Project
 			intAge[8] = intPa9;
 			intAge[9] = intPa10;
 
+			// For weekly and monthly
+
+			if (Strselectedperiod == "Week")
+			{
+				intperiod = 7;
+			}
+			else if (Strselectedperiod == "Month")
+			{
+				intperiod = 30;
+			}
+			else
+			{
+				intperiod = 1;
+			}
 
 			// =============================================================عشان نحسب كم شخص من كل مجموعة نخليهم يدخلوا فالأراي اللي بإسم ميل جروب مثلا
 			// intMalegroup [0] = يساوي مجموع الأشخاص اللي عمرهم من 0 لحد 5
@@ -102,7 +122,7 @@ namespace C__Project
 				// male calculate section ==========================================================================
 				if (StrGender[intCounter] == "M")
 				{
-					
+					intmcount++;
 					if (intAge[intCounter] <= 5)
 					{
 						intMalegroup[0]++;
@@ -155,6 +175,8 @@ namespace C__Project
 
 				else if (StrGender[intCounter] == "F")
 				{
+					intfcount++;
+
 					if (intAge[intCounter] <= 5)
 					{
 						intFemalegroup[0]++;
@@ -229,16 +251,16 @@ namespace C__Project
 			double[,] dblMCupPerAgeGroup = new double[11,2];
 			for (int x = 0; x < 11; x++)
 			{
-				dblMCupPerAgeGroup[x,0] = intMalegroup[x] * dblMFruit[x];
-				dblMCupPerAgeGroup[x, 1] = intMalegroup[x] * dblMVeg[x];
+				dblMCupPerAgeGroup[x,0] = intperiod * intMalegroup[x] * dblMFruit[x];
+				dblMCupPerAgeGroup[x, 1] = intperiod * intMalegroup[x] * dblMVeg[x];
 
 			}
 
 			double[,] dblFCupPerAgeGroup = new double[14,2];
 			for (int x = 0; x < 14; x++)
 			{
-				dblFCupPerAgeGroup[x, 0] = intFemalegroup[x] * dblFFruit[x];
-				dblFCupPerAgeGroup[x, 1] = intFemalegroup[x] * dblFVeg[x];
+				dblFCupPerAgeGroup[x, 0] = intperiod * intFemalegroup[x] * dblFFruit[x];
+				dblFCupPerAgeGroup[x, 1] = intperiod * intFemalegroup[x] * dblFVeg[x];
 
 			}
 
@@ -288,33 +310,111 @@ namespace C__Project
 			}
 
 
+			dblftotalfruit *= intperiod;
+			dblmtotalfruit *= intperiod;
+			dblftotalveg *= intperiod;
+			dblmtotalveg *= intperiod;
+
+
+
 			dbltotalcups = (dblftotalfruit + dblftotalveg) + (dblmtotalfruit + dblmtotalveg);
 
 
 			// display section 
-			for (int x = 0; x < 11; x++)
-            {
-				if (intMalegroup[x] > 0)
-				{
-					txtDisplay.Text += intMalegroup[x] + " number of People in this Age group get " + dblMCupPerAgeGroup[x,0] + " cup" + Environment.NewLine;
-					txtDisplay.Text += dblmportion[x,0] + Environment.NewLine;
-					txtDisplay.Text += dblmportion[x,1] + Environment.NewLine;
-					txtDisplay.Text += dblmportion[x,2] + Environment.NewLine;
-					txtDisplay.Text += "Male " + (dblRemainingcups = (dblmtotalfruit - (dblmportion[x,0] + dblmportion[x,1] + dblmportion[x,2]))) + Environment.NewLine;
-				}
-            };
-
-			for (int x = 0; x < 14; x++)
+			//For small display 
+			if (intfcount == 1)
 			{
-				if (intFemalegroup[x] > 0)
-				{
-					txtDisplay.Text += intFemalegroup[x] + " number of People in this Age group get " + dblFCupPerAgeGroup[x, 0] + " cup" + Environment.NewLine;
-					txtDisplay.Text += dblfportion[x, 0] + Environment.NewLine;
-					txtDisplay.Text += dblfportion[x, 1] + Environment.NewLine;
-					txtDisplay.Text += dblfportion[x, 2] + Environment.NewLine;
-					txtDisplay.Text += (dblRemainingcups = (dblftotalfruit - (dblfportion[x, 0] + dblfportion[x, 1] + dblfportion[x, 2]))) + Environment.NewLine;
-				}
-			};
+				txtDisplay.Text += "For " + intfcount + " female" + Environment.NewLine;
+				txtDisplay.Text += "Total cups of fruits recommended are: " + dblftotalfruit + Environment.NewLine;
+				txtDisplay.Text += "Total cups of vegetables recommended are: " + dblftotalveg + Environment.NewLine;
+			}
+			else if (intfcount > 1)
+			{
+				txtDisplay.Text += "For " + intfcount + " females" + Environment.NewLine;
+				txtDisplay.Text += "Total cups of fruits recommended are: " + dblftotalfruit + Environment.NewLine;
+				txtDisplay.Text += "Total cups of vegetables recommended are: " + dblftotalveg + Environment.NewLine;
+			}
+			else
+			{
+				txtDisplay.Text += "";
+			}
+
+			if (intmcount == 1)
+			{
+				txtDisplay.Text += "For " + intmcount + " male" + Environment.NewLine;
+				txtDisplay.Text += "Total cups of fruits recommended are: " + dblmtotalfruit + Environment.NewLine;
+				txtDisplay.Text += "Total cups of vegetables recommended are: " + dblmtotalveg + Environment.NewLine;
+			}
+			else if (intmcount > 1)
+			{
+				txtDisplay.Text += "For " + intmcount + " males" + Environment.NewLine;
+				txtDisplay.Text += "Total cups of fruits recommended are: " + dblmtotalfruit + Environment.NewLine;
+				txtDisplay.Text += "Total cups of vegetables recommended are: " + dblmtotalveg + Environment.NewLine ;
+			}
+			else
+			{
+				txtDisplay.Text += "";
+			}
+
+			txtDisplay.Text += "Total cups will be: " + dbltotalcups;
+
+
+
+
+
+
+
+
+
+			//// For txt
+			//for (int x = 0; x < 11; x++)
+			//         {
+			//	if (intMalegroup[x] > 0)
+			//	{
+			//		txtDisplay.Text += intMalegroup[x] + " number of People in this Age group get " + dblMCupPerAgeGroup[x,0] + " cup" + Environment.NewLine;
+			//		txtDisplay.Text += dblmportion[x,0] + Environment.NewLine;
+			//		txtDisplay.Text += dblmportion[x,1] + Environment.NewLine;
+			//		txtDisplay.Text += dblmportion[x,2] + Environment.NewLine;
+			//		txtDisplay.Text += "Male " + (dblRemainingcups = (dblmtotalfruit - (dblmportion[x,0] + dblmportion[x,1] + dblmportion[x,2]))) + Environment.NewLine;
+			//	}
+			//         };
+
+			//for (int x = 0; x < 14; x++)
+			//{
+			//	if (intFemalegroup[x] > 0)
+			//	{
+			//		txtDisplay.Text += intFemalegroup[x] + " number of People in this Age group get " + dblFCupPerAgeGroup[x, 0] + " cup" + Environment.NewLine;
+			//		txtDisplay.Text += dblfportion[x, 0] + Environment.NewLine;
+			//		txtDisplay.Text += dblfportion[x, 1] + Environment.NewLine;
+			//		txtDisplay.Text += dblfportion[x, 2] + Environment.NewLine;
+			//		txtDisplay.Text += (dblRemainingcups = (dblftotalfruit - (dblfportion[x, 0] + dblfportion[x, 1] + dblfportion[x, 2]))) + Environment.NewLine;
+			//	}
+			//};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 			//if (StrGender[x] == "M")
