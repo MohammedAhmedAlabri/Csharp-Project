@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Net.Mime.MediaTypeNames;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.IO;
+using System.Diagnostics;
 
 namespace C__Project
 {
@@ -32,7 +34,6 @@ namespace C__Project
 			string Strselectedperiod = typeList.SelectedItem.ToString();
 			int intmcount = 0;
 			int intfcount = 0;
-
 
 			// gender arrray ========================================================================
 
@@ -101,6 +102,22 @@ namespace C__Project
 			{
 				intperiod = 1;
 			}
+			string[] Stragegroups = new string[14];
+			Stragegroups[0] = "Age group of 0 - 5";
+			Stragegroups[1] = "Age group of 5 - 10";
+			Stragegroups[2] = "Age group of 10 - 15";
+			Stragegroups[3] = "Age group of 15 - 20";
+			Stragegroups[4] = "Age group of 20 - 25";
+			Stragegroups[5] = "Age group of 25 - 30";
+			Stragegroups[6] = "Age group of 30 - 35";
+			Stragegroups[7] = "Age group of 35 - 40";
+			Stragegroups[8] = "Age group of 40 - 45";
+			Stragegroups[9] = "Age group of 45 - 50";
+			Stragegroups[10] = "Age group of 50 - 55";
+			Stragegroups[11] = "Age group of 55 - 60";
+			Stragegroups[12] = "Age group of 65 - 70";
+			Stragegroups[13] = "Age group of 70 - 75";
+
 
 			// =============================================================عشان نحسب كم شخص من كل مجموعة نخليهم يدخلوا فالأراي اللي بإسم ميل جروب مثلا
 			// intMalegroup [0] = يساوي مجموع الأشخاص اللي عمرهم من 0 لحد 5
@@ -123,48 +140,48 @@ namespace C__Project
 				if (StrGender[intCounter] == "M")
 				{
 					intmcount++;
-					if (intAge[intCounter] <= 5)
+					if (intAge[intCounter] >= 0 && intAge[intCounter] <= 5)
 					{
 						intMalegroup[0]++;
 
 					}
-					else if (intAge[intCounter] <= 10)
+					else if (intAge[intCounter] >= 5 && intAge[intCounter] <= 10)
 					{
 						intMalegroup[1]++;
 					}
-					else if (intAge[intCounter] <= 15)
+					else if (intAge[intCounter] >= 10 && intAge[intCounter] <= 15)
 					{
 						intMalegroup[2]++;
 					}
-					else if (intAge[intCounter] <= 20)
+					else if (intAge[intCounter] >= 15 && intAge[intCounter] <= 20)
 					{
 						intMalegroup[3]++;
 					}
-					else if (intAge[intCounter] <= 25)
+					else if (intAge[intCounter] >= 20 && intAge[intCounter] <= 25)
 					{
 						intMalegroup[4]++;
 					}
-					else if (intAge[intCounter] <= 30)
+					else if (intAge[intCounter] >= 25 && intAge[intCounter] <= 30)
 					{
 						intMalegroup[5]++;
 					}
-					else if (intAge[intCounter] <= 35)
+					else if (intAge[intCounter] >= 30 && intAge[intCounter] <= 35)
 					{
 						intMalegroup[6]++;
 					}
-					else if (intAge[intCounter] <= 40)
+					else if (intAge[intCounter] >= 35 && intAge[intCounter] <= 40)
 					{
 						intMalegroup[7]++;
 					}
-					else if (intAge[intCounter] <= 45)
+					else if (intAge[intCounter] >= 40 && intAge[intCounter] <= 45)
 					{
 						intMalegroup[8]++;
 					}
-					else if (intAge[intCounter] <= 50)
+					else if (intAge[intCounter] >= 45 && intAge[intCounter] <= 50)
 					{
 						intMalegroup[9]++;
 					}
-					else if (intAge[intCounter] <= 55)
+					else if (intAge[intCounter] >= 50 && intAge[intCounter] <= 55)
 					{
 						intMalegroup[10]++;
 					}
@@ -177,61 +194,61 @@ namespace C__Project
 				{
 					intfcount++;
 
-					if (intAge[intCounter] <= 5)
+					if (intAge[intCounter] >= 0 && intAge[intCounter] <= 5)
 					{
 						intFemalegroup[0]++;
 
 					}
-					else if (intAge[intCounter] <= 10)
+					else if (intAge[intCounter] >= 5 && intAge[intCounter] <= 10)
 					{
 						intFemalegroup[1]++;
 					}
-					else if (intAge[intCounter] <= 15)
+					else if (intAge[intCounter] >= 10 && intAge[intCounter] <= 15)
 					{
 						intFemalegroup[2]++;
 					}
-					else if (intAge[intCounter] <= 20)
+					else if (intAge[intCounter] >= 15 && intAge[intCounter] <= 20)
 					{
 						intFemalegroup[3]++;
 					}
-					else if (intAge[intCounter] <= 25)
+					else if (intAge[intCounter] >= 20 && intAge[intCounter] <= 25)
 					{
 						intFemalegroup[4]++;
 					}
-					else if (intAge[intCounter] <= 30)
+					else if (intAge[intCounter] >= 25 && intAge[intCounter] <= 30)
 					{
 						intFemalegroup[5]++;
 					}
-					else if (intAge[intCounter] <= 40)
+					else if (intAge[intCounter] >= 35 && intAge[intCounter] <= 40)
 					{
 					
 						intFemalegroup[6]++;
 					}
-					else if (intAge[intCounter] <= 45)
+					else if (intAge[intCounter] >= 40 && intAge[intCounter] <= 45)
 					{
 						intFemalegroup[7]++;
 					}
-					else if (intAge[intCounter] <= 50)
+					else if (intAge[intCounter] >= 45 && intAge[intCounter] <= 50)
 					{
 						intFemalegroup[8]++;
 					}
-					else if (intAge[intCounter] <= 55)
+					else if (intAge[intCounter] >= 50 && intAge[intCounter] <= 55)
 					{
 						intFemalegroup[9]++;
 					}
-					else if (intAge[intCounter] <= 60)
+					else if (intAge[intCounter] >= 55 && intAge[intCounter] <= 60)
 					{
 						intFemalegroup[10]++;
 					}
-					else if (intAge[intCounter] <= 65)
+					else if (intAge[intCounter] >= 60 && intAge[intCounter] <= 65)
 					{
 						intFemalegroup[11]++;
 					}
-					else if (intAge[intCounter] <= 70)
+					else if (intAge[intCounter] >= 65 && intAge[intCounter] <= 70)
 					{
 						intFemalegroup[12]++;
 					}
-					else if (intAge[intCounter] <= 75)
+					else if (intAge[intCounter] >= 70 && intAge[intCounter] <= 75)
 					{
 						intFemalegroup[13]++;
 					}
@@ -353,43 +370,69 @@ namespace C__Project
 			}
 			else
 			{
-				txtDisplay.Text += "";
+				txtDisplay.Text += "" ;
 			}
 
-			txtDisplay.Text += "Total cups will be: " + dbltotalcups;
+			txtDisplay.Text += "Total cups will be: " + dbltotalcups + Environment.NewLine;
+			txtbutton.Visible = true;
+
+			// For txt
+			string strRefresh = " ";
+			File.WriteAllText("Text.txt", strRefresh);
+			if (intmcount > 0)
+			{
+				File.AppendAllText("Text.txt", "For Males" + Environment.NewLine);
+				File.AppendAllText("Text.txt", "======================================================================" + Environment.NewLine);
+
+			}
+			for (int x = 0; x < 11; x++)
+			{
+				if (intMalegroup[x] > 0)
+				{
+					File.AppendAllText("Text.txt", "For " + Stragegroups[x] + Environment.NewLine);
+					File.AppendAllText("Text.txt", "======================================================================" + Environment.NewLine);
+					File.AppendAllText("Text.txt",  intMalegroup[x] + " number of People in this Age group get " + dblMCupPerAgeGroup[x, 0] + " cup" + Environment.NewLine);
+			// for fruit
+			if (Banana_CB.Checked) { File.AppendAllText("Text.txt",  "Portion of Banana: " + dblmportion[x, 0] + Environment.NewLine); }
+					if (Watermelon_CB.Checked) { File.AppendAllText("Text.txt",  "Portion of Watermelon: " + dblmportion[x, 1] + Environment.NewLine); }
+					if (Orange_CB.Checked) { File.AppendAllText("Text.txt",  "Portion of Orange: " + dblmportion[x, 2] + Environment.NewLine); }
+					File.AppendAllText("Text.txt",  " The remaining cups for the rest of fruits is " + (dblRemainingcups = (dblMCupPerAgeGroup[x, 0] - (dblmportion[x, 0] + dblmportion[x, 1] + dblmportion[x, 2]))) + Environment.NewLine);
+					//for veg
+					if (Potatoes_CB.Checked) { File.AppendAllText("Text.txt",  "Portion of Potatoes: " + dblmportion[x, 3] + Environment.NewLine); }
+					if (Onion_CB.Checked) { File.AppendAllText("Text.txt",  "Portion of Onion: " + dblmportion[x, 4] + Environment.NewLine); }
+					if (Garlic_CB.Checked) { File.AppendAllText("Text.txt",  "Portion of Garlic: " + dblmportion[x, 5] + Environment.NewLine); }
+					File.AppendAllText("Text.txt",  "The remaining portion for the rest of Vegetables is " + (dblRemainingcups = (dblMCupPerAgeGroup[x, 1] - (dblmportion[x, 3] + dblmportion[x, 4] + dblmportion[x, 5]))) + Environment.NewLine);
+
+				}
+			};
+			if (intfcount > 0)
+			{
+				File.AppendAllText("Text.txt", "For Females" + Environment.NewLine);
+				File.AppendAllText("Text.txt", "======================================================================" + Environment.NewLine);
+
+			}
+			for (int x = 0; x < 14; x++)
+			{
+				if (intFemalegroup[x] > 0)
+				{
+					File.AppendAllText("Text.txt",  "For " + Stragegroups[x] + Environment.NewLine);
+					File.AppendAllText("Text.txt",  intFemalegroup[x] + " number of People in this Age group get " + dblFCupPerAgeGroup[x, 0] + " cup" + Environment.NewLine);
+					// for fruit
+					if (Banana_CB.Checked) { File.AppendAllText("Text.txt",  "Portion of Banana: " + dblfportion[x, 0] + Environment.NewLine); }
+					if (Watermelon_CB.Checked) { File.AppendAllText("Text.txt",  "Portion of Watermelon: " + dblfportion[x, 1] + Environment.NewLine); }
+					if (Orange_CB.Checked) { File.AppendAllText("Text.txt",  "Portion of Orange: " + dblfportion[x, 2] + Environment.NewLine); }
+					File.AppendAllText("Text.txt",  " The remaining cups for the rest of fruits is: " + (dblRemainingcups = (dblFCupPerAgeGroup[x, 0] - (dblfportion[x, 0] + dblfportion[x, 1] + dblfportion[x, 2]))) + Environment.NewLine);
+					//for veg
+					if (Potatoes_CB.Checked) { File.AppendAllText("Text.txt",  "Portion of Potatoes: " + dblfportion[x, 3] + Environment.NewLine); }
+					if (Onion_CB.Checked) { File.AppendAllText("Text.txt",  "Portion of Onion: " + dblfportion[x, 4] + Environment.NewLine); }
+					if (Garlic_CB.Checked) { File.AppendAllText("Text.txt",  "Portion of Garlic: " + dblfportion[x, 5] + Environment.NewLine); }
+					File.AppendAllText("Text.txt",  "The remaining portion for the rest of Vegetables is: " + (dblRemainingcups = (dblFCupPerAgeGroup[x, 1] - (dblfportion[x, 3] + dblfportion[x, 4] + dblfportion[x, 5]))) + Environment.NewLine);
+				}
+			};
 
 
 
 
-
-
-
-
-
-			//// For txt
-			//for (int x = 0; x < 11; x++)
-			//         {
-			//	if (intMalegroup[x] > 0)
-			//	{
-			//		txtDisplay.Text += intMalegroup[x] + " number of People in this Age group get " + dblMCupPerAgeGroup[x,0] + " cup" + Environment.NewLine;
-			//		txtDisplay.Text += dblmportion[x,0] + Environment.NewLine;
-			//		txtDisplay.Text += dblmportion[x,1] + Environment.NewLine;
-			//		txtDisplay.Text += dblmportion[x,2] + Environment.NewLine;
-			//		txtDisplay.Text += "Male " + (dblRemainingcups = (dblmtotalfruit - (dblmportion[x,0] + dblmportion[x,1] + dblmportion[x,2]))) + Environment.NewLine;
-			//	}
-			//         };
-
-			//for (int x = 0; x < 14; x++)
-			//{
-			//	if (intFemalegroup[x] > 0)
-			//	{
-			//		txtDisplay.Text += intFemalegroup[x] + " number of People in this Age group get " + dblFCupPerAgeGroup[x, 0] + " cup" + Environment.NewLine;
-			//		txtDisplay.Text += dblfportion[x, 0] + Environment.NewLine;
-			//		txtDisplay.Text += dblfportion[x, 1] + Environment.NewLine;
-			//		txtDisplay.Text += dblfportion[x, 2] + Environment.NewLine;
-			//		txtDisplay.Text += (dblRemainingcups = (dblftotalfruit - (dblfportion[x, 0] + dblfportion[x, 1] + dblfportion[x, 2]))) + Environment.NewLine;
-			//	}
-			//};
 
 
 
@@ -769,6 +812,7 @@ namespace C__Project
 
 			genderLabel2.Visible = false;
 			ageLabel2.Visible = false;
+			txtbutton.Visible = false;
 
         }
 
@@ -941,5 +985,10 @@ namespace C__Project
         {
 
         }
-    }
+
+		private void txtbutton_Click(object sender, EventArgs e)
+		{
+			Process.Start("Text.txt");
+		}
+	}
 }

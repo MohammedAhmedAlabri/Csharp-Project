@@ -29,7 +29,6 @@
 		private void InitializeComponent()
 		{
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-			this.prcBtn = new System.Windows.Forms.Button();
 			this.famBox = new System.Windows.Forms.GroupBox();
 			this.person10Label = new System.Windows.Forms.Label();
 			this.Page10 = new System.Windows.Forms.NumericUpDown();
@@ -243,6 +242,8 @@
 			this.peopleNum = new System.Windows.Forms.NumericUpDown();
 			this.typeList = new System.Windows.Forms.ComboBox();
 			this.txtDisplay = new System.Windows.Forms.TextBox();
+			this.prcBtn = new System.Windows.Forms.Button();
+			this.txtbutton = new System.Windows.Forms.Button();
 			this.famBox.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.Page10)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.Page9)).BeginInit();
@@ -347,22 +348,6 @@
 			((System.ComponentModel.ISupportInitialize)(this.budgetNum)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.peopleNum)).BeginInit();
 			this.SuspendLayout();
-			// 
-			// prcBtn
-			// 
-			this.prcBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-			this.prcBtn.AutoSize = true;
-			this.prcBtn.BackColor = System.Drawing.SystemColors.ButtonFace;
-			this.prcBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.prcBtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-			this.prcBtn.Location = new System.Drawing.Point(1082, 156);
-			this.prcBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-			this.prcBtn.Name = "prcBtn";
-			this.prcBtn.Size = new System.Drawing.Size(153, 90);
-			this.prcBtn.TabIndex = 0;
-			this.prcBtn.Text = "Process";
-			this.prcBtn.UseVisualStyleBackColor = false;
-			this.prcBtn.Click += new System.EventHandler(this.prcBtn_Click);
 			// 
 			// famBox
 			// 
@@ -2897,12 +2882,45 @@
 			this.txtDisplay.Size = new System.Drawing.Size(431, 131);
 			this.txtDisplay.TabIndex = 3;
 			// 
+			// prcBtn
+			// 
+			this.prcBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+			this.prcBtn.AutoSize = true;
+			this.prcBtn.BackColor = System.Drawing.SystemColors.ButtonFace;
+			this.prcBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.prcBtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+			this.prcBtn.Location = new System.Drawing.Point(884, 158);
+			this.prcBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+			this.prcBtn.Name = "prcBtn";
+			this.prcBtn.Size = new System.Drawing.Size(153, 90);
+			this.prcBtn.TabIndex = 0;
+			this.prcBtn.Text = "Process";
+			this.prcBtn.UseVisualStyleBackColor = false;
+			this.prcBtn.Click += new System.EventHandler(this.prcBtn_Click);
+			// 
+			// txtbutton
+			// 
+			this.txtbutton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+			this.txtbutton.AutoSize = true;
+			this.txtbutton.BackColor = System.Drawing.SystemColors.ButtonFace;
+			this.txtbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.txtbutton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+			this.txtbutton.Location = new System.Drawing.Point(1043, 158);
+			this.txtbutton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+			this.txtbutton.Name = "txtbutton";
+			this.txtbutton.Size = new System.Drawing.Size(153, 90);
+			this.txtbutton.TabIndex = 4;
+			this.txtbutton.Text = "For More Details";
+			this.txtbutton.UseVisualStyleBackColor = false;
+			this.txtbutton.Click += new System.EventHandler(this.txtbutton_Click);
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
 			this.ClientSize = new System.Drawing.Size(1262, 663);
+			this.Controls.Add(this.txtbutton);
 			this.Controls.Add(this.prdTab);
 			this.Controls.Add(this.famBox);
 			this.Controls.Add(this.prcBtn);
@@ -3033,8 +3051,6 @@
 		}
 
 		#endregion
-
-		private System.Windows.Forms.Button prcBtn;
 		private System.Windows.Forms.GroupBox famBox;
 		private System.Windows.Forms.TabControl prdTab;
 		private System.Windows.Forms.TabPage tabPage1;
@@ -3248,5 +3264,7 @@
 		private System.Windows.Forms.CheckBox checkBox80;
 		private System.Windows.Forms.TextBox txtDisplay;
         private System.Windows.Forms.CheckBox Radish_CB;
-    }
+		private System.Windows.Forms.Button prcBtn;
+		private System.Windows.Forms.Button txtbutton;
+	}
 }
