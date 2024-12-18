@@ -397,17 +397,19 @@ namespace C__Project
 						{
 							File.AppendAllText("Text.txt", "For " + Stragegroups[x] + Environment.NewLine);
 							File.AppendAllText("Text.txt", "======================================================================" + Environment.NewLine);
-							File.AppendAllText("Text.txt", intMalegroup[x] + " number of People in this Age group get " + dblMCupPerAgeGroup[x, 0] + " cup" + Environment.NewLine);
+							File.AppendAllText("Text.txt", intMalegroup[x] + " number of People in this Age group get " + (dblMCupPerAgeGroup[x, 0] / 1000) + " Kg of Fruits and " + (dblMCupPerAgeGroup[x, 1] / 1000) + " Kg of Vegetables" + Environment.NewLine);
+							File.AppendAllText("Text.txt", "With total of " + ((dblMCupPerAgeGroup[x, 0] + dblMCupPerAgeGroup[x, 1])/ 1000) + " Kg" + Environment.NewLine);
+
 							// for fruit
 							if (Banana_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Banana: " + (dblmportion[x, 0] / 1000) + " Kg" + Environment.NewLine); }
 							if (Watermelon_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Watermelon: " + (dblmportion[x, 1] / 1000) + " Kg" + Environment.NewLine); }
 							if (Orange_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Orange: " + (dblmportion[x, 2] / 1000) + " Kg" + Environment.NewLine); }
-							File.AppendAllText("Text.txt", " The remaining cups for the rest of fruits is " + (dblRemainingcups = (dblMCupPerAgeGroup[x, 0] - (dblmportion[x, 0] + dblmportion[x, 1] + dblmportion[x, 2]))) + Environment.NewLine);
+							File.AppendAllText("Text.txt", " The remaining cups for the rest of fruits is " + (dblRemainingcups = (dblMCupPerAgeGroup[x, 0] - (dblmportion[x, 0] + dblmportion[x, 1] + dblmportion[x, 2])) / 1000) + " Kg" + Environment.NewLine);
 							//for veg
 							if (Potatoes_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Potatoes: " + (dblmportion[x, 3] / 1000) + " Kg" + Environment.NewLine); }
 							if (Onion_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Onion: " + (dblmportion[x, 4] / 1000) + " Kg" + Environment.NewLine); }
 							if (Garlic_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Garlic: " + (dblmportion[x, 5] / 1000) + " Kg" + Environment.NewLine); }
-							File.AppendAllText("Text.txt", "The remaining portion for the rest of Vegetables is " + (dblRemainingcups = (dblMCupPerAgeGroup[x, 1] - (dblmportion[x, 3] + dblmportion[x, 4] + dblmportion[x, 5]))) + Environment.NewLine);
+							File.AppendAllText("Text.txt", "The remaining portion for the rest of Vegetables is " + (dblRemainingcups = (dblMCupPerAgeGroup[x, 1] - (dblmportion[x, 3] + dblmportion[x, 4] + dblmportion[x, 5])) / 1000) + " Kg" + Environment.NewLine);
 
 						}
 					};
@@ -422,7 +424,9 @@ namespace C__Project
 						if (intFemalegroup[x] > 0)
 						{
 							File.AppendAllText("Text.txt", "For " + Stragegroups[x] + Environment.NewLine);
-							File.AppendAllText("Text.txt", intFemalegroup[x] + " number of People in this Age group get " + dblFCupPerAgeGroup[x, 0] + " cup" + Environment.NewLine);
+							File.AppendAllText("Text.txt", intFemalegroup[x] + " number of People in this Age group get " + (dblFCupPerAgeGroup[x, 0] / 1000) + " Kg of Fruits and " + (dblFCupPerAgeGroup[x, 1] / 1000) + " Kg of Vegetables" + Environment.NewLine);
+							File.AppendAllText("Text.txt", "With total of " + ((dblFCupPerAgeGroup[x, 0] + dblFCupPerAgeGroup[x, 1]) / 1000) + " Kg" + Environment.NewLine);
+
 							// for fruit
 							if (Banana_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Banana: " + (dblfportion[x, 0] / 1000) + " Kg" + Environment.NewLine); }
 							if (Watermelon_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Watermelon: " + (dblfportion[x, 1] / 1000) + " Kg" + Environment.NewLine); }
