@@ -146,43 +146,43 @@ namespace C__Project
 						intMalegroup[0]++;
 
 					}
-					else if (intAge[intCounter] >= 5 && intAge[intCounter] <= 10)
+					else if (intAge[intCounter] > 5 && intAge[intCounter] <= 10)
 					{
 						intMalegroup[1]++;
 					}
-					else if (intAge[intCounter] >= 10 && intAge[intCounter] <= 15)
+					else if (intAge[intCounter] > 10 && intAge[intCounter] <= 15)
 					{
 						intMalegroup[2]++;
 					}
-					else if (intAge[intCounter] >= 15 && intAge[intCounter] <= 20)
+					else if (intAge[intCounter] > 15 && intAge[intCounter] <= 20)
 					{
 						intMalegroup[3]++;
 					}
-					else if (intAge[intCounter] >= 20 && intAge[intCounter] <= 25)
+					else if (intAge[intCounter] > 20 && intAge[intCounter] <= 25)
 					{
 						intMalegroup[4]++;
 					}
-					else if (intAge[intCounter] >= 25 && intAge[intCounter] <= 30)
+					else if (intAge[intCounter] > 25 && intAge[intCounter] <= 30)
 					{
 						intMalegroup[5]++;
 					}
-					else if (intAge[intCounter] >= 30 && intAge[intCounter] <= 35)
+					else if (intAge[intCounter] > 30 && intAge[intCounter] <= 35)
 					{
 						intMalegroup[6]++;
 					}
-					else if (intAge[intCounter] >= 35 && intAge[intCounter] <= 40)
+					else if (intAge[intCounter] > 35 && intAge[intCounter] <= 40)
 					{
 						intMalegroup[7]++;
 					}
-					else if (intAge[intCounter] >= 40 && intAge[intCounter] <= 45)
+					else if (intAge[intCounter] > 40 && intAge[intCounter] <= 45)
 					{
 						intMalegroup[8]++;
 					}
-					else if (intAge[intCounter] >= 45 && intAge[intCounter] <= 50)
+					else if (intAge[intCounter] > 45 && intAge[intCounter] <= 50)
 					{
 						intMalegroup[9]++;
 					}
-					else if (intAge[intCounter] >= 50 && intAge[intCounter] <= 55)
+					else if (intAge[intCounter] > 50 && intAge[intCounter] <= 55)
 					{
 						intMalegroup[10]++;
 					}
@@ -200,56 +200,56 @@ namespace C__Project
 						intFemalegroup[0]++;
 
 					}
-					else if (intAge[intCounter] >= 5 && intAge[intCounter] <= 10)
+					else if (intAge[intCounter] > 5 && intAge[intCounter] <= 10)
 					{
 						intFemalegroup[1]++;
 					}
-					else if (intAge[intCounter] >= 10 && intAge[intCounter] <= 15)
+					else if (intAge[intCounter] > 10 && intAge[intCounter] <= 15)
 					{
 						intFemalegroup[2]++;
 					}
-					else if (intAge[intCounter] >= 15 && intAge[intCounter] <= 20)
+					else if (intAge[intCounter] > 15 && intAge[intCounter] <= 20)
 					{
 						intFemalegroup[3]++;
 					}
-					else if (intAge[intCounter] >= 20 && intAge[intCounter] <= 25)
+					else if (intAge[intCounter] > 20 && intAge[intCounter] <= 25)
 					{
 						intFemalegroup[4]++;
 					}
-					else if (intAge[intCounter] >= 25 && intAge[intCounter] <= 30)
+					else if (intAge[intCounter] > 25 && intAge[intCounter] <= 30)
 					{
 						intFemalegroup[5]++;
 					}
-					else if (intAge[intCounter] >= 35 && intAge[intCounter] <= 40)
+					else if (intAge[intCounter] > 35 && intAge[intCounter] <= 40)
 					{
 
 						intFemalegroup[6]++;
 					}
-					else if (intAge[intCounter] >= 40 && intAge[intCounter] <= 45)
+					else if (intAge[intCounter] > 40 && intAge[intCounter] <= 45)
 					{
 						intFemalegroup[7]++;
 					}
-					else if (intAge[intCounter] >= 45 && intAge[intCounter] <= 50)
+					else if (intAge[intCounter] > 45 && intAge[intCounter] <= 50)
 					{
 						intFemalegroup[8]++;
 					}
-					else if (intAge[intCounter] >= 50 && intAge[intCounter] <= 55)
+					else if (intAge[intCounter] > 50 && intAge[intCounter] <= 55)
 					{
 						intFemalegroup[9]++;
 					}
-					else if (intAge[intCounter] >= 55 && intAge[intCounter] <= 60)
+					else if (intAge[intCounter] > 55 && intAge[intCounter] <= 60)
 					{
 						intFemalegroup[10]++;
 					}
-					else if (intAge[intCounter] >= 60 && intAge[intCounter] <= 65)
+					else if (intAge[intCounter] > 60 && intAge[intCounter] <= 65)
 					{
 						intFemalegroup[11]++;
 					}
-					else if (intAge[intCounter] >= 65 && intAge[intCounter] <= 70)
+					else if (intAge[intCounter] > 65 && intAge[intCounter] <= 70)
 					{
 						intFemalegroup[12]++;
 					}
-					else if (intAge[intCounter] >= 70 && intAge[intCounter] <= 75)
+					else if (intAge[intCounter] > 70 && intAge[intCounter] <= 75)
 					{
 						intFemalegroup[13]++;
 					}
