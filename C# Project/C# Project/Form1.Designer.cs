@@ -1296,12 +1296,12 @@
             this.txtbutton.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.txtbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtbutton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtbutton.Location = new System.Drawing.Point(1288, 194);
+            this.txtbutton.Location = new System.Drawing.Point(1280, 194);
             this.txtbutton.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.txtbutton.Name = "txtbutton";
             this.txtbutton.Size = new System.Drawing.Size(220, 111);
             this.txtbutton.TabIndex = 4;
-            this.txtbutton.Text = "Press For More Details";
+            this.txtbutton.Text = "Press \r\nFor More Details";
             this.txtbutton.UseVisualStyleBackColor = false;
             this.txtbutton.Click += new System.EventHandler(this.txtbutton_Click);
             // 
