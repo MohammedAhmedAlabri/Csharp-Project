@@ -259,7 +259,49 @@ namespace C__Project
 					}
 				}
 			}
-			// For alert
+			// For remaiining part
+
+			bool[] dblFruitcheck = new bool[11];
+			dblFruitcheck[0] = Apple_CB.Checked;
+			dblFruitcheck[1] = Cherry_CB.Checked;
+			dblFruitcheck[2] = Strawberry_CB.Checked;
+			dblFruitcheck[3] = Mango_CB.Checked;
+			dblFruitcheck[4] = Berry_CB.Checked;
+			dblFruitcheck[5] = Peach_CB.Checked;
+			dblFruitcheck[6] = Pineapple_CB.Checked;
+			int intfruitcheck = 0;
+			for (int x = 0; x < 7; x++)
+			{
+				if (dblFruitcheck[x] == true)
+				{
+					intfruitcheck++;
+				}
+
+			}
+
+			bool[] dblvegcheck = new bool[11];
+			dblvegcheck[0] = Apple_CB.Checked;
+			dblvegcheck[1] = Cherry_CB.Checked;
+			dblvegcheck[2] = Strawberry_CB.Checked;
+			dblvegcheck[3] = Mango_CB.Checked;
+			dblvegcheck[4] = Berry_CB.Checked;
+			dblvegcheck[5] = Peach_CB.Checked;
+			dblvegcheck[6] = Pineapple_CB.Checked;
+			int intvegcheck = 0;
+			for (int x = 0; x < 7; x++)
+			{
+				if (dblFruitcheck[x] == true)
+				{
+					intvegcheck++;
+				}
+
+			}
+
+
+
+
+
+
 
 
 			// Array to calculate cups per age group
@@ -400,16 +442,33 @@ namespace C__Project
 							File.AppendAllText("Text.txt", intMalegroup[x] + " number of People in this Age group get " + (dblMCupPerAgeGroup[x, 0] / 1000) + " Kg of Fruits and " + (dblMCupPerAgeGroup[x, 1] / 1000) + " Kg of Vegetables" + Environment.NewLine);
 							File.AppendAllText("Text.txt", "With total of " + ((dblMCupPerAgeGroup[x, 0] + dblMCupPerAgeGroup[x, 1]) / 1000) + " Kg" + Environment.NewLine);
 							// for fruit
+							File.AppendAllText("Text.txt", "For Fruits" + Environment.NewLine);
+							File.AppendAllText("Text.txt", "======================================================================" + Environment.NewLine);
 							if (Banana_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Banana: " + (dblmportion[x, 0] / 1000) + " Kg" + Environment.NewLine); }
 							if (Watermelon_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Watermelon: " + (dblmportion[x, 1] / 1000) + " Kg" + Environment.NewLine); }
 							if (Orange_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Orange: " + (dblmportion[x, 2] / 1000) + " Kg" + Environment.NewLine); }
 							File.AppendAllText("Text.txt", " The remaining cups for the rest of fruits is " + (dblRemainingcups = (dblMCupPerAgeGroup[x, 0] - (dblmportion[x, 0] + dblmportion[x, 1] + dblmportion[x, 2])) / 1000) + " Kg" + Environment.NewLine);
+							if (Apple_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Apple: " + (dblRemainingcups / (intfruitcheck)) + " Kg" + Environment.NewLine); }
+							if (Strawberry_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Strawberry: " + (dblRemainingcups / (intfruitcheck)) + " Kg" + Environment.NewLine); }
+							if (Cherry_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Cherry: " + (dblRemainingcups / (intfruitcheck)) + " Kg" + Environment.NewLine); }
+							if (Mango_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Mango: " + (dblRemainingcups / (intfruitcheck)) + " Kg" + Environment.NewLine); }
+							if (Berry_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Berry: " + (dblRemainingcups / (	intfruitcheck )) + " Kg" + Environment.NewLine); }
+							if (Peach_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Peach: " + (dblRemainingcups / (intfruitcheck)) + " Kg" + Environment.NewLine); }
+							if (Pineapple_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Pineapple: " + (dblRemainingcups / (intfruitcheck )) + " Kg" + Environment.NewLine); }
 							//for veg
+							File.AppendAllText("Text.txt", "For Vegetables" + Environment.NewLine);
+							File.AppendAllText("Text.txt", "======================================================================" + Environment.NewLine);
 							if (Potatoes_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Potatoes: " + (dblmportion[x, 3] / 1000) + " Kg" + Environment.NewLine); }
 							if (Onion_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Onion: " + (dblmportion[x, 4] / 1000) + " Kg" + Environment.NewLine); }
 							if (Garlic_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Garlic: " + (dblmportion[x, 5] / 1000) + " Kg" + Environment.NewLine); }
 							File.AppendAllText("Text.txt", "The remaining portion for the rest of Vegetables is " + (dblRemainingcups = (dblMCupPerAgeGroup[x, 1] - (dblmportion[x, 3] + dblmportion[x, 4] + dblmportion[x, 5])) / 1000) + " Kg" + Environment.NewLine);
-
+							if (Tomatoes_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Tomatoes: " + (dblRemainingcups / (intvegcheck)) + " Kg" + Environment.NewLine); }
+							if (Peppers_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Peppers: " + (dblRemainingcups / (intvegcheck)) + " Kg" + Environment.NewLine); }
+							if (Broccoli_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Broccoli: " + (dblRemainingcups / (intvegcheck)) + " Kg" + Environment.NewLine); }
+							if (Lemon_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Lemon: " + (dblRemainingcups / (intvegcheck)) + " Kg" + Environment.NewLine); }
+							if (Carrot_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Carrot: " + (dblRemainingcups / (intvegcheck)) + " Kg" + Environment.NewLine); }
+							if (Lettuce_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Lettuce: " + (dblRemainingcups / (intvegcheck)) + " Kg" + Environment.NewLine); }
+							if (Radish_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Radish: " + (dblRemainingcups / (intvegcheck)) + " Kg" + Environment.NewLine); }
 						}
 					};
 					if (intfcount > 0)
@@ -427,15 +486,33 @@ namespace C__Project
 							File.AppendAllText("Text.txt", "With total of " + ((dblFCupPerAgeGroup[x, 0] + dblFCupPerAgeGroup[x, 1]) / 1000) + " Kg" + Environment.NewLine);
 
 							// for fruit
+							File.AppendAllText("Text.txt", "For Fruits" + Environment.NewLine);
+							File.AppendAllText("Text.txt", "======================================================================" + Environment.NewLine);
 							if (Banana_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Banana: " + (dblfportion[x, 0] / 1000) + " Kg" + Environment.NewLine); }
 							if (Watermelon_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Watermelon: " + (dblfportion[x, 1] / 1000) + " Kg" + Environment.NewLine); }
 							if (Orange_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Orange: " + (dblfportion[x, 2] / 1000) + " Kg" + Environment.NewLine); }
 							File.AppendAllText("Text.txt", " The remaining cups for the rest of fruits is: " + (dblRemainingcups = (dblFCupPerAgeGroup[x, 0] - (dblfportion[x, 0] + dblfportion[x, 1] + dblfportion[x, 2])) / 1000) + " Kg" + Environment.NewLine);
+							if (Apple_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Apple: " + (dblRemainingcups/ (intfruitcheck)) + " Kg" + Environment.NewLine); }
+							if (Strawberry_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Strawberry: " + (dblRemainingcups / (intfruitcheck)) + " Kg" + Environment.NewLine); }
+							if (Cherry_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Cherry: " + (dblRemainingcups / (intfruitcheck)) + " Kg" + Environment.NewLine); }
+							if (Mango_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Mango: " + (dblRemainingcups / (intfruitcheck)) + " Kg" + Environment.NewLine); }
+							if (Berry_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Berry: " + (dblRemainingcups / (intfruitcheck)) + " Kg" + Environment.NewLine); }
+							if (Peach_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Peach: " + (dblRemainingcups / (intfruitcheck)) + " Kg" + Environment.NewLine); }
+							if (Pineapple_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Pineapple: " + (dblRemainingcups / (intfruitcheck )) + " Kg" + Environment.NewLine); }
 							//for veg
+							File.AppendAllText("Text.txt", "For Vegetables" + Environment.NewLine);
+							File.AppendAllText("Text.txt", "======================================================================" + Environment.NewLine);
 							if (Potatoes_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Potatoes: " + (dblfportion[x, 3] / 1000) + " Kg" + Environment.NewLine); }
 							if (Onion_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Onion: " + (dblfportion[x, 4] / 1000) + " Kg" + Environment.NewLine); }
 							if (Garlic_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Garlic: " + (dblfportion[x, 5] / 1000) + " Kg" + Environment.NewLine); }
 							File.AppendAllText("Text.txt", "The remaining portion for the rest of Vegetables is: " + (dblRemainingcups = (dblFCupPerAgeGroup[x, 1] - (dblfportion[x, 3] + dblfportion[x, 4] + dblfportion[x, 5])) / 1000) + " Kg" + Environment.NewLine);
+							if (Tomatoes_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Tomatoes: " + (dblRemainingcups / (intvegcheck )) + " Kg" + Environment.NewLine); }
+							if (Peppers_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Peppers: " + (dblRemainingcups / (intvegcheck)) + " Kg" + Environment.NewLine); }
+							if (Broccoli_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Broccoli: " + (dblRemainingcups / (intvegcheck)) + " Kg" + Environment.NewLine); }
+							if (Lemon_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Lemon: " + (dblRemainingcups / (intvegcheck)) + " Kg" + Environment.NewLine); }
+							if (Carrot_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Carrot: " + (dblRemainingcups / (intvegcheck)) + " Kg" + Environment.NewLine); }
+							if (Lettuce_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Lettuce: " + (dblRemainingcups / (intvegcheck)) + " Kg" + Environment.NewLine); }
+							if (Radish_CB.Checked) { File.AppendAllText("Text.txt", "Portion of Radish: " + (dblRemainingcups / (intvegcheck)) + " Kg" + Environment.NewLine); }
 						}
 					}
 			

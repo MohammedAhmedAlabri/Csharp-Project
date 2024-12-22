@@ -2,8 +2,13 @@
 ======================================================================
 For Age group of 20 - 25
 ======================================================================
-1 number of People in this Age group get 2.45 Kg of Fruits and 3.675 Kg of Vegetables
-With total of 6.125 Kg
- The remaining cups for the rest of fruits is 2.45 Kg
-Portion of Onion: 0.735 Kg
-The remaining portion for the rest of Vegetables is 2.94 Kg
+2 number of People in this Age group get 4.9 Kg of Fruits and 7.35 Kg of Vegetables
+With total of 12.25 Kg
+For Fruits
+======================================================================
+ The remaining cups for the rest of fruits is 4.9 Kg
+Portion of Apple: 0.0049 Kg
+For Vegetables
+======================================================================
+Portion of Garlic: 1.47 Kg
+The remaining portion for the rest of Vegetables is 5.88 Kg
