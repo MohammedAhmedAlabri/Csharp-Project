@@ -373,7 +373,7 @@ namespace C__Project
 			dblftotalveg = ((dblftotalveg * intperiod) / 1000);
 			dblmtotalveg = ((dblmtotalveg * intperiod) / 1000);
 
-
+// hgfyufyufghfhgf
 
 			dbltotalcups = (dblftotalfruit + dblftotalveg) + (dblmtotalfruit + dblmtotalveg);
 
